@@ -10,9 +10,7 @@ subtitle: "An overview"
 
 ## `r fontawesome::fa("person-chalkboard")` Slides
 
-<div class = "ratio ratio-16x9">
-<iframe src = "/slides/01_suso_overview.html"></iframe>
-</div>
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/02_suso_overview.html"></iframe>
 
 ## `r fontawesome::fa("laptop-code")` Assignment
 

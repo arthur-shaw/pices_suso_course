@@ -5,6 +5,7 @@ format:
         height: 900
         width: 1600
         fig-align: center
+        self-contained: true
 ---
 
 # Gettings started with Designer {background-color=var(--designer)}
