@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course objectives",
+    "section": "",
+    "text": "Be able to:\n\nDevelop the SuSo app\nPrepare the server\nCreate assignments\nPrepare devices\nTrain interviewers\nManage data collection"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "assignments/01_get_oriented.html",
+    "href": "assignments/01_get_oriented.html",
+    "title": "Get oriented",
+    "section": "",
+    "text": "Get oriented\nLearn"
+  },
+  {
+    "objectID": "assignments/01_get_oriented.html#navigate-the-course-website",
+    "href": "assignments/01_get_oriented.html#navigate-the-course-website",
+    "title": "Get oriented",
+    "section": "1.  Navigate the course website",
+    "text": "1.  Navigate the course website\n\nFind out what’s coming next week\nFind two ways to see this week’s slides"
+  },
+  {
+    "objectID": "assignments/01_get_oriented.html#peruse-this-weeks-slides",
+    "href": "assignments/01_get_oriented.html#peruse-this-weeks-slides",
+    "title": "Get oriented",
+    "section": "2.  Peruse this week’s slides",
+    "text": "2.  Peruse this week’s slides\n\nOpen slides\nMove from one slide to the next"
+  },
+  {
+    "objectID": "assignments/01_get_oriented.html#start-slacking",
+    "href": "assignments/01_get_oriented.html#start-slacking",
+    "title": "Get oriented",
+    "section": "3.  Start “Slacking”",
+    "text": "3.  Start “Slacking”\n\nConnect to Slack\nCreate an account\nSay hello, with words or an emoji, in the #general channel"
+  },
+  {
+    "objectID": "assignments/02_suso_components.html",
+    "href": "assignments/02_suso_components.html",
+    "title": "Survey Solutions’ components",
+    "section": "",
+    "text": "Know the component pieces of the Survey Solutions suite\nKnow which component does what"
+  },
+  {
+    "objectID": "assignments/02_suso_components.html#answer-these-questions",
+    "href": "assignments/02_suso_components.html#answer-these-questions",
+    "title": "Survey Solutions’ components",
+    "section": "Answer these questions",
+    "text": "Answer these questions\n\nName the components\n\nWhat are the component packages of the Survey Solutions suite?\n\n\n\nDesigning questionnaires\n\nWhich component is the main one used for designing a questionnaire?\nAre there any others? If so, which one(s)?\n\n\n\nManaging data collection\n\nWhich software is the main one used to manage data collection?\nAre there any others? If so, which one(s)?"
+  },
+  {
+    "objectID": "course/01_course_overview.html",
+    "href": "course/01_course_overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "Find course website\nKnow where to find lessons/exercises\nKnow where/how to interact between sessions"
+  },
+  {
+    "objectID": "course/01_course_overview.html#assignment",
+    "href": "course/01_course_overview.html#assignment",
+    "title": "Course overview",
+    "section": " Assignment",
+    "text": "Assignment\nFollow the instructions here in order to:\n\nGet comforable with Slack\nGet your bearings with the course website and course content"
+  },
+  {
+    "objectID": "course/01_course_overview.html#resources",
+    "href": "course/01_course_overview.html#resources",
+    "title": "Course overview",
+    "section": " Resources",
+    "text": "Resources\n\n Using slides"
+  },
+  {
+    "objectID": "course/01_course_overview.html#exercises",
+    "href": "course/01_course_overview.html#exercises",
+    "title": "Course overview",
+    "section": " Exercises",
+    "text": "Exercises\n\n Using Slack\nEven if Slack may not be familiar, it’s easy to use.\nTo get started:\n\nJoin the training work group. Look for an invitation in your email.\nFollow the getting started guide. Read this short step-by-step guide. Watch this. And enjoy messaging within our training team–ideally, chatting in public channels or, if needed, pinging people privately."
+  },
+  {
+    "objectID": "course/02_suso_overview.html",
+    "href": "course/02_suso_overview.html",
+    "title": "Survey Solutions",
+    "section": "",
+    "text": "Know components pieces of Survey Solutions\nUnderstand which component(s) of Survey Solutions are responsible for each part of the traditional survey workflow"
+  },
+  {
+    "objectID": "course/02_suso_overview.html#slides",
+    "href": "course/02_suso_overview.html#slides",
+    "title": "Survey Solutions",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/02_suso_overview.html#assignment",
+    "href": "course/02_suso_overview.html#assignment",
+    "title": "Survey Solutions",
+    "section": " Assignment",
+    "text": "Assignment\nTest your knowledge here."
+  },
+  {
+    "objectID": "course/02_suso_overview.html#resources",
+    "href": "course/02_suso_overview.html#resources",
+    "title": "Survey Solutions",
+    "section": " Resources",
+    "text": "Resources\n\nBrochure\nDocumentation\nForum"
+  },
+  {
+    "objectID": "course/03_designer_intro.html",
+    "href": "course/03_designer_intro.html",
+    "title": "Getting started with Designer",
+    "section": "",
+    "text": "Know how to sign up and sign in with Designer\nKnow basic operations for finding, creating, and sharing questionnaires"
+  },
+  {
+    "objectID": "course/03_designer_intro.html#slides",
+    "href": "course/03_designer_intro.html#slides",
+    "title": "Getting started with Designer",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/03_designer_intro.html#assignment",
+    "href": "course/03_designer_intro.html#assignment",
+    "title": "Getting started with Designer",
+    "section": " Assignment",
+    "text": "Assignment\n\nCreate a questionnaire\nShare it with your trainer"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Navigate here: https://docs.mysurvey.solutions/\nThis page contains:\n\nKnowledge articles, searchable by keyword and organized by area\nRelease notes"
+  },
+  {
+    "objectID": "resources.html#forum",
+    "href": "resources.html#forum",
+    "title": "Resources",
+    "section": " Forum",
+    "text": "Forum\nNavigate here: https://forum.mysurvey.solutions/"
+  },
+  {
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
+    "title": "Resources",
+    "section": " Videos",
+    "text": "Videos\nYouTube channel that has several playlists of interest:\n\nGetting started\nQuestionnaire Designer\nHeadquarters\nSupervisor training\nInterviewer training"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n    February 22\nQuestion types\n\n\n\n    February 22\nCreating a basic questionnaire\n\n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#components",
+    "href": "slides/02_suso_overview.html#components",
+    "title": "Learning Survey Solutions",
+    "section": "Components",
+    "text": "Components\n\n Designer\n Headquarters\n Supervisor\n Interviewer"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#designer",
+    "href": "slides/02_suso_overview.html#designer",
+    "title": "Learning Survey Solutions",
+    "section": "Designer",
+    "text": "Designer\n\n\n\nCreate"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#designer-1",
+    "href": "slides/02_suso_overview.html#designer-1",
+    "title": "Learning Survey Solutions",
+    "section": "Designer",
+    "text": "Designer\n\n\n\nCreate\nCollaborate"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#designer-2",
+    "href": "slides/02_suso_overview.html#designer-2",
+    "title": "Learning Survey Solutions",
+    "section": "Designer",
+    "text": "Designer\n\n\n\nCreate\nCollaborate\nTest"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters",
+    "href": "slides/02_suso_overview.html#headquarters",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters-1",
+    "href": "slides/02_suso_overview.html#headquarters-1",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\nDistribute\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters-2",
+    "href": "slides/02_suso_overview.html#headquarters-2",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\nDistribute\nAssign\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters-3",
+    "href": "slides/02_suso_overview.html#headquarters-3",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\nDistribute\nAssign\nMonitor\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters-4",
+    "href": "slides/02_suso_overview.html#headquarters-4",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\nDistribute\nAssign\nMonitor\nReact\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#headquarters-5",
+    "href": "slides/02_suso_overview.html#headquarters-5",
+    "title": "Learning Survey Solutions",
+    "section": "Headquarters",
+    "text": "Headquarters\n\n\n\nDesignate\nDistribute\nAssign\nMonitor\nReact\nExport\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#supervisor",
+    "href": "slides/02_suso_overview.html#supervisor",
+    "title": "Learning Survey Solutions",
+    "section": "Supervisor",
+    "text": "Supervisor\n\n\n\nAssign\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#supervisor-1",
+    "href": "slides/02_suso_overview.html#supervisor-1",
+    "title": "Learning Survey Solutions",
+    "section": "Supervisor",
+    "text": "Supervisor\n\n\n\nAssign\nMonitor\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#supervisor-2",
+    "href": "slides/02_suso_overview.html#supervisor-2",
+    "title": "Learning Survey Solutions",
+    "section": "Supervisor",
+    "text": "Supervisor\n\n\n\nAssign\nMonitor\nReact\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#interviewer",
+    "href": "slides/02_suso_overview.html#interviewer",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer",
+    "text": "Interviewer\n\n\n\nGet\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#interviewer-1",
+    "href": "slides/02_suso_overview.html#interviewer-1",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer",
+    "text": "Interviewer\n\n\n\nGet\nInterview\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#interviewer-2",
+    "href": "slides/02_suso_overview.html#interviewer-2",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer",
+    "text": "Interviewer\n\n\n\nGet\nInterview\nManage\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/02_suso_overview.html#interviewer-3",
+    "href": "slides/02_suso_overview.html#interviewer-3",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer",
+    "text": "Interviewer\n\n\n\nGet\nInterview\nManage\nSend\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html",
+    "href": "slides/03_designer_intro.html",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Sign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section",
+    "href": "slides/03_designer_intro.html#section",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Navigate to: https://designer.mysurvey.solutions/\nClick on Register\nCreate an account\n\nSee step-by-step directions here"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-2",
+    "href": "slides/03_designer_intro.html#section-2",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Created by me, whether shared or not"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-3",
+    "href": "slides/03_designer_intro.html#section-3",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Shared with me, whether with read or read/write privileges"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-4",
+    "href": "slides/03_designer_intro.html#section-4",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Publicly shared in read-only mode\nOrganized in folders\nTo view, open\nTo edit, create a copy and edit that copy"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-5",
+    "href": "slides/03_designer_intro.html#section-5",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Answer option categories compiled by IHSN"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-7",
+    "href": "slides/03_designer_intro.html#section-7",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Search on questionnaire title\nWithin current scope (e.g., over “My Questionnaires”)"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-8",
+    "href": "slides/03_designer_intro.html#section-8",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Questionnaire title. Display name of questionnaire (e.g., Zimbabwe PICES 2023)\nQuestionnaire variable. File name that captures main level of data (e.g., households -> households.dta)"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-9",
+    "href": "slides/03_designer_intro.html#section-9",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Open questionnaire\nClick on SETTINGS in upper right-hand corner"
+  },
+  {
+    "objectID": "slides/03_designer_intro.html#section-11",
+    "href": "slides/03_designer_intro.html#section-11",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Select access level for collaborator: Edit or View.\nCompose email or user name associated with Survey Solutions account.\nClick INVITE to grant the specified access and have Survey Solutions send an invitation email."
+  }
+]
