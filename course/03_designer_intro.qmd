@@ -9,9 +9,7 @@ title: "Getting started with Designer"
 
 ## `r fontawesome::fa("person-chalkboard")` Slides
 
-<div class = "ratio ratio-16x9">
-<iframe src = "/slides/03_designer_intro.html"></iframe>
-</div>
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/03_designer_intro.html"></iframe>
 
 ## `r fontawesome::fa("laptop-code")` Assignment
 
