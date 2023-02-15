@@ -74,7 +74,7 @@
     "href": "course/01_course_overview.html#resources",
     "title": "Course overview",
     "section": " Resources",
-    "text": "Resources\n\n Using slides"
+    "text": "Resources\n\n Using slides\nSee more here.\n\n\n Using Slack\nEven if Slack may not be familiar, it’s easy to use.\nTo get started:\n\nJoin the training work group. Look for an invitation in your email.\nFollow the getting started guide. Read this short step-by-step guide. Watch this. And enjoy messaging within our training team–ideally, chatting in public channels or, if needed, pinging people privately."
   },
   {
     "objectID": "course/01_course_overview.html#exercises",
@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n    February 22\nQuestion types\n\n\n\n    February 22\nCreating a basic questionnaire\n\n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n\n\n    February 22\nCreating a basic questionnaire\n\n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -355,5 +355,40 @@
     "title": "Learning Survey Solutions",
     "section": "Roadmap",
     "text": "Roadmap\n\nSign up\n\n\nLog in\n\n\nPeruse\n\n\nSearch\n\n\nCreate\n\n\nShare"
+  },
+  {
+    "objectID": "assignments/03_designer_intro.html",
+    "href": "assignments/03_designer_intro.html",
+    "title": "Getting started with Designer",
+    "section": "",
+    "text": "Create a Designer account\nCreate a questionnaire"
+  },
+  {
+    "objectID": "assignments/03_designer_intro.html#create-a-designer-account",
+    "href": "assignments/03_designer_intro.html#create-a-designer-account",
+    "title": "Getting started with Designer",
+    "section": "1. Create a Designer account",
+    "text": "1. Create a Designer account\n\nNavigate to Designer\nCreate an accoun\nStore your login and password somewhere"
+  },
+  {
+    "objectID": "assignments/03_designer_intro.html#create-a-questionnaire",
+    "href": "assignments/03_designer_intro.html#create-a-questionnaire",
+    "title": "Getting started with Designer",
+    "section": "2. Create a questionnaire",
+    "text": "2. Create a questionnaire\n\nCreate a questionnaire\nGive it an arbitrary title and variable\nNo need to add any questions or other content. This will come later."
+  },
+  {
+    "objectID": "assignments/03_designer_intro.html#share-your-questionnaire",
+    "href": "assignments/03_designer_intro.html#share-your-questionnaire",
+    "title": "Getting started with Designer",
+    "section": "Share your questionnaire",
+    "text": "Share your questionnaire\n\nShare with your trainer through Designer\n\nUser name: arthurshaw2002\nAccess rights: View"
+  },
+  {
+    "objectID": "assignments/03_designer_intro.html#share-with-your-trainer",
+    "href": "assignments/03_designer_intro.html#share-with-your-trainer",
+    "title": "Getting started with Designer",
+    "section": "3. Share with your trainer",
+    "text": "3. Share with your trainer\n\nQuestionnaire, through Designer\n\nUser name: arthurshaw2002\nAccess rights: View\n\nLogin, through Slack\n\nNavigate to #train-logistics\nClick on the Google Docs link in the pinned links\nProvide your name, SuSo user name, email used for SuSo account"
   }
 ]

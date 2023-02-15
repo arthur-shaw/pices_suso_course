@@ -1,7 +1,7 @@
 module	date	topic	content	slides	assignment
 Introduction	February 15	Overview of the training	/course/01_course_overview.qmd		/assignments/01_get_oriented.qmd
 Introduction	February 15	Overview of Survey Solutions	/course/02_suso_overview.qmd	/slides/02_suso_overview.html	/assignments/02_suso_components.qmd
-Create a questionnaire	February 15	Getting started with Designer	/course/03_designer_intro.qmd	/slides/03_designer_intro.html	
+Create a questionnaire	February 15	Getting started with Designer	/course/03_designer_intro.qmd	/slides/03_designer_intro.html	/assignments/03_designer_intro.qmd
 Create a questionnaire	February 22	Question types			
 Create a questionnaire	February 22	Creating a basic questionnaire			
 Create a questionnaire	March 1	Groups of questions			

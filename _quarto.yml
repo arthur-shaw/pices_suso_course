@@ -61,6 +61,15 @@ website:
           contents: 
           - assignments/01_get_oriented.qmd
           - assignments/02_suso_components.qmd
+        - section: "Create a questionnaire"
+          contents: 
+          - assignments/03_designer_intro.qmd
+          - text: "Question types"
+        - section: "Improve a questionnaire"
+        - section: "Prepare the server"
+        - section: "Make assignments"
+        - section: "Prepare devices"
+        - section: "Conduct training"
 
 format:
   html:

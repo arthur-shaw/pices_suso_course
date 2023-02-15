@@ -1,0 +1,33 @@
+---
+title: "Getting started with Designer"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Create a Designer account
+- Create a questionnaire
+
+## 1. Create a Designer account
+
+- Navigate to Designer
+- Create an accoun
+- Store your login and password somewhere
+
+## 2. Create a questionnaire
+
+- Create a questionnaire
+- Give it an arbitrary title and variable
+- No need to add any questions or other content. This will come later.
+
+## 3. Share with your trainer
+
+- Questionnaire, through Designer
+    - User name: `arthurshaw2002`
+    - Access rights: `View`
+- Login, through Slack
+    - Navigate to `#train-logistics`
+    - Click on the Google Docs link in the pinned links
+    - Provide your name, SuSo user name, email used for SuSo account
+
+![](assets/suso_accounts.png)
