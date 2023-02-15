@@ -41,7 +41,7 @@ Share
 # Sign up {background-color=var(--s1)}
 
 
-## {background-image="assets/03/designer_login.png"}
+## {background-image="assets/03/designer_login.png" background-size="auto"}
 
 ::: {.fragment .box .box-1}
 
@@ -56,13 +56,13 @@ See step-by-step directions [here](https://docs.mysurvey.solutions/questionnaire
 
 # Log in {background-color=var(--s2)}
 
-## {background-image="assets/03/designer_login.png"}
+## {background-image="assets/03/designer_login.png" background-size="auto"}
 
 
 
 # Peruse {background-color=var(--s3)}
 
-## {background-image="assets/03/designer_index_page.png"}
+## {background-image="assets/03/designer_index_page.png" background-size="auto"}
 
 ::: {.fragment .box .box-3}
 
@@ -70,7 +70,7 @@ Created by me, whether shared or not
 
 :::
 
-## {background-image="assets/03/shared.png"}
+## {background-image="assets/03/shared.png" background-size="auto"}
 
 ::: {.fragment .box .box-3}
 
@@ -78,7 +78,7 @@ Shared with me, whether with read or read/write privileges
 
 :::
 
-## {background-image="assets/03/public.png"}
+## {background-image="assets/03/public.png" background-size="auto"}
 
 ::: {.fragment .box .box-3}
 
