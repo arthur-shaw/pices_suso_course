@@ -19,7 +19,7 @@ Follow the instructions [here](/assignments/01_get_oriented.qmd) in order to:
 
 ### `r fontawesome::fa("person-chalkboard")` Using slides
 
-## `r fontawesome::fa("laptop-code")` Exercises
+See more [here](https://quarto.org/docs/presentations/revealjs/presenting.html).
 
 ### `r fontawesome::fa("slack")` Using Slack 
 
