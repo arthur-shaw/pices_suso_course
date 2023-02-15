@@ -1,0 +1,64 @@
+---
+title: "Schedule"
+sidebar: false
+execute: 
+  echo: false
+  warning: false
+---
+
+```{r}
+# import schedule data
+schedule_data <- readr::read_tsv(fs::path(here::here(), "/schedule/schedule_data.tsv"))
+
+# load table manipulation function
+source(fs::path(here::here(), "R/schedule.R"))
+
+schedule_data |>
+dplyr::group_by(module) |>
+gt::gt() |>
+gt::tab_header(
+    title = "Schedule of sessions",
+    subtitle = "With links to session pages, slides, and assignments"
+) |>
+gt::cols_label(
+    date = "Date",
+    topic = "Topic",
+    content = "Course",
+    slides = "Slides",
+    assignment = "Assignment"
+) |>
+gt::tab_options(
+    heading.background.color = "#202c86",
+    column_labels.background.color = "#202c86",
+    row_group.font.weight = "bolder",
+    row_group.background.color = "#3346d3"
+) |>
+create_icon_w_link(
+    column = content,
+    fa_name = "chalkboard-user",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+create_icon_w_link(
+    column = slides,
+    fa_name = "person-chalkboard",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+create_icon_w_link(
+    column = assignment,
+    fa_name = "laptop-code",
+    enabled_color = "#cf4446",
+    disabled_color = "#e9ecef"
+) |>
+gt::cols_width(
+    content ~ gt::px(150),
+    content ~ gt::px(150),
+    assignment ~ gt::px(150)
+) |>
+gt::cols_align(
+    columns = c(content, content, assignment),
+    align = "center"
+)
+
+```

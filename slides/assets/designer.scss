@@ -1,0 +1,105 @@
+:root {
+    --suso: #1c51b7;
+    --designer: #2d83cbff;
+    --s1: #170C3AFF; 
+    --s2: #5B116EFF; 
+    --s3: #9B2964FF; 
+    --s4: #D74B3FFF; 
+    --s5: #F8880DFF; 
+    --s6: #F6D645FF;
+}
+
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+// header banner box
+.reveal .slides h2 {
+
+    // reduce margin so that spans visible area
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+
+    // add padding around title box
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+
+    // make title font white
+    color: white;
+
+}
+
+/* header coloring */
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.section h1 {
+    color:white
+}
+
+.suso h2 {
+    background-color: var(--suso);
+}
+
+.designer h2 {
+    background-color: var(--designer);
+}
+
+.focus {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+/* boxes */
+
+.box {
+
+    // margin between boxes
+    // defined only for top so that there's no space allocated for the last box in a list
+    margin: 1em auto;
+    // padding around margin content
+    padding: 0.1em 0.4em;
+    font-weight: 600;
+    display: table;
+    text-align: center;
+    color: white;
+
+}
+
+.box-1 {
+    background-color: var(--s1);
+}
+
+.box-2 {
+    background-color: var(--s2);
+}
+
+.box-3 {
+    background-color: var(--s3);
+}
+
+.box-4 {
+    background-color: var(--s4);
+}
+
+.box-5 {
+    background-color: var(--s5);
+}
+
+.box-6 {
+    background-color: var(--s6);
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
+}

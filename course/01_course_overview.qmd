@@ -1,0 +1,31 @@
+---
+title: "Course overview"
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Find course website
+- Know where to find lessons/exercises
+- Know where/how to interact between sessions
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Follow the instructions [here](/assignments/01_get_oriented.qmd) in order to:
+
+- Get comforable with Slack
+- Get your bearings with the course website and course content
+
+## `r fontawesome::fa("book")` Resources
+
+### `r fontawesome::fa("person-chalkboard")` Using slides
+
+## `r fontawesome::fa("laptop-code")` Exercises
+
+### `r fontawesome::fa("slack")` Using Slack 
+
+Even if Slack may not be familiar, it's easy to use.
+
+To get started:
+
+- **Join the training work group.** Look for an invitation in your email.
+- **Follow the getting started guide.** Read [this](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users) short step-by-step guide. Watch [this](https://slack.com/help/articles/218080037-Getting-started-for-new-Slack-users). And enjoy messaging within our training team--ideally, chatting in public channels or, if needed, pinging people privately.

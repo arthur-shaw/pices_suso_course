@@ -1,0 +1,25 @@
+---
+title: "Survey Solutions"
+subtitle: "An overview"
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Know components pieces of Survey Solutions
+- Understand which component(s) of Survey Solutions are responsible for each part of the traditional survey workflow
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<div class = "ratio ratio-16x9">
+<iframe src = "/slides/01_suso_overview.html"></iframe>
+</div>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Test your knowledge [here](/assignments/02_suso_components.qmd).
+
+## `r fontawesome::fa("book")` Resources
+
+- [Brochure](https://docs.mysurvey.solutions/getting-started/overview-printable/resources/SurveySolutionsBooklet_2018oct(ENG).pdf)
+- [Documentation](https://docs.mysurvey.solutions/)
+- [Forum](https://forum.mysurvey.solutions/)

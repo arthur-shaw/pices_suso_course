@@ -1,0 +1,27 @@
+---
+title: "Resources"
+sidebar: false
+---
+
+## `r fontawesome::fa("book-open-reader")` Documentation
+
+Navigate here: [https://docs.mysurvey.solutions/](https://docs.mysurvey.solutions/)
+
+This page contains:
+
+- Knowledge articles, searchable by keyword and organized by area
+- Release notes
+
+## `r fontawesome::fa("stack-overflow")` Forum
+
+Navigate here: [https://forum.mysurvey.solutions/](https://forum.mysurvey.solutions/)
+
+## `r fontawesome::fa("youtube")` Videos
+
+YouTube channel that has several playlists of interest:
+
+- [Getting started](https://youtube.com/playlist?list=PLIjqNDszKtS6TkiPe_zMUv2OOHEfswhq4)
+- [Questionnaire Designer](https://www.youtube.com/playlist?list=PLIjqNDszKtS54R53kyIbhXWDavziGiSbu)
+- [Headquarters](https://www.youtube.com/playlist?list=PLIjqNDszKtS4btUt-Qx4PDlfqWCLPB5AE)
+- [Supervisor training](https://youtube.com/playlist?list=PLIjqNDszKtS5Mv4YCiJPDV3OOvjB8YX8I)
+- [Interviewer training](https://www.youtube.com/playlist?list=PLIjqNDszKtS7MWAzTjaFDG7c8WNFDSpAE)

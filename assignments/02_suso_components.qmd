@@ -1,0 +1,24 @@
+---
+title: "Survey Solutions' components"
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Know the component pieces of the Survey Solutions suite
+- Know which component does what
+
+## Answer these questions
+
+### Name the components
+
+- What are the component packages of the Survey Solutions suite?
+
+### Designing questionnaires
+
+- Which component is the main one used for designing a questionnaire?
+- Are there any others? If so, which one(s)?
+
+### Managing data collection
+
+- Which software is the main one used to manage data collection?
+- Are there any others? If so, which one(s)?

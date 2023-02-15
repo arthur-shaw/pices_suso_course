@@ -1,0 +1,23 @@
+module	date	topic	content	slides	assignment
+Introduction	February 15	Overview of the training	/course/01_course_overview.qmd		/assignments/01_get_oriented.qmd
+Introduction	February 15	Overview of Survey Solutions	/course/02_suso_overview.qmd	/slides/02_suso_overview.html	/assignments/02_suso_components.qmd
+Create a questionnaire	February 15	Getting started with Designer	/course/03_designer_intro.qmd	/slides/03_designer_intro.html	
+Create a questionnaire	February 22	Question types			
+Create a questionnaire	February 22	Creating a basic questionnaire			
+Create a questionnaire	March 1	Groups of questions			
+Create a questionnaire	March 1	Moving/copying questions			
+Create a questionnaire	March 8	Rosters of questions			
+Create a questionnaire	March 8	Text substitution			
+Create a questionnaire	March 15	Introduction to conditions			
+Create a questionnaire	March 22	Conditions in rosters			
+Improve a questionnaire	March 29	Design for UX/survey protocol			
+Improve a questionnaire	March 29	Design for efficiency/modularity			
+Improve a questionnaire	April 5	Using and managing translations			
+Easter break	April 12				
+Prepare the server	April 19	Setting up a server instance			
+Prepare the server	April 26	Preparing the server			
+Create assignments	May 3	Create cross-sectional assignments			
+Prepare devices	May 10	Setting up tablets			
+Workshop	May 17				
+Workshop	May 24				
+Conduct training	May 31	"Pedagogical principles, technological tips"			

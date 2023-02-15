@@ -1,0 +1,150 @@
+---
+format: 
+    revealjs:
+        theme: [default, assets/designer.scss]
+        height: 900
+        width: 1600
+        fig-align: center
+---
+
+# Gettings started with Designer {background-color=var(--designer)}
+
+## Roadmap {.designer}
+
+::: {.box .box-1}
+Sign up
+:::
+
+::: {.box .box-2}
+Log in
+:::
+
+::: {.box .box-3}
+Peruse
+:::
+
+::: {.box .box-4}
+Search
+:::
+
+::: {.box .box-5}
+Create
+:::
+
+
+::: {.box .box-6}
+Share
+:::
+
+
+# Sign up {background-color=var(--s1)}
+
+
+## {background-image="assets/03/designer_login.png"}
+
+::: {.fragment .box .box-1}
+
+- Navigate to: [https://designer.mysurvey.solutions/](https://designer.mysurvey.solutions/Identity/Account/Login?ReturnUrl=%2F)
+- Click on `Register`
+- Create an account
+
+See step-by-step directions [here](https://docs.mysurvey.solutions/questionnaire-designer/interface/registration-and-signing-in/)
+
+:::
+
+
+# Log in {background-color=var(--s2)}
+
+## {background-image="assets/03/designer_login.png"}
+
+
+
+# Peruse {background-color=var(--s3)}
+
+## {background-image="assets/03/designer_index_page.png"}
+
+::: {.fragment .box .box-3}
+
+Created by me, whether shared or not
+
+:::
+
+## {background-image="assets/03/shared.png"}
+
+::: {.fragment .box .box-3}
+
+Shared with me, whether with read or read/write privileges
+
+:::
+
+## {background-image="assets/03/public.png"}
+
+::: {.fragment .box .box-3}
+
+- Publicly shared in read-only mode
+- Organized in folders
+- To view, open
+- To edit, create a copy and edit that copy
+
+:::
+
+## {background-image="assets/03/classifications.png" background-size="auto"}
+
+::: {.fragment .box .box-3}
+
+Answer option categories compiled by [IHSN](http://ihsn.org/)
+
+:::
+
+
+# Search {background-color=var(--s4)}
+
+## {background-image="assets/03/search_field.png" background-size="auto"}
+
+## {background-image="assets/03/search_result.png" background-size="auto"}
+
+::: {.fragment .box .box-4}
+
+- Search on questionnaire title
+- Within current scope (e.g., over "My Questionnaires")
+
+:::
+
+
+::: {.section}
+# Create {background-color=var(--s5)}
+:::
+
+## {background-image="assets/03/create_new.png" background-size="auto"}
+
+::: {.fragment .box .box-5}
+
+- **Questionnaire title.** Display name of questionnaire (e.g., Zimbabwe PICES 2023)
+- **Questionnaire variable.** File name that captures main level of data (e.g., `households` -> `households.dta`)
+
+:::
+
+::: {.section}
+# Share {background-color=var(--s6)}
+:::
+
+## {background-image="assets/03/questionnaire_editor.png" background-size="auto"}
+
+::: {.fragment .box .box-6}
+
+- Open questionnaire
+- Click on `SETTINGS` in upper right-hand corner
+
+:::
+
+## {background-image="assets/03/share_modal.png" background-size="auto"}
+
+## {background-image="assets/03/share_access.png" background-size="auto"}
+
+::: {.fragment .box .box-6}
+
+1. Select access level for collaborator: `Edit` or `View`.
+2. Compose email or user name associated with Survey Solutions account.
+3. Click `INVITE` to grant the specified access and have Survey Solutions send an invitation email.
+
+:::

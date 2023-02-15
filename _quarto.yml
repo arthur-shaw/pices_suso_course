@@ -1,0 +1,71 @@
+project:
+  type: website
+
+website:
+
+  # global settings
+  title: "Learning Survey Solutions"
+  search: true
+  navbar:
+    logo: suso_logo.png
+    pinned: true
+    background: "#3346d3"
+    right:
+      - text: "Home"
+        icon: "house-door-fill"
+        file: index.qmd
+      - text: "Schedule"
+        icon: "calendar-week"
+        file: schedule.qmd
+      - text: "Course"
+        icon: "mortarboard"
+        href: course/01_course_overview.qmd
+      - text: "Assignments"
+        file: assignments/01_get_oriented.qmd
+      - resources.qmd
+      - text: "Slack"
+        icon: "slack"
+        href: "https://zimstat-pices.slack.com"
+
+  sidebar: 
+    
+    # Course contents
+    - title: "Course"
+      search: true
+      style: floating
+      # background: "#9797ff"
+        # "#8372cc"
+      contents: 
+        # TODO: check out auto-generation of sidebar contents
+        - section: "Overview"
+          contents: 
+          - course/01_course_overview.qmd
+          - course/02_suso_overview.qmd
+        - section: "Create a questionnaire"
+          contents: 
+          - text: "Getting started with Designer"
+          - text: "Question types"
+        - section: "Improve a questionnaire"
+        - section: "Prepare the server"
+        - section: "Make assignments"
+        - section: "Prepare devices"
+        - section: "Conduct training"
+
+    # Assignments
+    - title: "Assignments"
+      search: true
+      style: floating
+      contents:
+        - section: "Overview"
+          contents: 
+          - assignments/01_get_oriented.qmd
+          - assignments/02_suso_components.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

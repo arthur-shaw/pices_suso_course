@@ -1,0 +1,60 @@
+:root {
+    --suso: #1c51b7;
+    --designer: #2d83cbff;
+    --hq: #199e4b;
+    --sup: #ff8522;
+    --int: #0036a6;
+}
+
+/*-- scss:defaults --*/
+
+/*-- scss:rules --*/
+
+// header banner box
+.reveal .slides h2 {
+
+    // reduce margin so that spans visible area
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+
+    // add padding around title box
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+
+    // make title font white
+    color: white;
+
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.suso h2 {
+    background-color: var(--suso);
+}
+
+.designer h2 {
+    background-color: var(--designer);
+}
+
+.hq h2 {
+    background-color: var(--hq);
+}
+
+.sup h2 {
+    background-color: var(--sup);
+}
+
+.int h2 {
+    background-color: var(--int);
+}
+
+.focus {
+    font-weight: 900;
+    font-size: 3rem;
+}

@@ -1,0 +1,448 @@
+---
+format: 
+    revealjs:
+        theme: [default, assets/suso.scss]
+        height: 900
+        width: 1600
+        fig-align: center
+---
+
+::: {.title}
+# Overview of Survey Solutions {background-color=var(--suso)}
+:::
+
+# Process with `r fontawesome::fa("clipboard-list")` {background-color=var(--suso)}
+
+---
+
+![](assets/02/process_paper/paper-01-create-qnr.png){fig-align="center"}
+
+---
+
+![](assets/02/process_paper/paper-02-draw-sample.png){fig-align="center"}
+
+---
+
+![](assets/02/process_paper/paper-03-create-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_paper/paper-04-distribute-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_paper/paper-05-receive-interviews.png){fig-align="center"}
+
+---
+
+# Process with `r fontawesome::fa("tablet-screen-button")` {background-color=var(--suso)}
+
+---
+
+![](assets/02/process_suso/suso-01-create-qnr.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-02-draw-sample.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-03-create-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-04-distribute-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-05-receive-and-review.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-06-review.png){fig-align="center"}
+
+---
+
+## Components {.suso}
+
+- ![](assets/02/component_icons/icon_Designer.png){fig-width="10%"} Designer
+- ![](assets/02/component_icons/icon_Headquarters.png){fig-width="10%"} Headquarters
+- ![](assets/02/component_icons/icon_Supervisor.png){fig-width="10%"} Supervisor
+- ![](assets/02/component_icons/icon_Interviewer.png){fig-width="10%"} Interviewer
+
+---
+
+## Designer {.designer}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- [Create]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/designer/designer_create.JPG)
+
+:::
+
+::::
+
+---
+
+## Designer {.designer}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Create
+- [Collaborate]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/designer/designer_share.JPG)
+
+:::
+
+::::
+
+---
+
+## Designer {.designer}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Create
+- Collaborate
+- [Test]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/designer/designer_test.JPG)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- [Designate]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/create_users.mp4)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Designate
+- [Distribute]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/import_questionnaire.mp4)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Designate
+- Distribute
+- [Assign]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/make_assignments.mp4)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Designate
+- Distribute
+- Assign
+- [Monitor]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/monitor.mp4)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Designate
+- Distribute
+- Assign
+- Monitor
+- [React]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/review_interview.mp4)
+
+:::
+
+::::
+
+---
+
+## Headquarters {.hq}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Designate
+- Distribute
+- Assign
+- Monitor
+- React
+- [Export]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/headquarters/export_data.mp4)
+
+:::
+
+::::
+
+---
+
+## Supervisor {.sup}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- [Assign]{.focus}
+
+:::
+
+::: {.column width="50%"}
+
+![](assets/02/supervisor/reassign_interview.mp4)
+
+:::
+
+::::
+
+---
+
+## Supervisor {.sup}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Assign
+- [Monitor]{.focus}
+
+:::
+
+::: {.column width="50%"}
+
+![](assets/02/headquarters/monitor.mp4)
+
+:::
+
+::::
+
+---
+
+## Supervisor {.sup}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Assign
+- Monitor
+- [React]{.focus}
+
+:::
+
+::: {.column width="50%"}
+
+![](assets/02/headquarters/review_interview.mp4)
+
+:::
+
+::::
+
+---
+
+## Interviewer {.int}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- [Get]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/interviewer/interviewer_get_work.mp4)
+
+:::
+
+::::
+
+---
+
+
+## Interviewer {.int}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Get
+- [Interview]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+
+![](assets/02/interviewer/interviewer_do_interview.mp4){height="800px"}
+
+:::
+
+::::
+
+---
+
+
+## Interviewer {.int}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Get
+- Interview
+- [Manage]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/interviewer/interviewer_manage_work.mp4)
+
+:::
+
+::::
+
+---
+
+## Interviewer {.int}
+
+:::: {.columns}
+
+::: {.column width="20%"}
+
+- Get
+- Interview
+- Manage
+- [Send]{.focus}
+
+:::
+
+::: {.column width="80%"}
+
+![](assets/02/interviewer/interviewer_send_completed.mp4)
+
+:::
+
+::::
+
+
+# Putting it all together {background-color=var(--suso)}
+
+---
+
+![](assets/02/process_suso/suso-01-create-qnr.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-02-draw-sample.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-03-create-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-04-distribute-assignments.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-05-receive-and-review.png){fig-align="center"}
+
+---
+
+![](assets/02/process_suso/suso-06-review.png){fig-align="center"}

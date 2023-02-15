@@ -1,0 +1,29 @@
+---
+title: "Course objectives"
+sidebar: false
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Be able to:
+
+- Develop the SuSo app
+- Prepare the server
+- Create assignments
+- Prepare devices
+- Train interviewers
+- Manage data collection
+
+
+:::
+
+::: {.column width="50%"}
+
+![](resources/designer_laptop.png)
+
+:::
+
+::::
+

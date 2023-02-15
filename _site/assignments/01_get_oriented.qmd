@@ -1,0 +1,25 @@
+---
+title: "Get oriented"
+format: html
+---
+
+## Objectives
+
+- Get oriented 
+- Learn
+
+## 1. `r fontawesome::fa("compass")` Navigate the course website
+
+- Find out what's coming next week
+- Find two ways to see this week's slides
+
+## 2. `r fontawesome::fa("chalkboard-user")` Peruse this week's slides
+
+- Open slides
+- Move from one slide to the next
+
+## 3. `r fontawesome::fa("slack")` Start "Slacking"
+
+- Connect to Slack
+- Create an account
+- Say hello, with words or an emoji, in the `#general` channel

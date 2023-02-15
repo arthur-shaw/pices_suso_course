@@ -1,0 +1,19 @@
+---
+title: "Getting started with Designer"
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Know how to sign up and sign in with Designer
+- Know basic operations for finding, creating, and sharing questionnaires
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<div class = "ratio ratio-16x9">
+<iframe src = "/slides/03_designer_intro.html"></iframe>
+</div>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+- Create a questionnaire
+- Share it with your trainer
