@@ -44,7 +44,7 @@ website:
           - course/02_suso_overview.qmd
         - section: "Create a questionnaire"
           contents: 
-          - text: "Getting started with Designer"
+          - course/03_designer_intro.qmd
           - text: "Question types"
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
