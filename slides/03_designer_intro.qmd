@@ -8,7 +8,7 @@ format:
         self-contained: true
 ---
 
-# Gettings started with Designer {background-color=var(--designer)}
+# Getting started with Designer {background-color=var(--designer)}
 
 ## Roadmap {.designer}
 
