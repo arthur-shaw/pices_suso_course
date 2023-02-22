@@ -45,7 +45,8 @@ website:
         - section: "Create a questionnaire"
           contents: 
           - course/03_designer_intro.qmd
-          - text: "Question types"
+          - course/04_question_types.qmd
+          - course/05_create_basic_questionnaire.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
@@ -64,7 +65,7 @@ website:
         - section: "Create a questionnaire"
           contents: 
           - assignments/03_designer_intro.qmd
-          - text: "Question types"
+          - assignments/05_create_basic_questionnaire.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
