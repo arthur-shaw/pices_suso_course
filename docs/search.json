@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n\n\n    February 22\nCreating a basic questionnaire\n\n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n\n  \n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -390,5 +390,383 @@
     "title": "Getting started with Designer",
     "section": "3. Share with your trainer",
     "text": "3. Share with your trainer\n\nQuestionnaire, through Designer\n\nUser name: arthurshaw2002\nAccess rights: View\n\nLogin, through Slack\n\nNavigate to #train-logistics\nClick on the Google Docs link in the pinned links\nProvide your name, SuSo user name, email used for SuSo account"
+  },
+  {
+    "objectID": "slides/04_question_types.html#menu",
+    "href": "slides/04_question_types.html#menu",
+    "title": "Learning Survey Solutions",
+    "section": "Menu",
+    "text": "Menu\n\n\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#full-menu",
+    "href": "slides/04_question_types.html#full-menu",
+    "title": "Learning Survey Solutions",
+    "section": "Full menu",
+    "text": "Full menu"
+  },
+  {
+    "objectID": "slides/04_question_types.html#todays-menu",
+    "href": "slides/04_question_types.html#todays-menu",
+    "title": "Learning Survey Solutions",
+    "section": "Today’s menu",
+    "text": "Today’s menu"
+  },
+  {
+    "objectID": "slides/04_question_types.html#todays-specials",
+    "href": "slides/04_question_types.html#todays-specials",
+    "title": "Learning Survey Solutions",
+    "section": "Today’s specials",
+    "text": "Today’s specials"
+  },
+  {
+    "objectID": "slides/04_question_types.html#attributes",
+    "href": "slides/04_question_types.html#attributes",
+    "title": "Learning Survey Solutions",
+    "section": "Attributes",
+    "text": "Attributes"
+  },
+  {
+    "objectID": "slides/04_question_types.html#type",
+    "href": "slides/04_question_types.html#type",
+    "title": "Learning Survey Solutions",
+    "section": "Type",
+    "text": "Type"
+  },
+  {
+    "objectID": "slides/04_question_types.html#variable-name",
+    "href": "slides/04_question_types.html#variable-name",
+    "title": "Learning Survey Solutions",
+    "section": "Variable name",
+    "text": "Variable name"
+  },
+  {
+    "objectID": "slides/04_question_types.html#variable-label",
+    "href": "slides/04_question_types.html#variable-label",
+    "title": "Learning Survey Solutions",
+    "section": "Variable label",
+    "text": "Variable label"
+  },
+  {
+    "objectID": "slides/04_question_types.html#question-text",
+    "href": "slides/04_question_types.html#question-text",
+    "title": "Learning Survey Solutions",
+    "section": "Question text",
+    "text": "Question text"
+  },
+  {
+    "objectID": "slides/04_question_types.html#interviewer-instruction",
+    "href": "slides/04_question_types.html#interviewer-instruction",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer instruction",
+    "text": "Interviewer instruction"
+  },
+  {
+    "objectID": "slides/04_question_types.html#type-specific-attributes",
+    "href": "slides/04_question_types.html#type-specific-attributes",
+    "title": "Learning Survey Solutions",
+    "section": "Type-specific attributes",
+    "text": "Type-specific attributes"
+  },
+  {
+    "objectID": "slides/04_question_types.html#example",
+    "href": "slides/04_question_types.html#example",
+    "title": "Learning Survey Solutions",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "slides/04_question_types.html#radio-button",
+    "href": "slides/04_question_types.html#radio-button",
+    "title": "Learning Survey Solutions",
+    "section": "Radio button",
+    "text": "Radio button"
+  },
+  {
+    "objectID": "slides/04_question_types.html#combo-box",
+    "href": "slides/04_question_types.html#combo-box",
+    "title": "Learning Survey Solutions",
+    "section": "Combo box",
+    "text": "Combo box\n\n\nRadio = Good\n\n\n\n\n\n\n\nCombo = Better (?)\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#cascading-combo-box",
+    "href": "slides/04_question_types.html#cascading-combo-box",
+    "title": "Learning Survey Solutions",
+    "section": "Cascading combo box",
+    "text": "Cascading combo box"
+  },
+  {
+    "objectID": "slides/04_question_types.html#example-1",
+    "href": "slides/04_question_types.html#example-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "slides/04_question_types.html#checkboxes",
+    "href": "slides/04_question_types.html#checkboxes",
+    "title": "Learning Survey Solutions",
+    "section": "Checkboxes",
+    "text": "Checkboxes"
+  },
+  {
+    "objectID": "slides/04_question_types.html#yesno-buttons",
+    "href": "slides/04_question_types.html#yesno-buttons",
+    "title": "Learning Survey Solutions",
+    "section": "Yes/No buttons",
+    "text": "Yes/No buttons"
+  },
+  {
+    "objectID": "slides/04_question_types.html#combo-box-1",
+    "href": "slides/04_question_types.html#combo-box-1",
+    "title": "Learning Survey Solutions",
+    "section": "Combo box",
+    "text": "Combo box\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#record-answer-order",
+    "href": "slides/04_question_types.html#record-answer-order",
+    "title": "Learning Survey Solutions",
+    "section": "Record answer order",
+    "text": "Record answer order\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#max-number-of-answers",
+    "href": "slides/04_question_types.html#max-number-of-answers",
+    "title": "Learning Survey Solutions",
+    "section": "Max number of answers",
+    "text": "Max number of answers\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#integer",
+    "href": "slides/04_question_types.html#integer",
+    "title": "Learning Survey Solutions",
+    "section": "Integer",
+    "text": "Integer"
+  },
+  {
+    "objectID": "slides/04_question_types.html#number-of-decimal-places",
+    "href": "slides/04_question_types.html#number-of-decimal-places",
+    "title": "Learning Survey Solutions",
+    "section": "Number of decimal places",
+    "text": "Number of decimal places"
+  },
+  {
+    "objectID": "slides/04_question_types.html#use-1000s-separator",
+    "href": "slides/04_question_types.html#use-1000s-separator",
+    "title": "Learning Survey Solutions",
+    "section": "Use 1000s separator",
+    "text": "Use 1000s separator"
+  },
+  {
+    "objectID": "slides/04_question_types.html#text",
+    "href": "slides/04_question_types.html#text",
+    "title": "Learning Survey Solutions",
+    "section": "Text",
+    "text": "Text"
+  },
+  {
+    "objectID": "slides/04_question_types.html#list",
+    "href": "slides/04_question_types.html#list",
+    "title": "Learning Survey Solutions",
+    "section": "List",
+    "text": "List\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#calendar-date",
+    "href": "slides/04_question_types.html#calendar-date",
+    "title": "Learning Survey Solutions",
+    "section": "Calendar date",
+    "text": "Calendar date"
+  },
+  {
+    "objectID": "slides/04_question_types.html#timestamp",
+    "href": "slides/04_question_types.html#timestamp",
+    "title": "Learning Survey Solutions",
+    "section": "Timestamp",
+    "text": "Timestamp"
+  },
+  {
+    "objectID": "slides/04_question_types.html#barcode",
+    "href": "slides/04_question_types.html#barcode",
+    "title": "Learning Survey Solutions",
+    "section": "Barcode",
+    "text": "Barcode"
+  },
+  {
+    "objectID": "slides/04_question_types.html#picture",
+    "href": "slides/04_question_types.html#picture",
+    "title": "Learning Survey Solutions",
+    "section": "Picture",
+    "text": "Picture"
+  },
+  {
+    "objectID": "slides/04_question_types.html#audio",
+    "href": "slides/04_question_types.html#audio",
+    "title": "Learning Survey Solutions",
+    "section": "Audio",
+    "text": "Audio"
+  },
+  {
+    "objectID": "slides/04_question_types.html#geography",
+    "href": "slides/04_question_types.html#geography",
+    "title": "Learning Survey Solutions",
+    "section": "Geography",
+    "text": "Geography"
+  },
+  {
+    "objectID": "slides/04_question_types.html#variable-name-1",
+    "href": "slides/04_question_types.html#variable-name-1",
+    "title": "Learning Survey Solutions",
+    "section": "Variable name",
+    "text": "Variable name"
+  },
+  {
+    "objectID": "slides/04_question_types.html#variable-label-1",
+    "href": "slides/04_question_types.html#variable-label-1",
+    "title": "Learning Survey Solutions",
+    "section": "Variable label",
+    "text": "Variable label"
+  },
+  {
+    "objectID": "slides/04_question_types.html#question-text-1",
+    "href": "slides/04_question_types.html#question-text-1",
+    "title": "Learning Survey Solutions",
+    "section": "Question text",
+    "text": "Question text"
+  },
+  {
+    "objectID": "slides/04_question_types.html#interviewer-instruction-1",
+    "href": "slides/04_question_types.html#interviewer-instruction-1",
+    "title": "Learning Survey Solutions",
+    "section": "Interviewer instruction",
+    "text": "Interviewer instruction"
+  },
+  {
+    "objectID": "slides/04_question_types.html#type-1",
+    "href": "slides/04_question_types.html#type-1",
+    "title": "Learning Survey Solutions",
+    "section": "Type",
+    "text": "Type\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#display-mode",
+    "href": "slides/04_question_types.html#display-mode",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode"
+  },
+  {
+    "objectID": "slides/04_question_types.html#cascading-combo-box-1",
+    "href": "slides/04_question_types.html#cascading-combo-box-1",
+    "title": "Learning Survey Solutions",
+    "section": "Cascading combo box",
+    "text": "Cascading combo box"
+  },
+  {
+    "objectID": "slides/04_question_types.html#yesno-buttons-1",
+    "href": "slides/04_question_types.html#yesno-buttons-1",
+    "title": "Learning Survey Solutions",
+    "section": "Yes/No buttons",
+    "text": "Yes/No buttons"
+  },
+  {
+    "objectID": "slides/04_question_types.html#yesno-buttons-2",
+    "href": "slides/04_question_types.html#yesno-buttons-2",
+    "title": "Learning Survey Solutions",
+    "section": "Yes/No buttons",
+    "text": "Yes/No buttons"
+  },
+  {
+    "objectID": "slides/04_question_types.html#calendar-date-1",
+    "href": "slides/04_question_types.html#calendar-date-1",
+    "title": "Learning Survey Solutions",
+    "section": "Calendar date",
+    "text": "Calendar date"
+  },
+  {
+    "objectID": "slides/04_question_types.html#timestamp-1",
+    "href": "slides/04_question_types.html#timestamp-1",
+    "title": "Learning Survey Solutions",
+    "section": "Timestamp",
+    "text": "Timestamp\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/04_question_types.html#roadmap",
+    "href": "slides/04_question_types.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nOverview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\nText and list\n\n\nDate\n\n\nEverything else"
+  },
+  {
+    "objectID": "slides/04_question_types.html#display-mode-1",
+    "href": "slides/04_question_types.html#display-mode-1",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode"
+  },
+  {
+    "objectID": "slides/04_question_types.html#everything-else",
+    "href": "slides/04_question_types.html#everything-else",
+    "title": "Learning Survey Solutions",
+    "section": "Everything else",
+    "text": "Everything else\n\nPictureBarcodeAudioGeography"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#copypaste",
+    "href": "slides/05_create_basic_questionnaire.html#copypaste",
+    "title": "Learning Survey Solutions",
+    "section": "Copy/paste",
+    "text": "Copy/paste\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#move",
+    "href": "slides/05_create_basic_questionnaire.html#move",
+    "title": "Learning Survey Solutions",
+    "section": "Move",
+    "text": "Move\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#create-questionnaire-1",
+    "href": "slides/05_create_basic_questionnaire.html#create-questionnaire-1",
+    "title": "Learning Survey Solutions",
+    "section": "Create questionnaire",
+    "text": "Create questionnaire\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#add-questions-1",
+    "href": "slides/05_create_basic_questionnaire.html#add-questions-1",
+    "title": "Learning Survey Solutions",
+    "section": "Add questions",
+    "text": "Add questions\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#provide-attributes-1",
+    "href": "slides/05_create_basic_questionnaire.html#provide-attributes-1",
+    "title": "Learning Survey Solutions",
+    "section": "Provide attributes",
+    "text": "Provide attributes\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#test-questionnaire-1",
+    "href": "slides/05_create_basic_questionnaire.html#test-questionnaire-1",
+    "title": "Learning Survey Solutions",
+    "section": "Test questionnaire",
+    "text": "Test questionnaire\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/05_create_basic_questionnaire.html#roadmap",
+    "href": "slides/05_create_basic_questionnaire.html#roadmap",
+    "title": "Learning Survey Solutions",
+    "section": "Roadmap",
+    "text": "Roadmap\n\nCreate questionnaire\n\n\nAdd questions\n\n\nProvide attributes\n\n\nCopy/paste and move questions\n\n\nTest questionnaires"
+  },
+  {
+    "objectID": "slides/04_question_types.html",
+    "href": "slides/04_question_types.html",
+    "title": "Learning Survey Solutions",
+    "section": "",
+    "text": "Overview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\nText and list\n\n\nDate\n\n\nEverything else"
   }
 ]
