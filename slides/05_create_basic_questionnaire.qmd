@@ -1,0 +1,70 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/create_basic_qnr.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# Create a basic questionnaire {background-color=var(--suso)}
+
+## Roadmap {.suso}
+
+::: {.box .box-1}
+Create questionnaire
+:::
+
+::: {.box .box-2}
+Add questions
+:::
+
+::: {.box .box-3}
+Provide attributes
+:::
+
+::: {.box .box-4}
+Copy/paste and move questions
+:::
+
+::: {.box .box-5}
+Test questionnaires
+:::
+
+
+# Create questionnaire {background-color=var(--s1)}
+
+## Create questionnaire {.t1}
+
+![](assets/05/create_questionnaire.mp4){fig-align="center"}
+
+# Add questions {background-color=var(--s2)}
+
+## Add questions {.t2}
+
+![](assets/05/add_questions.mp4){fig-align="center"}
+
+# Provide attributes {background-color=var(--s3)}
+
+## Provide attributes {.t3}
+
+![](assets/05/add_attributes.mp4){fig-align="center"}
+
+::: {.section}
+# Copy/paste and move questions {background-color=var(--s4)}
+:::
+
+## Copy/paste {.t4}
+
+![](assets/05/copy_paste.mp4){fig-align="center"}
+
+## Move {.t4}
+
+![](assets/05/move_questions.mp4){fig-align="center"}
+
+# Test questionnaire {background-color=var(--s5)}
+
+## Test questionnaire {.t5}
+
+![](assets/05/test_questionnaire.mp4){fig-align="center"}
+
