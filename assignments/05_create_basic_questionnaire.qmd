@@ -1,0 +1,33 @@
+---
+title: "Create a basic questionnaire"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Create a basic questionnaire
+- Start a working draft of the PICES housing module
+
+## 1. Create a questionnaire
+
+- Navigate to Designer
+- Create a new questionnaire. For a reminder how, see [here](/slides/05_create_basic_questionnaire.html#/create-questionnaire-1).
+- Give it an appropriate questionnaire title and questionnaire variable, given that it will contain the PICES housing module
+
+## 2. Review PAPI and plan CAPI
+
+- Review [draft PICES housing module](/resources/draft_PICES_housing_module.xlsx)
+- Identify an appropriate question type for each question in the module. Consult [these slides](/slides/04_question_types.html) and [these resources](/course/04_question_types.html#resources) as useful.
+- Compile questions/notes to discuss--either on Slack or during the next session.
+
+## 3. Develop
+
+- Review the video [here](/slides/05_create_basic_questionnaire.html#/provide-attributes-1).
+- Create one (or more) question in Designer per question in Excel. 
+- Be sure to copy-paste from Excel to Designer in order to minimize the tedium
+
+## 4. Test
+
+- Review the video [here](/slides/05_create_basic_questionnaire.html#/test-questionnaire-1)
+- Test as you develop
+- Correct your design in order to acheive the desired result.

@@ -1,0 +1,23 @@
+---
+title: "Creating a basic questionnaire"
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Understand how to create a basic questionnaire
+- Be able to complete this lesson's assignment
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/05_create_basic_questionnaire.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Create a working draft of the PICES housing module. See more details [here](/assignments/05_create_basic_questionnaire.qmd).
+
+## `r fontawesome::fa("book")` Resources
+
+A few videos from the Survey Solutions YouTube channel:
+
+- For a walk-through of the process of creating a questionnaire on Designer, [Geting Started with Survey Solutions](https://www.youtube.com/watch?v=Obh4DdvmH-o)
+- For a detailed overview of Designer's userface, [Overview of Questionnaire Designer](https://www.youtube.com/watch?v=PpI1HsfVKU8)
