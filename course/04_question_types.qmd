@@ -1,0 +1,31 @@
+---
+title: "Question types"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Know what question types exist in Survey Solutions
+- Know what options exist for each major question type
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/04_question_types.html"></iframe>
+
+## `r fontawesome::fa("book")` Resources
+
+Here are the knowledge articles for each question type:
+
+- [Single-select](https://docs.mysurvey.solutions/questionnaire-designer/questions/categorical-single-select-question/)
+- [Multi-select](https://docs.mysurvey.solutions/questionnaire-designer/questions/categorical-multi-select-question/)
+- [Numeric](https://docs.mysurvey.solutions/questionnaire-designer/questions/numeric-question/)
+- [Date](https://docs.mysurvey.solutions/questionnaire-designer/questions/date-question/)
+- [Text](https://docs.mysurvey.solutions/questionnaire-designer/questions/text-question/)
+- [GPS](https://docs.mysurvey.solutions/questionnaire-designer/questions/gps-question/)
+- [List](https://docs.mysurvey.solutions/questionnaire-designer/questions/list-question/)
+- [Barcode](https://docs.mysurvey.solutions/questionnaire-designer/questions/barcode-question/)
+- [Picture](https://docs.mysurvey.solutions/questionnaire-designer/questions/picture-question/)
+- [Audio](https://docs.mysurvey.solutions/questionnaire-designer/questions/audio-question/)
+- [Geography](https://docs.mysurvey.solutions/questionnaire-designer/questions/geography-question/). See also these [release notes](https://docs.mysurvey.solutions/release-notes/version-22-12/).
+
+Note: these articles also contain information on how data are exported.
