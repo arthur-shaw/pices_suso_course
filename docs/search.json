@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n\n  \n\n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -768,5 +768,96 @@
     "title": "Learning Survey Solutions",
     "section": "",
     "text": "Overview\n\n\nSingle-select\n\n\nMulti-select\n\n\nNumeric\n\n\nText and list\n\n\nDate\n\n\nEverything else"
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html",
+    "href": "assignments/05_create_basic_questionnaire.html",
+    "title": "Create a basic questionnaire",
+    "section": "",
+    "text": "Create a basic questionnaire\nStart a working draft of the PICES housing module"
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html#create-a-questionnaire",
+    "href": "assignments/05_create_basic_questionnaire.html#create-a-questionnaire",
+    "title": "Create a basic questionnaire",
+    "section": "1. Create a questionnaire",
+    "text": "1. Create a questionnaire\n\nNavigate to Designer\nCreate a new questionnaire. For a reminder how, see here.\nGive it an appropriate questionnaire title and questionnaire variable, given that it will contain the PICES housing module"
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html#review-and-plan",
+    "href": "assignments/05_create_basic_questionnaire.html#review-and-plan",
+    "title": "Create a basic questionnaire",
+    "section": "2. Review and plan",
+    "text": "2. Review and plan\n\nReview draft PICES housing module\nIdentify an appropriate question type for each question in the module. Consult these slides and these resources as useful.\nCompile questions/notes to discuss–either on Slack or during the next session."
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html#develop",
+    "href": "assignments/05_create_basic_questionnaire.html#develop",
+    "title": "Create a basic questionnaire",
+    "section": "3. Develop",
+    "text": "3. Develop\n\nReview the video here.\nCreate one (or more) question in Designer per question in Excel.\nBe sure to copy-paste from Excel to Designer in order to minimize the tedium"
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html#test",
+    "href": "assignments/05_create_basic_questionnaire.html#test",
+    "title": "Create a basic questionnaire",
+    "section": "4. Test",
+    "text": "4. Test\n\nReview the video here\nTest as you develop\nCorrect your design in order to acheive the desired result."
+  },
+  {
+    "objectID": "course/04_question_types.html",
+    "href": "course/04_question_types.html",
+    "title": "Question types",
+    "section": "",
+    "text": "Know what question types exist in Survey Solutions\nKnow what options exist for each major question type"
+  },
+  {
+    "objectID": "course/04_question_types.html#slides",
+    "href": "course/04_question_types.html#slides",
+    "title": "Question types",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/04_question_types.html#resources",
+    "href": "course/04_question_types.html#resources",
+    "title": "Question types",
+    "section": " Resources",
+    "text": "Resources\nHere are the knowledge articles for each question type:\n\nSingle-select\nMulti-select\nNumeric\nDate\nText\nGPS\nList\nBarcode\nPicture\nAudio\nGeography. See also these release notes.\n\nNote: these articles also contain information on how data are exported."
+  },
+  {
+    "objectID": "course/05_create_basic_questionnaire.html",
+    "href": "course/05_create_basic_questionnaire.html",
+    "title": "Creating a basic questionnaire",
+    "section": "",
+    "text": "Understand how to create a basic questionnaire\nBe able to complete this lesson’s assignment"
+  },
+  {
+    "objectID": "course/05_create_basic_questionnaire.html#slides",
+    "href": "course/05_create_basic_questionnaire.html#slides",
+    "title": "Creating a basic questionnaire",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/05_create_basic_questionnaire.html#assignment",
+    "href": "course/05_create_basic_questionnaire.html#assignment",
+    "title": "Creating a basic questionnaire",
+    "section": " Assignment",
+    "text": "Assignment\nCreate a working draft of the PICES housing module. See more details here."
+  },
+  {
+    "objectID": "course/05_create_basic_questionnaire.html#resources",
+    "href": "course/05_create_basic_questionnaire.html#resources",
+    "title": "Creating a basic questionnaire",
+    "section": " Resources",
+    "text": "Resources\nA few videos from the Survey Solutions YouTube channel:\n\nFor a walk-through of the process of creating a questionnaire on Designer, Geting Started with Survey Solutions\nFor a detailed overview of Designer’s userface, Overview of Questionnaire Designer"
+  },
+  {
+    "objectID": "assignments/05_create_basic_questionnaire.html#review-papi-and-plan-capi",
+    "href": "assignments/05_create_basic_questionnaire.html#review-papi-and-plan-capi",
+    "title": "Create a basic questionnaire",
+    "section": "2. Review PAPI and plan CAPI",
+    "text": "2. Review PAPI and plan CAPI\n\nReview draft PICES housing module\nIdentify an appropriate question type for each question in the module. Consult these slides and these resources as useful.\nCompile questions/notes to discuss–either on Slack or during the next session."
   }
 ]
