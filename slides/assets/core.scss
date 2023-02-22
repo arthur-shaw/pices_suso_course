@@ -1,0 +1,60 @@
+/*-- scss:rules --*/
+
+// header banner box
+.reveal .slides h2 {
+
+    // reduce margin so that spans visible area
+    margin-left: -90px;
+    margin-right: -90px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+
+    // add padding around title box
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+
+    // make title font white
+    color: white;
+
+}
+
+/* header coloring */
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.section h1 {
+    color:white
+}
+
+.focus {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+/* boxes */
+
+.box {
+
+    // margin between boxes
+    // defined only for top so that there's no space allocated for the last box in a list
+    margin: 1em auto;
+    // padding around margin content
+    padding: 0.1em 0.4em;
+    font-weight: 600;
+    display: table;
+    text-align: center;
+    color: white;
+
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* vertical-align: middle; */
+}

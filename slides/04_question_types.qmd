@@ -1,0 +1,280 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/question_types.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+execute: 
+  echo: false
+  warning: false
+  error: false 
+---
+
+# Question types {background-color=var(--suso)}
+
+## Roadmap {.suso}
+
+::: {.box .box-1}
+Overview
+:::
+
+::: {.box .box-2}
+Single-select
+:::
+
+::: {.box .box-3}
+Multi-select
+:::
+
+::: {.box .box-4}
+Numeric
+:::
+
+::: {.box .box-5}
+Text and list
+:::
+
+::: {.box .box-6}
+Date
+:::
+
+::: {.box .box-7}
+Everything else
+:::
+
+## Full menu {.t1}
+
+![](assets/04/question_types.png){fig-align="center"}
+
+## Today's specials {.t1}
+
+![](assets/04/question_types_covered.png){fig-align="center"}
+
+# How to order {background-color=var(--s1)}
+
+## Attributes {.t1}
+
+## Type {.t1}
+
+![](assets/04/attributes_required_optional.png){fig-align="center"}
+
+## Type {.t1}
+
+![](assets/04/answering_all_question-_types.mp4){fig-align="center"}
+
+<!-- Variable name -->
+
+## Variable name {.t1}
+
+![](assets/04/attributes_varname.png){fig-align="center"}
+
+## Variable name {.t1}
+
+![](assets/04/attributes_varname_result.png){fig-align="center"}
+
+<!-- Variable label -->
+
+## Variable label {.t1}
+
+![](assets/04/attributes_variable_label.png){fig-align="center"}
+
+## Variable label {.t1}
+
+![](assets/04/attributes_variable_label_result.png){fig-align="center"}
+
+<!-- Question text -->
+
+## Question text {.t1}
+
+![](assets/04/attributes_question_text.png){fig-align="center"}
+
+## Question text {.t1}
+
+![](assets/04/attributes_question_text_result.png){fig-align="center"}
+
+<!-- Interviewer instruction -->
+
+## Interviewer instruction {.t1}
+
+![](assets/04/attributes_interviewer_instruction.png){fig-align="center"}
+
+## Interviewer instruction {.t1}
+
+![](assets/04/attributes_interviewer_instruction_result.png){fig-align="center"}
+
+
+## Type-specific attributes {.t1}
+
+![](assets/04/attributes_type_specific.png)
+
+
+
+# First course: single-select {background-color=var(--s2)}
+
+## Example {.t2}
+
+![](assets/04/single_select_example.png){fig-align="center"}
+
+## Display mode {.t2}
+
+![](assets/04/single_select_display_mode.png)
+
+
+## Radio button {.t2}
+
+![](assets/04/single_select_radio_button.png){fig-align="center"}
+
+## Combo box {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Radio = Good
+
+![](assets/04/combo_radio_good.png){fig-align="center"}
+
+:::
+
+::: {.column width="50%" .fragment}
+
+### Combo = Better (?)
+
+![](assets/04/single_select_combo_better.mp4){fig-align="center"}
+
+:::
+
+::::
+
+
+## Cascading combo box {.t2}
+
+![](assets/04/cascading_ex_cover.png){fig-align="center"}
+
+## Cascading combo box {.t2}
+
+![](assets/04/cascading_industry_code.png){fig-align="center"}
+
+
+
+# Second course: multi-select {background-color=var(--s3)}
+
+## Example {.t3}
+
+![](assets/04/multi_select_example.png){fig-align="center"}
+
+## Display mode {.t3}
+
+![](assets/04/multi_select_display_mode.png)
+
+## Checkboxes {.t3}
+
+![](assets/04/multi_select_checkboxes.png){fig-align="center"}
+
+## Yes/No buttons {.t3}
+
+![](assets/04/multi_select_yn_qnr.png){fig-align="center"}
+
+## Yes/No buttons {.t3}
+
+![](assets/04/multi_select_yn_designer.png){fig-align="center"}
+
+## Yes/No buttons {.t3}
+
+![](assets/04/multi_select_yn_interviewer.png){fig-align="center"}
+
+## Combo box {.t3}
+
+![](assets/04/multi_select_combo.mp4){fig-align="center"}
+
+## Record answer order {.t3}
+
+![](assets/04/multi_select_record_answer_order.mp4){fig-align="center"}
+
+## Max number of answers {.t3}
+
+![](assets/04/multi_select_max_answers.mp4){fig-align="center"}
+
+
+
+# Third course: numeric {background-color=var(--s4)}
+
+## Integer {.t4}
+
+![](assets/04/numeric_integer.png){fig-align="center"}
+
+## Number of decimal places {.t4}
+
+![](assets/04/numeric_decimal.png){fig-align="center"}
+
+## Use 1000s separator {.t4}
+
+![](assets/04/numeric_thousands.png){fig-align="center"}
+
+
+# Fourth: text and list {background-color=var(--s5)}
+
+## Text {.t5}
+
+![](assets/04/text.png){fig-align="center"}
+
+## List {.t5}
+
+![](assets/04/list.mp4){fig-align="center"}
+
+
+# Fifth course: date {background-color=var(--s6)}
+
+## Calendar date {.t6}
+
+![](assets/04/date_calendar_designer.png){fig-align="center"}
+
+## Calendar date {.t6}
+
+![](assets/04/date_calendar_interviewer.png){fig-align="center"}
+
+## Timestamp {.t6}
+
+![](assets/04/date_timestamp_designer.png){fig-align="center"}
+
+## Timestamp {.t6}
+
+![](assets/04/date_timestamp_interviewer.mp4){fig-align="center"}
+
+
+
+
+# Desert cart: everything else {background-color=var(--s7)}
+
+## Everything else {.t7}
+
+::: {.panel-tabset}
+
+## Picture
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/picture-question/", height = "700px")
+```
+
+## Barcode
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/barcode-question/", height = "700px")
+```
+
+## Audio
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/audio-question/", height = "700px")
+```
+
+## Geography
+
+```{r}
+knitr::include_url("https://docs.mysurvey.solutions/questionnaire-designer/questions/geography-question/", height = "700px")
+```
+
+:::
+
+

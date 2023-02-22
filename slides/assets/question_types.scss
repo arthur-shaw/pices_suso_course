@@ -1,0 +1,69 @@
+:root {
+    --suso: #1c51b7;
+    --s1: #170C3AFF; 
+    --s2: #500E6CFF; 
+    --s3: #86216BFF; 
+    --s4: #BB3754FF; 
+    --s5: #E65D30FF; 
+    --s6: #FB9507FF;
+    --s7: #F6D645FF;
+}
+
+/*-- scss:rules --*/
+
+/* Titles */
+
+.suso h2 {
+    background-color: var(--suso);
+}
+.t1 h2 {
+    background-color: var(--s1);
+}
+.t2 h2 {
+    background-color: var(--s2);
+}
+.t3 h2 {
+    background-color: var(--s3);
+}
+.t4 h2 {
+    background-color: var(--s4);
+}
+.t5 h2 {
+    background-color: var(--s5);
+}
+.t6 h2 {
+    background-color: var(--s6);
+}
+.t7 h2 {
+    background-color: var(--s7);
+}
+
+/* Boxes */
+
+.box-1 {
+    background-color: var(--s1);
+}
+
+.box-2 {
+    background-color: var(--s2);
+}
+
+.box-3 {
+    background-color: var(--s3);
+}
+
+.box-4 {
+    background-color: var(--s4);
+}
+
+.box-5 {
+    background-color: var(--s5);
+}
+
+.box-6 {
+    background-color: var(--s6);
+}
+
+.box-7 {
+    background-color: var(--s7);
+}
