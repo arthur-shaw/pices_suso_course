@@ -1,0 +1,17 @@
+---
+title: "Creating groups (of questions)"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Create groups of questions
+- Move questions--both within and across groups
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/06_create_groups.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Move the housing module questions both into a new section and into sub-sections within that section. See [here](/assignments/06_create_groups.qmd).
