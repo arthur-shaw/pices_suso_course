@@ -47,6 +47,7 @@ website:
           - course/03_designer_intro.qmd
           - course/04_question_types.qmd
           - course/05_create_basic_questionnaire.qmd
+          - course/06_create_groups.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
@@ -66,6 +67,7 @@ website:
           contents: 
           - assignments/03_designer_intro.qmd
           - assignments/05_create_basic_questionnaire.qmd
+          - assignments/06_create_groups.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
