@@ -1,0 +1,32 @@
+---
+title: "Create groups"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Create sections and populate them with questions
+- Create sub-sections and move questions into them
+
+## 1. Create a housing section
+
+- Create a new section to contain the housing module you developed [last week](/assignments/05_create_basic_questionnaire.qmd).
+- Give it an appropriate title
+- Add an appropriate emoji (e.g., `r emoji::emoji("house_with_garden")`). If useful, search for emojis [here](https://emojipedia.org/).
+
+## 2. Move housing content into it
+
+Move each question from its current question to the newly created section.
+
+This may seem inefficient because one could always rename the current section, but this is for practice.
+
+## 3. Create thematic sub-sections
+
+Create the following sub-sections:
+
+- Construction materials: questions 3-5
+- Access to electricity: questions 8-13
+- Sources of energy: 14-15
+- Sources of water and sanitation: 16-35
+
+Move questions into them.
