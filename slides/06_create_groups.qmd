@@ -15,7 +15,7 @@ format:
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
 ::: {.box .box-1}
 `r fontawesome::fa(name = "folder")` Sections
@@ -23,7 +23,7 @@ format:
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](assets/06/section_toc.png)
 :::
 
@@ -33,7 +33,7 @@ format:
 
 :::: {.columns}
 
-::: {.column width="50%"}
+::: {.column width="30%"}
 
 
 ::: {.box .box-1}
@@ -46,14 +46,14 @@ format:
 
 :::
 
-::: {.column width="50%"}
+::: {.column width="70%"}
 ![](assets/06/sub-section_apm.png)
 :::
 
 ::::
 
 
-# Sections {background-color=var(--s2)}
+# `r fontawesome::fa(name = "folder")` Sections {background-color=var(--s2)}
 
 ## How they look on paper {.t2}
 
