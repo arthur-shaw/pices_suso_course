@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.35">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Learning Survey Solutions – create_groups</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <img src="../suso_logo.png" alt="">
+    <span class="navbar-title">Learning Survey Solutions</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../course/01_course_overview.html">Course</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assignments/01_get_oriented.html">Assignments</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources.html">Resources</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://zimstat-pices.slack.com">Slack</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#creating-groups-of-questions" id="toc-creating-groups-of-questions" class="nav-link active" data-scroll-target="#creating-groups-of-questions">Creating groups (of questions)</a></li>
+  <li><a href="#definitions" id="toc-definitions" class="nav-link" data-scroll-target="#definitions">Definitions</a>
+  <ul class="collapse">
+  <li><a href="#what-do-we-mean-by-groups" id="toc-what-do-we-mean-by-groups" class="nav-link" data-scroll-target="#what-do-we-mean-by-groups">What do we mean by “groups” ?</a></li>
+  <li><a href="#what-do-we-mean-by-groups-1" id="toc-what-do-we-mean-by-groups-1" class="nav-link" data-scroll-target="#what-do-we-mean-by-groups-1">What do we mean by “groups” ?</a></li>
+  </ul></li>
+  <li><a href="#sections" id="toc-sections" class="nav-link" data-scroll-target="#sections">Sections</a>
+  <ul class="collapse">
+  <li><a href="#how-they-look-on-paper" id="toc-how-they-look-on-paper" class="nav-link" data-scroll-target="#how-they-look-on-paper">How they look on paper</a></li>
+  <li><a href="#how-they-look-on-paper-1" id="toc-how-they-look-on-paper-1" class="nav-link" data-scroll-target="#how-they-look-on-paper-1">How they look on paper</a></li>
+  <li><a href="#how-they-look-in-capi" id="toc-how-they-look-in-capi" class="nav-link" data-scroll-target="#how-they-look-in-capi">How they look in CAPI</a></li>
+  <li><a href="#how-to-create" id="toc-how-to-create" class="nav-link" data-scroll-target="#how-to-create">How to create</a></li>
+  <li><a href="#how-to-make-the-title-better" id="toc-how-to-make-the-title-better" class="nav-link" data-scroll-target="#how-to-make-the-title-better">How to make the title better</a></li>
+  <li><a href="#make-it-short" id="toc-make-it-short" class="nav-link" data-scroll-target="#make-it-short">Make it short</a></li>
+  <li><a href="#consider-emojis" id="toc-consider-emojis" class="nav-link" data-scroll-target="#consider-emojis">Consider emojis</a></li>
+  <li><a href="#how-to-put-questions-in-sections" id="toc-how-to-put-questions-in-sections" class="nav-link" data-scroll-target="#how-to-put-questions-in-sections">How to put questions in sections</a></li>
+  <li><a href="#add-them" id="toc-add-them" class="nav-link" data-scroll-target="#add-them">Add them</a></li>
+  <li><a href="#move-them" id="toc-move-them" class="nav-link" data-scroll-target="#move-them">Move them</a></li>
+  </ul></li>
+  <li><a href="#sub-sections" id="toc-sub-sections" class="nav-link" data-scroll-target="#sub-sections"><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32v96V384c0 35.3 28.7 64 64 64H256V384H64V160H256V96H64V32zM288 192c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V192zm0 288c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V480z"></path></svg> Sub-sections</a>
+  <ul class="collapse">
+  <li><a href="#how-they-look-on-paper-2" id="toc-how-they-look-on-paper-2" class="nav-link" data-scroll-target="#how-they-look-on-paper-2">How they look on paper</a></li>
+  <li><a href="#how-they-look-on-paper-3" id="toc-how-they-look-on-paper-3" class="nav-link" data-scroll-target="#how-they-look-on-paper-3">How they look on paper</a></li>
+  <li><a href="#how-they-look-in-capi-1" id="toc-how-they-look-in-capi-1" class="nav-link" data-scroll-target="#how-they-look-in-capi-1">How they look in CAPI</a></li>
+  <li><a href="#how-to-create-1" id="toc-how-to-create-1" class="nav-link" data-scroll-target="#how-to-create-1">How to create</a></li>
+  <li><a href="#how-to-put-questions-in-sub-sections" id="toc-how-to-put-questions-in-sub-sections" class="nav-link" data-scroll-target="#how-to-put-questions-in-sub-sections">How to put questions in sub-sections</a></li>
+  <li><a href="#add-them-there" id="toc-add-them-there" class="nav-link" data-scroll-target="#add-them-there">Add them there</a></li>
+  <li><a href="#move-them-there" id="toc-move-them-there" class="nav-link" data-scroll-target="#move-them-there">Move them there</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="creating-groups-of-questions" class="level1" data-background-color="var(--suso)">
+<h1 data-background-color="var(--suso)">Creating groups (of questions)</h1>
+</section>
+<section id="definitions" class="level1" data-background-color="var(--s1)">
+<h1 data-background-color="var(--s1)">Definitions</h1>
+<section id="what-do-we-mean-by-groups" class="level2 t1">
+<h2 class="t1 anchored" data-anchor-id="what-do-we-mean-by-groups">What do we mean by “groups” ?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="box box-1">
+<p><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M447.1 96h-172.1L226.7 50.75C214.7 38.74 198.5 32 181.5 32H63.1c-35.35 0-64 28.66-64 64v320c0 35.34 28.65 64 64 64h384c35.35 0 64-28.66 64-64V160C511.1 124.7 483.3 96 447.1 96zM463.1 416c0 8.824-7.178 16-16 16h-384c-8.822 0-16-7.176-16-16V96c0-8.824 7.178-16 16-16h117.5c4.273 0 8.293 1.664 11.31 4.688L255.1 144h192c8.822 0 16 7.176 16 16V416z"></path></svg> Sections</p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img src="assets/06/section_toc.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="what-do-we-mean-by-groups-1" class="level2 t1">
+<h2 class="t1 anchored" data-anchor-id="what-do-we-mean-by-groups-1">What do we mean by “groups” ?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="box box-1">
+<p><svg aria-hidden="true" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M447.1 96h-172.1L226.7 50.75C214.7 38.74 198.5 32 181.5 32H63.1c-35.35 0-64 28.66-64 64v320c0 35.34 28.65 64 64 64h384c35.35 0 64-28.66 64-64V160C511.1 124.7 483.3 96 447.1 96zM463.1 416c0 8.824-7.178 16-16 16h-384c-8.822 0-16-7.176-16-16V96c0-8.824 7.178-16 16-16h117.5c4.273 0 8.293 1.664 11.31 4.688L255.1 144h192c8.822 0 16 7.176 16 16V416z"></path></svg> Sections</p>
+</div>
+<div class="box box-1">
+<p><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32v96V384c0 35.3 28.7 64 64 64H256V384H64V160H256V96H64V32zM288 192c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V192zm0 288c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V480z"></path></svg> Sub-sections</p>
+</div>
+</div><div class="column" style="width:50%;">
+<p><img src="assets/06/sub-section_apm.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="sections" class="level1" data-background-color="var(--s2)">
+<h1 data-background-color="var(--s2)">Sections</h1>
+<section id="how-they-look-on-paper" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-they-look-on-paper">How they look on paper</h2>
+<p><img src="assets/06/section_toc.png" class="img-fluid"></p>
+</section>
+<section id="how-they-look-on-paper-1" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-they-look-on-paper-1">How they look on paper</h2>
+<p><img src="assets/06/section_hhroster.png" class="img-fluid"></p>
+</section>
+<section id="how-they-look-in-capi" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-they-look-in-capi">How they look in CAPI</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="assets/06/section_designer.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><video src="assets/06/section_interviewer.mp4" class="img-fluid" controls=""><a href="assets/06/section_interviewer.mp4">Video</a></video></p>
+</div>
+</div>
+</section>
+<section id="how-to-create" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-to-create">How to create</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><video src="assets/06/section_create.mp4" class="img-fluid" controls=""><a href="assets/06/section_create.mp4">Video</a></video></p>
+</div><div class="column" style="width:20%;">
+<ul>
+<li>Click on <svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></li>
+<li>Click on ADD NEW SECTION</li>
+<li>Provide attributes
+<ul>
+<li>Title</li>
+<li>Variable name (optional)</li>
+<li>Enabling condition (optional)</li>
+</ul></li>
+</ul>
+<!-- Motivation for variable: section functions: https://docs.mysurvey.solutions/syntax-guide/functions/section-functions/ -->
+</div>
+</div>
+</section>
+<section id="how-to-make-the-title-better" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-to-make-the-title-better">How to make the title better</h2>
+<div class="box box-2">
+<p>Make it short</p>
+</div>
+<div class="box box-2">
+<p>Consider emojis</p>
+</div>
+</section>
+<section id="make-it-short" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="make-it-short">Make it short</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/section_title_make_short.mp4" class="img-fluid" controls=""><a href="assets/06/section_title_make_short.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<section id="principles" class="level3">
+<h3 class="anchored" data-anchor-id="principles">Principles</h3>
+<ul>
+<li>Consider form factor</li>
+<li>Consider function</li>
+</ul>
+</section>
+<section id="practices" class="level3">
+<h3 class="anchored" data-anchor-id="practices">Practices</h3>
+<ul>
+<li>Check whether it fits in UI
+<ul>
+<li>Navigation bar</li>
+<li>Title bar</li>
+</ul></li>
+</ul>
+</section>
+</div>
+</div>
+</section>
+<section id="consider-emojis" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="consider-emojis">Consider emojis</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/section_title_use_emoji.mp4" class="img-fluid" controls=""><a href="assets/06/section_title_use_emoji.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Communicate</li>
+<li>Check whether it works</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="how-to-put-questions-in-sections" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="how-to-put-questions-in-sections">How to put questions in sections</h2>
+<div class="box box-2">
+<p>Add them</p>
+</div>
+<div class="box box-2">
+<p>Move them</p>
+</div>
+</section>
+<section id="add-them" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="add-them">Add them</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/section_add_questions.mp4" class="img-fluid" controls=""><a href="assets/06/section_add_questions.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Open a section</li>
+<li>Create a question inside
+<ul>
+<li>Either <code>ADD A QUESTION</code> or</li>
+<li>Right click and select <code>Add question after</code></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="move-them" class="level2 t2">
+<h2 class="t2 anchored" data-anchor-id="move-them">Move them</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/move_question_to_section.mp4" class="img-fluid" controls=""><a href="assets/06/move_question_to_section.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Click on the target question</li>
+<li>Scroll to the bottom of the right-hand panel</li>
+<li>Click on <code>MOVE TO</code></li>
+<li>Select the destination section</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="sub-sections" class="level1" data-background-color="var(--s3)">
+<h1 data-background-color="var(--s3)"><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32v96V384c0 35.3 28.7 64 64 64H256V384H64V160H256V96H64V32zM288 192c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4L409.4 9.4c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V192zm0 288c0 17.7 14.3 32 32 32H544c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H445.3c-8.5 0-16.6-3.4-22.6-9.4l-13.3-13.3c-6-6-14.1-9.4-22.6-9.4H320c-17.7 0-32 14.3-32 32V480z"></path></svg> Sub-sections</h1>
+<section id="how-they-look-on-paper-2" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="how-they-look-on-paper-2">How they look on paper</h2>
+<p><video src="assets/06/sub-section_employment.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_employment.mp4">Video</a></video></p>
+</section>
+<section id="how-they-look-on-paper-3" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="how-they-look-on-paper-3">How they look on paper</h2>
+<p><video src="assets/06/sub-section_food.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_food.mp4">Video</a></video></p>
+</section>
+<section id="how-they-look-in-capi-1" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="how-they-look-in-capi-1">How they look in CAPI</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img src="assets/06/sub-section_designer.png" class="img-fluid"></p>
+</div><div class="column" style="width:50%;">
+<p><video src="assets/06/sub-section_interviewer.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_interviewer.mp4">Video</a></video></p>
+</div>
+</div>
+</section>
+<section id="how-to-create-1" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="how-to-create-1">How to create</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/sub-section_create.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_create.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Either click on <code>ADD SUB-SECTION</code></li>
+<li>Or right-click and select <code>Add sub-section</code> after</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="how-to-put-questions-in-sub-sections" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="how-to-put-questions-in-sub-sections">How to put questions in sub-sections</h2>
+<div class="box box-3">
+<p>Add them there</p>
+</div>
+<div class="box box-3">
+<p>Move them there</p>
+</div>
+</section>
+<section id="add-them-there" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="add-them-there">Add them there</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/sub-section_create_question.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_create_question.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Right-click on question in sub-section</li>
+<li>Select <code>Add question after</code></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="move-them-there" class="level2 t3">
+<h2 class="t3 anchored" data-anchor-id="move-them-there">Move them there</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><video src="assets/06/sub-section_move_questions.mp4" class="img-fluid" controls=""><a href="assets/06/sub-section_move_questions.mp4">Video</a></video></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>Hover over the left-hand part of the question</li>
+<li>Drag near the desired sub-section</li>
+<li>Drag to the right under the sub-section</li>
+<li>Confirm that the question is indented under the sub-section</li>
+</ul>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
