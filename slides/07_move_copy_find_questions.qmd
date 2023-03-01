@@ -1,0 +1,173 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/create_groups.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# `r fontawesome::fa(name = "up-down-left-right")` Moving, `r fontawesome::fa(name = "copy")`copying, `r fontawesome::fa(name = "magnifying-glass")` finding questions {background-color=var(--suso)}
+
+
+# `r fontawesome::fa(name = "up-down-left-right")` Moving {background-color=var(--s1)}
+
+
+## Within (sub)sections {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/move_questions.mp4)
+:::
+
+::: {.column width="30%"}
+- Hover over the left-hand part of the question
+- Drag
+- Drop
+:::
+
+::::
+
+## Between sections {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/06/move_question_to_section.mp4)
+:::
+
+::: {.column width="30%"}
+- Click on the target question
+- Scroll to the bottom of the right-hand panel
+- Click on `MOVE TO`
+- Select the destination section
+:::
+
+::::
+
+# `r fontawesome::fa(name = "paste")` Copying {background-color=var(--s2)}
+
+## Within questionnaire {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/copy-paste_questions.mp4)
+:::
+
+::: {.column width="30%"}
+- Right-click on question
+- Select `Copy`
+- Click just before desired insertion point
+- Right-click on object
+- Select `Paste after`
+:::
+
+::::
+
+## Between questionnaires {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/copy-paste_between_qnrs.mp4)
+:::
+
+::: {.column width="30%"}
+- Right-click on question
+- Select `Copy`
+- Click just before desired insertion point
+- Right-click on object
+- Select `Paste after`
+:::
+
+::::
+
+## ... but exercise caution {.t2}
+
+::: {.box .box-2}
+Duplicates
+:::
+
+::: {.box .box-2}
+Dependencies
+:::
+
+## Duplicates {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/warning_duplicates.mp4)
+:::
+
+::: {.column width="30%"}
+
+### Problem
+
+- Variable names are unique IDs
+- Compilation error
+
+### Solution
+
+- Navigate to the pasted question
+- Change its variable name
+
+:::
+
+::::
+
+## Dependencies {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/warning_dependencies.mp4)
+:::
+
+::: {.column width="30%"}
+- Delete broken references (e.g., questions, lookup tables, tc.)
+:::
+
+::::
+
+
+# `r fontawesome::fa(name = "magnifying-glass")` Finding {background-color=var(--s3)}
+
+## In section {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/find_question_in_section.mp4)
+:::
+
+::: {.column width="30%"}
+- Click on search icon
+- Type
+- See matching items
+:::
+
+::::
+
+## In questionnaire {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/07/search_question_in_qnr.mp4)
+:::
+
+::: {.column width="30%"}
+- Type `Ctrl + H`
+- Type query in `Find what field`
+- Click on `FIND ALL` button
+- Page through search results
+:::
+
+::::
+
+<!-- 
+Reference here: https://docs.mysurvey.solutions/questionnaire-designer/interface/find-and-replace-/
+ -->
