@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n\n\n    March 1\nMoving/copying questions\n\n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -859,5 +859,334 @@
     "title": "Create a basic questionnaire",
     "section": "2. Review PAPI and plan CAPI",
     "text": "2. Review PAPI and plan CAPI\n\nReview draft PICES housing module\nIdentify an appropriate question type for each question in the module. Consult these slides and these resources as useful.\nCompile questions/notes to discuss–either on Slack or during the next session."
+  },
+  {
+    "objectID": "slides/06_create_groups.html#what-do-we-mean-by-groups",
+    "href": "slides/06_create_groups.html#what-do-we-mean-by-groups",
+    "title": "Learning Survey Solutions",
+    "section": "What do we mean by “groups” ?",
+    "text": "What do we mean by “groups” ?\n\n\n\n Sections"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#what-do-we-mean-by-groups-1",
+    "href": "slides/06_create_groups.html#what-do-we-mean-by-groups-1",
+    "title": "Learning Survey Solutions",
+    "section": "What do we mean by “groups” ?",
+    "text": "What do we mean by “groups” ?\n\n\n\n Sections\n\n\n Sub-sections"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-work",
+    "href": "slides/06_create_groups.html#how-they-work",
+    "title": "Learning Survey Solutions",
+    "section": "How they work",
+    "text": "How they work\n\n\nTODO: image of sections in Designer\n\nTODO: video of sections in Interviewer/Tester"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-to-create",
+    "href": "slides/06_create_groups.html#how-to-create",
+    "title": "Learning Survey Solutions",
+    "section": "How to create",
+    "text": "How to create\n\n\nVideo\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#title-design-considerations",
+    "href": "slides/06_create_groups.html#title-design-considerations",
+    "title": "Learning Survey Solutions",
+    "section": "Title design considerations",
+    "text": "Title design considerations\n\nMake it short\n\n\nConsider emojis"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#make-it-short",
+    "href": "slides/06_create_groups.html#make-it-short",
+    "title": "Learning Survey Solutions",
+    "section": "Make it short",
+    "text": "Make it short\n\n\nVideo\n\n\nPrinciples\n\nConsider form factor\nConsider function\n\n\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#consider-emojis",
+    "href": "slides/06_create_groups.html#consider-emojis",
+    "title": "Learning Survey Solutions",
+    "section": "Consider emojis",
+    "text": "Consider emojis\n\n\nVideo\n\n\nCommunicate\nCheck whether it works"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-to-put-questions-in-sections",
+    "href": "slides/06_create_groups.html#how-to-put-questions-in-sections",
+    "title": "Learning Survey Solutions",
+    "section": "How to put questions in sections",
+    "text": "How to put questions in sections\n\nAdd them\n\n\nMove them"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#add-them",
+    "href": "slides/06_create_groups.html#add-them",
+    "title": "Learning Survey Solutions",
+    "section": "Add them",
+    "text": "Add them\n\n\nVideo\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#move-them",
+    "href": "slides/06_create_groups.html#move-them",
+    "title": "Learning Survey Solutions",
+    "section": "Move them",
+    "text": "Move them\n\n\nVideo\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-on-paper",
+    "href": "slides/06_create_groups.html#how-they-look-on-paper",
+    "title": "Learning Survey Solutions",
+    "section": "How they look on paper",
+    "text": "How they look on paper"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-on-paper-1",
+    "href": "slides/06_create_groups.html#how-they-look-on-paper-1",
+    "title": "Learning Survey Solutions",
+    "section": "How they look on paper",
+    "text": "How they look on paper"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-in-capi",
+    "href": "slides/06_create_groups.html#how-they-look-in-capi",
+    "title": "Learning Survey Solutions",
+    "section": "How they look in CAPI",
+    "text": "How they look in CAPI\n\n\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-on-paper-2",
+    "href": "slides/06_create_groups.html#how-they-look-on-paper-2",
+    "title": "Learning Survey Solutions",
+    "section": "How they look on paper",
+    "text": "How they look on paper\nVideo"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-on-paper-3",
+    "href": "slides/06_create_groups.html#how-they-look-on-paper-3",
+    "title": "Learning Survey Solutions",
+    "section": "How they look on paper",
+    "text": "How they look on paper\nVideo"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-they-look-in-capi-1",
+    "href": "slides/06_create_groups.html#how-they-look-in-capi-1",
+    "title": "Learning Survey Solutions",
+    "section": "How they look in CAPI",
+    "text": "How they look in CAPI\n\n\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-to-create-1",
+    "href": "slides/06_create_groups.html#how-to-create-1",
+    "title": "Learning Survey Solutions",
+    "section": "How to create",
+    "text": "How to create\n\n\nVideo\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-to-put-questions-in-sub-sections",
+    "href": "slides/06_create_groups.html#how-to-put-questions-in-sub-sections",
+    "title": "Learning Survey Solutions",
+    "section": "How to put questions in sub-sections",
+    "text": "How to put questions in sub-sections\n\nAdd them there\n\n\nMove them there"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#add-them-there",
+    "href": "slides/06_create_groups.html#add-them-there",
+    "title": "Learning Survey Solutions",
+    "section": "Add them there",
+    "text": "Add them there\n\n\nVideo\n\n\nRight-click on question in sub-section\nSelect Add question after"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#move-them-there",
+    "href": "slides/06_create_groups.html#move-them-there",
+    "title": "Learning Survey Solutions",
+    "section": "Move them there",
+    "text": "Move them there\n\n\nVideo\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
+  },
+  {
+    "objectID": "slides/06_create_groups.html#how-to-make-the-title-better",
+    "href": "slides/06_create_groups.html#how-to-make-the-title-better",
+    "title": "Learning Survey Solutions",
+    "section": "How to make the title better",
+    "text": "How to make the title better\n\nMake it short\n\n\nConsider emojis"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#within-subsections",
+    "href": "slides/07_move_copy_questions.html#within-subsections",
+    "title": "Learning Survey Solutions",
+    "section": "Within (sub)sections",
+    "text": "Within (sub)sections\n\n\nVideo\n\n\nHover over the left-hand part of the question\nDrag\nDrop"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#between-sub-sections",
+    "href": "slides/07_move_copy_questions.html#between-sub-sections",
+    "title": "Learning Survey Solutions",
+    "section": "Between sub-sections",
+    "text": "Between sub-sections\n\n\nTODO: ref to same video as before but start where to sub-sections\n\n\nHover over the left-hand part of the question\nDrag\nDrop"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#between-sections",
+    "href": "slides/07_move_copy_questions.html#between-sections",
+    "title": "Learning Survey Solutions",
+    "section": "Between sections",
+    "text": "Between sections\n\n\nVideo\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#within-questionnaire",
+    "href": "slides/07_move_copy_questions.html#within-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Within questionnaire",
+    "text": "Within questionnaire\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#between-questionnaires",
+    "href": "slides/07_move_copy_questions.html#between-questionnaires",
+    "title": "Learning Survey Solutions",
+    "section": "Between questionnaires",
+    "text": "Between questionnaires\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#but-exercise-caution",
+    "href": "slides/07_move_copy_questions.html#but-exercise-caution",
+    "title": "Learning Survey Solutions",
+    "section": "… but exercise caution",
+    "text": "… but exercise caution\n\nDuplicates\n\n\nDependencies"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#duplicates",
+    "href": "slides/07_move_copy_questions.html#duplicates",
+    "title": "Learning Survey Solutions",
+    "section": "Duplicates",
+    "text": "Duplicates\n\n\nVideo\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#dependencies",
+    "href": "slides/07_move_copy_questions.html#dependencies",
+    "title": "Learning Survey Solutions",
+    "section": "Dependencies",
+    "text": "Dependencies\n\n\nVideo\n\n\nDelete broken references (e.g., questions, lookup tables, tc.)"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#in-section",
+    "href": "slides/07_move_copy_questions.html#in-section",
+    "title": "Learning Survey Solutions",
+    "section": "In section",
+    "text": "In section\n\n\nVideo\n\n\nClick on search icon\nType\nSee matching items"
+  },
+  {
+    "objectID": "slides/07_move_copy_questions.html#in-questionnaire",
+    "href": "slides/07_move_copy_questions.html#in-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "In questionnaire",
+    "text": "In questionnaire\n\n\nVideo\n\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#within-subsections",
+    "href": "slides/07_move_copy_find_questions.html#within-subsections",
+    "title": "Learning Survey Solutions",
+    "section": "Within (sub)sections",
+    "text": "Within (sub)sections\n\n\nVideo\n\n\nHover over the left-hand part of the question\nDrag\nDrop"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#between-sections",
+    "href": "slides/07_move_copy_find_questions.html#between-sections",
+    "title": "Learning Survey Solutions",
+    "section": "Between sections",
+    "text": "Between sections\n\n\nVideo\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#within-questionnaire",
+    "href": "slides/07_move_copy_find_questions.html#within-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Within questionnaire",
+    "text": "Within questionnaire\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#between-questionnaires",
+    "href": "slides/07_move_copy_find_questions.html#between-questionnaires",
+    "title": "Learning Survey Solutions",
+    "section": "Between questionnaires",
+    "text": "Between questionnaires\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#but-exercise-caution",
+    "href": "slides/07_move_copy_find_questions.html#but-exercise-caution",
+    "title": "Learning Survey Solutions",
+    "section": "… but exercise caution",
+    "text": "… but exercise caution\n\nDuplicates\n\n\nDependencies"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#duplicates",
+    "href": "slides/07_move_copy_find_questions.html#duplicates",
+    "title": "Learning Survey Solutions",
+    "section": "Duplicates",
+    "text": "Duplicates\n\n\nVideo\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\n\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#dependencies",
+    "href": "slides/07_move_copy_find_questions.html#dependencies",
+    "title": "Learning Survey Solutions",
+    "section": "Dependencies",
+    "text": "Dependencies\n\n\nVideo\n\n\nDelete broken references (e.g., questions, lookup tables, tc.)"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#in-section",
+    "href": "slides/07_move_copy_find_questions.html#in-section",
+    "title": "Learning Survey Solutions",
+    "section": "In section",
+    "text": "In section\n\n\nVideo\n\n\nClick on search icon\nType\nSee matching items"
+  },
+  {
+    "objectID": "slides/07_move_copy_find_questions.html#in-questionnaire",
+    "href": "slides/07_move_copy_find_questions.html#in-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "In questionnaire",
+    "text": "In questionnaire\n\n\nVideo\n\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results"
+  },
+  {
+    "objectID": "assignments/06_create_groups.html",
+    "href": "assignments/06_create_groups.html",
+    "title": "Create groups",
+    "section": "",
+    "text": "Create sections and populate them with questions\nCreate sub-sections and move questions into them"
+  },
+  {
+    "objectID": "assignments/06_create_groups.html#create-a-housing-section",
+    "href": "assignments/06_create_groups.html#create-a-housing-section",
+    "title": "Create groups",
+    "section": "1. Create a housing section",
+    "text": "1. Create a housing section\n\nCreate a new section to contain the housing module you developed last week.\nGive it an appropriate title\nAdd an appropriate emoji (e.g., 🏡). If useful, search for emojis here."
+  },
+  {
+    "objectID": "assignments/06_create_groups.html#move-housing-content-into-it",
+    "href": "assignments/06_create_groups.html#move-housing-content-into-it",
+    "title": "Create groups",
+    "section": "2. Move housing content into it",
+    "text": "2. Move housing content into it\nMove each question from its current question to the newly created section.\nThis may seem inefficient because one could always rename the current section, but this is for practice."
+  },
+  {
+    "objectID": "assignments/06_create_groups.html#create-thematic-sub-sections",
+    "href": "assignments/06_create_groups.html#create-thematic-sub-sections",
+    "title": "Create groups",
+    "section": "3. Create thematic sub-sections",
+    "text": "3. Create thematic sub-sections\nCreate the following sub-sections:\n\nConstruction materials: questions 3-5\nAccess to electricity: questions 8-13\nSources of energy: 14-15\nSources of water and sanitation: 16-35\n\nMove questions into them."
+  },
+  {
+    "objectID": "course/06_create_groups.html",
+    "href": "course/06_create_groups.html",
+    "title": "Creating groups (of questions)",
+    "section": "",
+    "text": "Create groups of questions\nMove questions–both within and across groups"
+  },
+  {
+    "objectID": "course/06_create_groups.html#slides",
+    "href": "course/06_create_groups.html#slides",
+    "title": "Creating groups (of questions)",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/06_create_groups.html#assignment",
+    "href": "course/06_create_groups.html#assignment",
+    "title": "Creating groups (of questions)",
+    "section": " Assignment",
+    "text": "Assignment\nMove the housing module questions both into a new section and into sub-sections within that section. See here."
   }
 ]
