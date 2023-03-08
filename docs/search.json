@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nRosters of questions\n\n\n\n    March 8\nText substitution\n\n\n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n\n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -886,7 +886,7 @@
     "href": "slides/06_create_groups.html#how-to-create",
     "title": "Learning Survey Solutions",
     "section": "How to create",
-    "text": "How to create\n\n\nVideo\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
+    "text": "How to create\n\n\n\n\nVideo\n\n\n\n\nClick on \nClick on ADD NEW SECTION\nProvide attributes\n\nTitle\nVariable name (optional)\nEnabling condition (optional)"
   },
   {
     "objectID": "slides/06_create_groups.html#title-design-considerations",
@@ -900,14 +900,14 @@
     "href": "slides/06_create_groups.html#make-it-short",
     "title": "Learning Survey Solutions",
     "section": "Make it short",
-    "text": "Make it short\n\n\nVideo\n\nPrinciples\n\nConsider form factor\nConsider function\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
+    "text": "Make it short\n\n\n\n\nVideo\n\n\n\n\nPrinciples\n\nConsider form factor\nConsider function\n\n\n\nPractices\n\nCheck whether it fits in UI\n\nNavigation bar\nTitle bar"
   },
   {
     "objectID": "slides/06_create_groups.html#consider-emojis",
     "href": "slides/06_create_groups.html#consider-emojis",
     "title": "Learning Survey Solutions",
     "section": "Consider emojis",
-    "text": "Consider emojis\n\n\nVideo\n\n\nCommunicate\nCheck whether it works"
+    "text": "Consider emojis\n\n\n\n\nVideo\n\n\n\n\nCommunicate\nCheck whether it works"
   },
   {
     "objectID": "slides/06_create_groups.html#how-to-put-questions-in-sections",
@@ -921,14 +921,14 @@
     "href": "slides/06_create_groups.html#add-them",
     "title": "Learning Survey Solutions",
     "section": "Add them",
-    "text": "Add them\n\n\nVideo\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
+    "text": "Add them\n\n\n\n\nVideo\n\n\n\n\nOpen a section\nCreate a question inside\n\nEither ADD A QUESTION or\nRight click and select Add question after"
   },
   {
     "objectID": "slides/06_create_groups.html#move-them",
     "href": "slides/06_create_groups.html#move-them",
     "title": "Learning Survey Solutions",
     "section": "Move them",
-    "text": "Move them\n\n\nVideo\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+    "text": "Move them\n\n\n\n\nVideo\n\n\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
   },
   {
     "objectID": "slides/06_create_groups.html#how-they-look-on-paper",
@@ -949,35 +949,35 @@
     "href": "slides/06_create_groups.html#how-they-look-in-capi",
     "title": "Learning Survey Solutions",
     "section": "How they look in CAPI",
-    "text": "How they look in CAPI\n\n\n\n\nVideo"
+    "text": "How they look in CAPI\n\n\n\n\n\n\n\n\n\n\nVideo"
   },
   {
     "objectID": "slides/06_create_groups.html#how-they-look-on-paper-2",
     "href": "slides/06_create_groups.html#how-they-look-on-paper-2",
     "title": "Learning Survey Solutions",
     "section": "How they look on paper",
-    "text": "How they look on paper\nVideo"
+    "text": "How they look on paper\n\n\nVideo"
   },
   {
     "objectID": "slides/06_create_groups.html#how-they-look-on-paper-3",
     "href": "slides/06_create_groups.html#how-they-look-on-paper-3",
     "title": "Learning Survey Solutions",
     "section": "How they look on paper",
-    "text": "How they look on paper\nVideo"
+    "text": "How they look on paper\n\n\nVideo"
   },
   {
     "objectID": "slides/06_create_groups.html#how-they-look-in-capi-1",
     "href": "slides/06_create_groups.html#how-they-look-in-capi-1",
     "title": "Learning Survey Solutions",
     "section": "How they look in CAPI",
-    "text": "How they look in CAPI\n\n\n\n\nVideo"
+    "text": "How they look in CAPI\n\n\n\n\n\n\n\n\n\n\nVideo"
   },
   {
     "objectID": "slides/06_create_groups.html#how-to-create-1",
     "href": "slides/06_create_groups.html#how-to-create-1",
     "title": "Learning Survey Solutions",
     "section": "How to create",
-    "text": "How to create\n\n\nVideo\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
+    "text": "How to create\n\n\n\n\nVideo\n\n\n\n\nEither click on ADD SUB-SECTION\nOr right-click and select Add sub-section after"
   },
   {
     "objectID": "slides/06_create_groups.html#how-to-put-questions-in-sub-sections",
@@ -991,14 +991,14 @@
     "href": "slides/06_create_groups.html#add-them-there",
     "title": "Learning Survey Solutions",
     "section": "Add them there",
-    "text": "Add them there\n\n\nVideo\n\n\nRight-click on question in sub-section\nSelect Add question after"
+    "text": "Add them there\n\n\n\n\nVideo\n\n\n\n\nRight-click on question in sub-section\nSelect Add question after"
   },
   {
     "objectID": "slides/06_create_groups.html#move-them-there",
     "href": "slides/06_create_groups.html#move-them-there",
     "title": "Learning Survey Solutions",
     "section": "Move them there",
-    "text": "Move them there\n\n\nVideo\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
+    "text": "Move them there\n\n\n\n\nVideo\n\n\n\n\nHover over the left-hand part of the question\nDrag near the desired sub-section\nDrag to the right under the sub-section\nConfirm that the question is indented under the sub-section"
   },
   {
     "objectID": "slides/06_create_groups.html#how-to-make-the-title-better",
@@ -1082,28 +1082,28 @@
     "href": "slides/07_move_copy_find_questions.html#within-subsections",
     "title": "Learning Survey Solutions",
     "section": "Within (sub)sections",
-    "text": "Within (sub)sections\n\n\nVideo\n\n\nHover over the left-hand part of the question\nDrag\nDrop"
+    "text": "Within (sub)sections\n\n\n\n\nVideo\n\n\n\n\nHover over the left-hand part of the question\nDrag\nDrop"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#between-sections",
     "href": "slides/07_move_copy_find_questions.html#between-sections",
     "title": "Learning Survey Solutions",
     "section": "Between sections",
-    "text": "Between sections\n\n\nVideo\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
+    "text": "Between sections\n\n\n\n\nVideo\n\n\n\n\nClick on the target question\nScroll to the bottom of the right-hand panel\nClick on MOVE TO\nSelect the destination section"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#within-questionnaire",
     "href": "slides/07_move_copy_find_questions.html#within-questionnaire",
     "title": "Learning Survey Solutions",
     "section": "Within questionnaire",
-    "text": "Within questionnaire\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+    "text": "Within questionnaire\n\n\n\n\nVideo\n\n\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#between-questionnaires",
     "href": "slides/07_move_copy_find_questions.html#between-questionnaires",
     "title": "Learning Survey Solutions",
     "section": "Between questionnaires",
-    "text": "Between questionnaires\n\n\nVideo\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
+    "text": "Between questionnaires\n\n\n\n\nVideo\n\n\n\n\nRight-click on question\nSelect Copy\nClick just before desired insertion point\nRight-click on object\nSelect Paste after"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#but-exercise-caution",
@@ -1117,28 +1117,28 @@
     "href": "slides/07_move_copy_find_questions.html#duplicates",
     "title": "Learning Survey Solutions",
     "section": "Duplicates",
-    "text": "Duplicates\n\n\nVideo\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\n\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#dependencies",
     "href": "slides/07_move_copy_find_questions.html#dependencies",
     "title": "Learning Survey Solutions",
     "section": "Dependencies",
-    "text": "Dependencies\n\n\nVideo\n\n\nDelete broken references (e.g., questions, lookup tables, tc.)"
+    "text": "Dependencies\n\n\n\n\nVideo\n\n\n\n\nDelete broken references (e.g., questions, lookup tables, tc.)"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#in-section",
     "href": "slides/07_move_copy_find_questions.html#in-section",
     "title": "Learning Survey Solutions",
     "section": "In section",
-    "text": "In section\n\n\nVideo\n\n\nClick on search icon\nType\nSee matching items"
+    "text": "In section\n\n\n\n\nVideo\n\n\n\n\nClick on search icon\nType\nSee matching items"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#in-questionnaire",
     "href": "slides/07_move_copy_find_questions.html#in-questionnaire",
     "title": "Learning Survey Solutions",
     "section": "In questionnaire",
-    "text": "In questionnaire\n\n\nVideo\n\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results"
+    "text": "In questionnaire\n\n\n\n\nVideo\n\n\n\n\nType Ctrl + H\nType query in Find what field\nClick on FIND ALL button\nPage through search results"
   },
   {
     "objectID": "assignments/06_create_groups.html",
@@ -1185,6 +1185,461 @@
   {
     "objectID": "course/06_create_groups.html#assignment",
     "href": "course/06_create_groups.html#assignment",
+    "title": "Creating groups (of questions)",
+    "section": " Assignment",
+    "text": "Assignment\nMove the housing module questions both into a new section and into sub-sections within that section. See here."
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#how-to-think-about-rosters",
+    "href": "slides/08_create_rosters.html#how-to-think-about-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "How to think about rosters",
+    "text": "How to think about rosters"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#exercise-1-household-composition",
+    "href": "slides/08_create_rosters.html#exercise-1-household-composition",
+    "title": "Learning Survey Solutions",
+    "section": "Exercise 1: household composition",
+    "text": "Exercise 1: household composition"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#exercise-2-asset-ownership",
+    "href": "slides/08_create_rosters.html#exercise-2-asset-ownership",
+    "title": "Learning Survey Solutions",
+    "section": "Exercise 2: asset ownership",
+    "text": "Exercise 2: asset ownership"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#exercise-3-agriculture-labor",
+    "href": "slides/08_create_rosters.html#exercise-3-agriculture-labor",
+    "title": "Learning Survey Solutions",
+    "section": "Exercise 3: agriculture labor",
+    "text": "Exercise 3: agriculture labor"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#create-a-roster-in-designer",
+    "href": "slides/08_create_rosters.html#create-a-roster-in-designer",
+    "title": "Learning Survey Solutions",
+    "section": "Create a roster in Designer",
+    "text": "Create a roster in Designer\n\n\nVideo\n\n\nCreate source question\n\n\nCreate roster\n\n\nSelect type (of source question)\nProvide variable name (ID)\nProvide name (name)\nSelect source question\nSelect how to display roster rows"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#example-1-household-composition",
+    "href": "slides/08_create_rosters.html#example-1-household-composition",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#example-2-asset-ownership",
+    "href": "slides/08_create_rosters.html#example-2-asset-ownership",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: asset ownership",
+    "text": "Example 2: asset ownership"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#example-3-agriculture-labor",
+    "href": "slides/08_create_rosters.html#example-3-agriculture-labor",
+    "title": "Learning Survey Solutions",
+    "section": "Example 3: agriculture labor",
+    "text": "Example 3: agriculture labor"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#unpacking-roster-attributes",
+    "href": "slides/08_create_rosters.html#unpacking-roster-attributes",
+    "title": "Learning Survey Solutions",
+    "section": "Unpacking roster attributes",
+    "text": "Unpacking roster attributes\n\n\n\n\n\nRoster source\n\n\nRoster ID\n\n\nRoster name\n\n\nSource question\n\n\nDisplay mode"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#concept",
+    "href": "slides/08_create_rosters.html#concept",
+    "title": "Learning Survey Solutions",
+    "section": "Concept",
+    "text": "Concept"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#outside-of-rosters",
+    "href": "slides/08_create_rosters.html#outside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Outside of rosters",
+    "text": "Outside of rosters\n\n\n\n\nVideo\n\n\n\n\nShow the value of one questoin in the text of another variable\nConstruct reference: variable name surrounded by % (e.g., myvar -> %myvar%)\nSee more here."
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#inside-of-rosters",
+    "href": "slides/08_create_rosters.html#inside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Inside of rosters",
+    "text": "Inside of rosters\n\nVariable values\n\n\nRow names"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#variable-values",
+    "href": "slides/08_create_rosters.html#variable-values",
+    "title": "Learning Survey Solutions",
+    "section": "Variable values",
+    "text": "Variable values\n\n\nVideo\n\n\nSame approach as outside roster\nConstruct reference"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#row-names",
+    "href": "slides/08_create_rosters.html#row-names",
+    "title": "Learning Survey Solutions",
+    "section": "Row names",
+    "text": "Row names\n\n\nVideo\n\n\nReferences to row names must use keyboards\n%rostertitle% = row names of current roster\n%your_roster_variable% = rows of a specific roster (which could be the current one)"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#example-1-household-members-revisited",
+    "href": "slides/08_create_rosters.html#example-1-household-members-revisited",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household members revisited",
+    "text": "Example 1: household members revisited\nTODO: video with text substitution"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#roster-source",
+    "href": "slides/08_create_rosters.html#roster-source",
+    "title": "Learning Survey Solutions",
+    "section": "Roster source",
+    "text": "Roster source\nWhat it is\nType of quetion for roster source\nWhat it does\n\nFilters to questions of designated type (e.g., list, multi-select yes/no)\nPermits easier selection of soure question"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#roster-id",
+    "href": "slides/08_create_rosters.html#roster-id",
+    "title": "Learning Survey Solutions",
+    "section": "Roster ID",
+    "text": "Roster ID\nWhat it is\nVariable name for the roster\nWhat it does\n\nAllows references to roster in conditions\nProvides name for roster in data export"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#roster-name",
+    "href": "slides/08_create_rosters.html#roster-name",
+    "title": "Learning Survey Solutions",
+    "section": "Roster name",
+    "text": "Roster name\nWhat it is\nTemplate for text on roster row buttons\nWhat it does\nDetermines what appears on roster row buttons"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#source-question",
+    "href": "slides/08_create_rosters.html#source-question",
+    "title": "Learning Survey Solutions",
+    "section": "Source question",
+    "text": "Source question\nWhat it is\nQuestion that defines a roster.\nWhat it does\nDefines:\n\nNumber of rows (e.g., household members)\nContent of row titles (e.g., names of members)"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#display-mode",
+    "href": "slides/08_create_rosters.html#display-mode",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode\nBy mode\n\n\n CAPI\n\nSub-section\nFlat (aka plain mode)\n\n\n CAWI\n\nMatrix\nTable"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#display-sub-section",
+    "href": "slides/08_create_rosters.html#display-sub-section",
+    "title": "Learning Survey Solutions",
+    "section": "Display: Sub-section",
+    "text": "Display: Sub-section\n\n\n\n\n\nDefault display mode\nGood for any kind of roster\nBest for rosters with lots of questions"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#display-flat",
+    "href": "slides/08_create_rosters.html#display-flat",
+    "title": "Learning Survey Solutions",
+    "section": "Display: Flat",
+    "text": "Display: Flat\n\n\nVideo\n\n\nWorks best for simple rosters\nLimited to roster with:\n\nFew items\nNo nested roster"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#display-mode-sub-section",
+    "href": "slides/08_create_rosters.html#display-mode-sub-section",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Sub-section",
+    "text": "Display mode > Sub-section\n\n\n\n\n\nDefault display mode\nGood for any kind of roster\nBest for rosters with lots of questions"
+  },
+  {
+    "objectID": "slides/08_create_rosters.html#display-mode-flat",
+    "href": "slides/08_create_rosters.html#display-mode-flat",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Flat",
+    "text": "Display mode > Flat\n\n\nVideo\n\n\nWorks best for simple rosters\nLimited to roster with:\n\nFew items\nNo nested roster"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#how-to-think-about-rosters",
+    "href": "slides/08_create_basic_rosters.html#how-to-think-about-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "How to think about rosters",
+    "text": "How to think about rosters"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#example-1-household-composition",
+    "href": "slides/08_create_basic_rosters.html#example-1-household-composition",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#example-2-asset-ownership",
+    "href": "slides/08_create_basic_rosters.html#example-2-asset-ownership",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: asset ownership",
+    "text": "Example 2: asset ownership"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#example-3-agriculture-labor",
+    "href": "slides/08_create_basic_rosters.html#example-3-agriculture-labor",
+    "title": "Learning Survey Solutions",
+    "section": "Example 3: agriculture labor",
+    "text": "Example 3: agriculture labor"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#create-a-roster-in-designer",
+    "href": "slides/08_create_basic_rosters.html#create-a-roster-in-designer",
+    "title": "Learning Survey Solutions",
+    "section": "Create a roster in Designer",
+    "text": "Create a roster in Designer\n\n\nVideo\n\n\nCreate source question\n\n\nCreate roster\n\n\nSelect type (of source question)\nProvide variable name (ID)\nProvide name (name)\nSelect source question\nSelect how to display roster rows"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#unpacking-roster-attributes",
+    "href": "slides/08_create_basic_rosters.html#unpacking-roster-attributes",
+    "title": "Learning Survey Solutions",
+    "section": "Unpacking roster attributes",
+    "text": "Unpacking roster attributes\n\n\n\n\n\nRoster source\n\n\nRoster ID\n\n\nRoster name\n\n\nSource question\n\n\nDisplay mode"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#roster-source",
+    "href": "slides/08_create_basic_rosters.html#roster-source",
+    "title": "Learning Survey Solutions",
+    "section": "Roster source",
+    "text": "Roster source\n\n\n\n\nWhat it is\nType of question for roster source\nWhat it does\n\nFilters to questions of designated type (e.g., list, multi-select yes/no)\nPermits easier selection of soure question"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#roster-id",
+    "href": "slides/08_create_basic_rosters.html#roster-id",
+    "title": "Learning Survey Solutions",
+    "section": "Roster ID",
+    "text": "Roster ID\n\n\n\n\nWhat it is\nVariable name for the roster\nWhat it does\n\nAllows references to roster in conditions\nProvides name for roster in data export"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#roster-name",
+    "href": "slides/08_create_basic_rosters.html#roster-name",
+    "title": "Learning Survey Solutions",
+    "section": "Roster name",
+    "text": "Roster name\n\n\n\n\nWhat it is\nTemplate for text on roster row buttons\nWhat it does\nDetermines what appears on roster row buttons"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#source-question",
+    "href": "slides/08_create_basic_rosters.html#source-question",
+    "title": "Learning Survey Solutions",
+    "section": "Source question",
+    "text": "Source question\n\n\n\n\nWhat it is\nQuestion that defines a roster.\nWhat it does\nDefines:\n\nNumber of rows (e.g., household members)\nContent of row titles (e.g., names of members)"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#display-mode",
+    "href": "slides/08_create_basic_rosters.html#display-mode",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode",
+    "text": "Display mode\nBy mode\n\n\n CAPI\n\nSub-section\nFlat (aka plain mode)\n\n\n CAWI\n\nMatrix\nTable"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#display-mode-sub-section",
+    "href": "slides/08_create_basic_rosters.html#display-mode-sub-section",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Sub-section",
+    "text": "Display mode > Sub-section\n\n\n\n\n\nDefault display mode\nGood for any kind of roster\nBest for rosters with lots of questions"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#display-mode-flat",
+    "href": "slides/08_create_basic_rosters.html#display-mode-flat",
+    "title": "Learning Survey Solutions",
+    "section": "Display mode > Flat",
+    "text": "Display mode > Flat\n\n\nVideo\n\n\nWorks best for simple rosters\nLimited to roster with:\n\nFew items\nNo nested roster"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#concept",
+    "href": "slides/08_create_basic_rosters.html#concept",
+    "title": "Learning Survey Solutions",
+    "section": "Concept",
+    "text": "Concept"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#outside-of-rosters",
+    "href": "slides/08_create_basic_rosters.html#outside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Outside of rosters",
+    "text": "Outside of rosters\n\n\n\n\nVideo\n\n\n\n\nShow the value of one questoin in the text of another variable\nConstruct reference: variable name surrounded by % (e.g., myvar -> %myvar%)\nSee more here."
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#inside-of-rosters",
+    "href": "slides/08_create_basic_rosters.html#inside-of-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Inside of rosters",
+    "text": "Inside of rosters\n\nVariable values\n\n\nRow names"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#variable-values",
+    "href": "slides/08_create_basic_rosters.html#variable-values",
+    "title": "Learning Survey Solutions",
+    "section": "Variable values",
+    "text": "Variable values\n\n\nVideo\n\n\nSame approach as outside roster\nConstruct reference"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#row-names",
+    "href": "slides/08_create_basic_rosters.html#row-names",
+    "title": "Learning Survey Solutions",
+    "section": "Row names",
+    "text": "Row names\n\n\nVideo\n\n\nReferences to row names must use keyboards\n%rostertitle% = row names of current roster\n%your_roster_variable% = rows of a specific roster (which could be the current one)"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#example-1-household-members-revisited",
+    "href": "slides/08_create_basic_rosters.html#example-1-household-members-revisited",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household members revisited",
+    "text": "Example 1: household members revisited\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/08_create_basic_rosters.html#exampel-2-asset-ownership-revisited",
+    "href": "slides/08_create_basic_rosters.html#exampel-2-asset-ownership-revisited",
+    "title": "Learning Survey Solutions",
+    "section": "Exampel 2: asset ownership revisited",
+    "text": "Exampel 2: asset ownership revisited\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-1-household-composition",
+    "href": "slides/09_create_complex_rosters.html#example-1-household-composition",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition\n\n\n\n\n\n\n\n\nTypical PAPI process\n\nCapture basic info on all members\nCapture detailed info"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-1-household-composition-1",
+    "href": "slides/09_create_complex_rosters.html#example-1-household-composition-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: household composition",
+    "text": "Example 1: household composition\n\n\n\n\n\n\n\n\nCAPI design\n\nCreate two rosters\n\nDifferent object\nDifferent roster ID\n\nBut each roster points to same source\nPlace one part in one section\nPlace other part in another section"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-2-education",
+    "href": "slides/09_create_complex_rosters.html#example-2-education",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: education",
+    "text": "Example 2: education\n\n\nVideo\n\n\nAll member-level rosters are continuation of household composition\nMay filter to subset of members (e.g., age > 3)\nBut all member-level rosters\n\nCarry forward members from household compostion\nInclude IDs of those members"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-2-education-1",
+    "href": "slides/09_create_complex_rosters.html#example-2-education-1",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: education",
+    "text": "Example 2: education\n\n\nVideo\n\n\nCreate education roster in new section\n\nDifferent object\nDifferent roster ID\n\nBut both rosters points to same source"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#summary",
+    "href": "slides/09_create_complex_rosters.html#summary",
+    "title": "Learning Survey Solutions",
+    "section": "Summary",
+    "text": "Summary\n\nEach roster must have a unique name, but may share the same source\nAll rosters with the same source question are considered the same roster\n\nVariables exist in same context\nData export in the same file"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-1-parcel-plot-roster",
+    "href": "slides/09_create_complex_rosters.html#example-1-parcel-plot-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example 1: Parcel-plot roster",
+    "text": "Example 1: Parcel-plot roster\n\n\n\n\n\n\n\n\n\nParcels may contain 1 or more plots\nParcels are areas with the same management\nPlots are areas with the same cropping pattern"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-2-parcel-plot-crop-roster",
+    "href": "slides/09_create_complex_rosters.html#example-2-parcel-plot-crop-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example 2: Parcel-plot-crop roster",
+    "text": "Example 2: Parcel-plot-crop roster\n\n\n\n\n\n\n\n\n\nParcels may contain 1 or more plots\nPlots may have 1 or more crops planted on it"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#how-to-create",
+    "href": "slides/09_create_complex_rosters.html#how-to-create",
+    "title": "Learning Survey Solutions",
+    "section": "How to create",
+    "text": "How to create\n\n\nVideo\n\n\nCreate a first roster in a section\nCreate a continuation of that roster in another section\nCreate a new roster inside of the continued roster"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#how-to-create-a-parcel-plot-roster",
+    "href": "slides/09_create_complex_rosters.html#how-to-create-a-parcel-plot-roster",
+    "title": "Learning Survey Solutions",
+    "section": "How to create a parcel-plot roster",
+    "text": "How to create a parcel-plot roster\n\n\nTODO: video of creating parcel-plot roster: first parcel roster; then parcel-plot\n\nRight column"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#definition",
+    "href": "slides/09_create_complex_rosters.html#definition",
+    "title": "Learning Survey Solutions",
+    "section": "Definition",
+    "text": "Definition\nSingle logical roster unit divited into pieces because of:\n\nSurvey protocol and/or\nThematic groupings"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#example-how-to-create-a-parcel-plot-roster",
+    "href": "slides/09_create_complex_rosters.html#example-how-to-create-a-parcel-plot-roster",
+    "title": "Learning Survey Solutions",
+    "section": "Example: How to create a parcel-plot roster",
+    "text": "Example: How to create a parcel-plot roster\n\n\nVideo\n\n\nCreate a first roster in a section\nCreate a continuation of that roster in another section\nCreate a new roster inside of the continued roster"
+  },
+  {
+    "objectID": "slides/09_create_complex_rosters.html#definition-1",
+    "href": "slides/09_create_complex_rosters.html#definition-1",
+    "title": "Learning Survey Solutions",
+    "section": "Definition",
+    "text": "Definition\nRoster that:\n\nResults from more than 1 round of enumerating things\nContains row IDs for each round of enumeration"
+  },
+  {
+    "objectID": "assignments/08_create_basic_rosters.html",
+    "href": "assignments/08_create_basic_rosters.html",
+    "title": "Create basic rosters",
+    "section": "",
+    "text": "Understand how to create basic rosters\nBuild two basic rosters that provide a template for many other rosters in PICES"
+  },
+  {
+    "objectID": "assignments/08_create_basic_rosters.html#create-a-household-roster",
+    "href": "assignments/08_create_basic_rosters.html#create-a-household-roster",
+    "title": "Create basic rosters",
+    "section": "1. Create a household roster",
+    "text": "1. Create a household roster\n\nReview the household roster on page 4 of the 2017 APM questionnaire here\nCreate a source question\nCreate a roster that uses that source question\nAdd questions to that roster"
+  },
+  {
+    "objectID": "assignments/08_create_basic_rosters.html#create-durables-roster",
+    "href": "assignments/08_create_basic_rosters.html#create-durables-roster",
+    "title": "Create basic rosters",
+    "section": "2. Create durables roster",
+    "text": "2. Create durables roster\n\nReview the durables roster in the 2023 PICES questionnaire\nCreate a source question\nCreate a roster that uses that source question\nAdd questions to that roster"
+  },
+  {
+    "objectID": "assignments/09_create_complex_rosters.html",
+    "href": "assignments/09_create_complex_rosters.html",
+    "title": "Create complex rosters",
+    "section": "",
+    "text": "Understand how to create complex rosters\nBuild two complex rosters that provide a template for many other rosters in PICES"
+  },
+  {
+    "objectID": "assignments/09_create_complex_rosters.html#modify-the-household-roster",
+    "href": "assignments/09_create_complex_rosters.html#modify-the-household-roster",
+    "title": "Create complex rosters",
+    "section": "1. Modify the household roster",
+    "text": "1. Modify the household roster\n\nReview the household roster on page 4 of the 2017 APM questionnaire here.\nAssume that this roster should be administered in two parts:\n\nFirst, ask questions 2 and 3 for all members\nThen, ask questions 4-6\n\nConsider modifying the roster created in the previous assignment rather than creating a new roster."
+  },
+  {
+    "objectID": "assignments/09_create_complex_rosters.html#create-a-parcel-plot-roster",
+    "href": "assignments/09_create_complex_rosters.html#create-a-parcel-plot-roster",
+    "title": "Create complex rosters",
+    "section": "2. Create a parcel-plot roster",
+    "text": "2. Create a parcel-plot roster\n\nReview the parcel and plot rosters here.\nFor the parcel roster:\n\nReview pages 9 and 7 of the 2017 APM questionnaire\nUse the parcel flap on page 9 and questions 3, 4, and 6 on page 7\n\nFor the plot roster:\n\nReview pages 24 and 10 of the 2017 APM questionnaire\nUse the plot flap on page 24 and questions 1 and 2 on page 10"
+  },
+  {
+    "objectID": "docs/course/06_create_groups.html",
+    "href": "docs/course/06_create_groups.html",
+    "title": "Creating groups (of questions)",
+    "section": "",
+    "text": "Create groups of questions\nMove questions–both within and across groups"
+  },
+  {
+    "objectID": "docs/course/06_create_groups.html#slides",
+    "href": "docs/course/06_create_groups.html#slides",
+    "title": "Creating groups (of questions)",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "docs/course/06_create_groups.html#assignment",
+    "href": "docs/course/06_create_groups.html#assignment",
     "title": "Creating groups (of questions)",
     "section": " Assignment",
     "text": "Assignment\nMove the housing module questions both into a new section and into sub-sections within that section. See here."
