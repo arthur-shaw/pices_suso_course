@@ -1,0 +1,326 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/create_groups.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# `r fontawesome::fa(name = "table")` Creating basic rosters {background-color=var(--suso)}
+
+# Basics {background-color=var(--s1)}
+
+## How to think about rosters {.t1}
+
+<!-- list -->
+
+## Example 1: household composition {.t1}
+
+![](assets/08/roster_list.png){fig-align="center"}
+
+<!-- multi-select y/n -->
+
+## Example 2: asset ownership {.t1}
+
+![](assets/08/roster_yn.png){fig-align="center"}
+
+<!-- number -->
+
+## Example 3: agriculture labor {.t1}
+
+![](assets/08/roster_number.png){fig-align="center"}
+
+
+## Create a roster in Designer {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/08/create_roster.mp4)
+
+:::
+
+::: {.column width="30%"}
+
+- Create source question
+- <details><summary>Create roster</summary>
+    - Select type (of source question)
+    - Provide variable name (ID)
+    - Provide name (name)
+    - Select source question
+    - Select how to display roster rows
+</details>
+
+:::
+
+::::
+
+## Unpacking roster attributes {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/08/roster_attributes.png)
+:::
+
+::: {.column width="50%"}
+
+::: {.box .box-1}
+Roster source
+:::
+
+::: {.box .box-1}
+Roster ID
+:::
+
+::: {.box .box-1}
+Roster name
+:::
+
+::: {.box .box-1}
+Source question
+:::
+
+::: {.box .box-1}
+Display mode
+:::
+
+:::
+
+::::
+
+## Roster source {.t1}
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/08/roster_attributes.png)
+:::
+
+::: {.column width="50%"}
+### What it is
+
+Type of question for roster source
+
+### What it does
+
+- Filters to questions of designated type (e.g., list, multi-select yes/no)
+- Permits easier selection of soure question
+:::
+
+::::
+
+## Roster ID {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/08/roster_attributes.png)
+:::
+
+::: {.column width="50%"}
+
+### What it is
+
+Variable name for the roster
+
+### What it does
+
+- Allows references to roster in conditions
+- Provides name for roster in data export 
+
+:::
+
+::::
+
+
+## Roster name {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/08/roster_attributes.png)
+:::
+
+::: {.column width="50%"}
+### What it is
+
+Template for text on roster row buttons
+
+### What it does
+
+Determines what appears on roster row buttons
+:::
+
+::::
+
+## Source question {.t1}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/08/roster_attributes.png)
+:::
+
+::: {.column width="50%"}
+### What it is
+
+Question that defines a roster.
+
+### What it does
+
+Defines:
+
+- Number of rows (e.g., household members)
+- Content of row titles (e.g., names of members)
+:::
+
+::::
+
+
+## Display mode {.t1}
+
+### By mode
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### `r fontawesome::fa(name = "tablet-screen-button")` CAPI
+
+- Sub-section
+- [Flat](https://docs.mysurvey.solutions/questionnaire-designer/components/plain-roster/) (aka plain mode)
+
+:::
+
+::: {.column width="50%"}
+
+### `r fontawesome::fa(name = "laptop")` CAWI
+
+- [Matrix](https://docs.mysurvey.solutions/release-notes/version-20-01/)
+- [Table](https://docs.mysurvey.solutions/questionnaire-designer/components/table-rosters/)
+
+:::
+
+::::
+
+## Display mode > Sub-section {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/08/display_mode-sub_section.png)
+
+:::
+
+::: {.column width="30%"}
+
+- Default display mode
+- Good for any kind of roster
+- Best for rosters with lots of questions
+:::
+
+::::
+
+## Display mode > Flat {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/08/display_mode-flat.mp4)
+
+:::
+
+::: {.column width="30%"}
+
+- Works best for simple rosters
+- Limited to roster with:
+    - Few items
+    - No nested roster
+
+:::
+
+::::
+
+
+# Text substitution {background-color=var(--s2)}
+
+## Concept {.t2}
+
+![](assets/08/hello_my_name_is.jpg){fig-align="center"}
+
+## Outside of rosters {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/08/text_substitution_outside_roster.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Show the value of one questoin in the text of another variable
+- Construct reference: variable name surrounded by `%` (e.g., `myvar` -> `%myvar%`)
+- See more [here](https://docs.mysurvey.solutions/questionnaire-designer/techniques/text-substitution/).
+
+:::
+
+::::
+
+## Inside of rosters {.t2}
+
+::: {.box .box-2}
+Variable values
+:::
+
+::: {.box .box-2}
+Row names
+:::
+
+## Variable values {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/08/text_substitution-inside_roster_values.mp4)
+:::
+
+::: {.column width="30%"}
+
+- Same approach as outside roster
+- Construct reference
+
+:::
+
+::::
+
+## Row names {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/08/text_substitution-inside_roster_rows.mp4)
+:::
+
+::: {.column width="30%"}
+- References to row names must use keyboards
+- `%rostertitle%` = row names of current roster
+- `%your_roster_variable%` = rows of a specific roster (which could be the current one)
+:::
+
+::::
+
+# Bringing it all together {background-color=var(--s3)}
+
+## Example 1: household members revisited {.t3}
+
+![](assets/08/basic_roster_summary1.mp4){fig-align="center"}
+
+## Exampel 2: asset ownership revisited {.t3}
+
+![](assets/08/basic_roster_summary2.mp4){fig-align="center"}
