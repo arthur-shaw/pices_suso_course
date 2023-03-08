@@ -1,0 +1,23 @@
+---
+title: "Create basic rosters"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Understand how to create basic rosters 
+- Build two basic rosters that provide a template for many other rosters in PICES
+
+## 1. Create a household roster
+
+- Review the household roster on page 4 of the 2017 APM questionnaire [here](/resources/household_roster.pdf)
+- Create a source question
+- Create a roster that uses that source question
+- Add questions to that roster
+
+## 2. Create durables roster
+
+- Review the durables roster in the [2023 PICES questionnaire](/resources/draft_PICES_durables_roster.xlsx)
+- Create a source question
+- Create a roster that uses that source question
+- Add questions to that roster
