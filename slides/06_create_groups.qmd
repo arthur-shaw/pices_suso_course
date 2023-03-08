@@ -24,7 +24,7 @@ format:
 :::
 
 ::: {.column width="70%"}
-![](assets/06/section_toc.png)
+![](assets/06/section_toc.png){fig-align="center"}
 :::
 
 ::::
@@ -47,7 +47,7 @@ format:
 :::
 
 ::: {.column width="70%"}
-![](assets/06/sub-section_apm.png)
+![](assets/06/sub-section_apm.png){fig-align="center"}
 :::
 
 ::::
@@ -57,22 +57,22 @@ format:
 
 ## How they look on paper {.t2}
 
-![](assets/06/section_toc.png)
+![](assets/06/section_toc.png){fig-align="center"}
 
 ## How they look on paper {.t2}
 
-![](assets/06/section_hhroster.png)
+![](assets/06/section_hhroster.png){fig-align="center"}
 
 ## How they look in CAPI {.t2}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](assets/06/section_designer.png)
+![](assets/06/section_designer.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-![](assets/06/section_interviewer.mp4)
+![](assets/06/section_interviewer.mp4){fig-align="center"}
 :::
 
 ::::
@@ -83,7 +83,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="80%"}
-![](assets/06/section_create.mp4)
+![](assets/06/section_create.mp4){fig-align="center"}
 :::
 
 ::: {.column width="20%"}
@@ -118,7 +118,7 @@ Consider emojis
 
 ::: {.column width="70%"}
 
-![](assets/06/section_title_make_short.mp4)
+![](assets/06/section_title_make_short.mp4){fig-align="center"}
 
 :::
 
@@ -146,7 +146,7 @@ Consider emojis
 
 ::: {.column width="70%"}
 
-![](assets/06/section_title_use_emoji.mp4)
+![](assets/06/section_title_use_emoji.mp4){fig-align="center"}
 
 :::
 
@@ -176,7 +176,7 @@ Move them
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/section_add_questions.mp4)
+![](assets/06/section_add_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -193,7 +193,7 @@ Move them
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/move_question_to_section.mp4)
+![](assets/06/move_question_to_section.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -209,22 +209,22 @@ Move them
 
 ## How they look on paper {.t3}
 
-![](assets/06/sub-section_employment.mp4)
+![](assets/06/sub-section_employment.mp4){fig-align="center"}
 
 ## How they look on paper {.t3}
 
-![](assets/06/sub-section_food.mp4)
+![](assets/06/sub-section_food.mp4){fig-align="center"}
 
 ## How they look in CAPI {.t3}
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](assets/06/sub-section_designer.png)
+![](assets/06/sub-section_designer.png){fig-align="center"}
 :::
 
 ::: {.column width="50%"}
-![](assets/06/sub-section_interviewer.mp4)
+![](assets/06/sub-section_interviewer.mp4){fig-align="center"}
 :::
 
 ::::
@@ -234,7 +234,7 @@ Move them
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/sub-section_create.mp4)
+![](assets/06/sub-section_create.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -259,7 +259,7 @@ Move them there
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/sub-section_create_question.mp4)
+![](assets/06/sub-section_create_question.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -274,7 +274,7 @@ Move them there
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/sub-section_move_questions.mp4)
+![](assets/06/sub-section_move_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}

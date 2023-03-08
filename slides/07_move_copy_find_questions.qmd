@@ -18,7 +18,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/move_questions.mp4)
+![](assets/07/move_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -34,7 +34,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/06/move_question_to_section.mp4)
+![](assets/06/move_question_to_section.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -53,7 +53,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/copy-paste_questions.mp4)
+![](assets/07/copy-paste_questions.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -71,7 +71,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/copy-paste_between_qnrs.mp4)
+![](assets/07/copy-paste_between_qnrs.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -99,7 +99,7 @@ Dependencies
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/warning_duplicates.mp4)
+![](assets/07/warning_duplicates.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -123,7 +123,7 @@ Dependencies
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/warning_dependencies.mp4)
+![](assets/07/warning_dependencies.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -140,7 +140,7 @@ Dependencies
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/find_question_in_section.mp4)
+![](assets/07/find_question_in_section.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
@@ -156,7 +156,7 @@ Dependencies
 :::: {.columns}
 
 ::: {.column width="70%"}
-![](assets/07/search_question_in_qnr.mp4)
+![](assets/07/search_question_in_qnr.mp4){fig-align="center"}
 :::
 
 ::: {.column width="30%"}
