@@ -22,8 +22,11 @@ website:
         icon: "mortarboard"
         href: course/01_course_overview.qmd
       - text: "Assignments"
+        icon: "journal-code"
         file: assignments/01_get_oriented.qmd
-      - resources.qmd
+      - text: "Resources"
+        icon: "book"
+        href: resources.qmd
       - text: "Slack"
         icon: "slack"
         href: "https://zimstat-pices.slack.com"
