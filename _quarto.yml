@@ -68,6 +68,8 @@ website:
           - assignments/03_designer_intro.qmd
           - assignments/05_create_basic_questionnaire.qmd
           - assignments/06_create_groups.qmd
+          - assignments/08_create_basic_rosters.qmd
+          - assignments/09_create_complex_rosters.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
