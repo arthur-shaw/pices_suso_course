@@ -1,0 +1,27 @@
+---
+title: "Create complex rosters"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Understand how to create complex rosters 
+- Build two complex rosters that provide a template for many other rosters in PICES
+
+## 1. Modify the household roster
+
+- Review the household roster on page 4 of the 2017 APM questionnaire [here](/resources/household_roster.pdf).
+- Assume that this roster should be administered in two parts:
+    - First, ask questions 2 and 3 for all members
+    - Then, ask questions 4-6
+- Consider modifying the roster created in the previous assignment rather than creating a new roster.
+
+## 2. Create a parcel-plot roster
+
+- Review the parcel and plot rosters [here](/resources/parcel_plot_roster.pdf).
+- For the parcel roster:
+    - Review pages 9 and 7 of the 2017 APM questionnaire
+    - Use the parcel flap on page 9 and questions 3, 4, and 6 on page 7
+- For the plot roster:
+    - Review pages 24 and 10 of the 2017 APM questionnaire
+    - Use the plot flap on page 24 and questions 1 and 2 on page 10
