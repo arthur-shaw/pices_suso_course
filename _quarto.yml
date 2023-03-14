@@ -51,6 +51,7 @@ website:
           - course/04_question_types.qmd
           - course/05_create_basic_questionnaire.qmd
           - course/06_create_groups.qmd
+          - course/10_conditions_intro.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
@@ -73,6 +74,7 @@ website:
           - assignments/06_create_groups.qmd
           - assignments/08_create_basic_rosters.qmd
           - assignments/09_create_complex_rosters.qmd
+          - assignments/10_conditions_intro.qmd
         - section: "Improve a questionnaire"
         - section: "Prepare the server"
         - section: "Make assignments"
