@@ -1,0 +1,641 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/create_groups.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# `r fontawesome::fa(name = "laptop-code")` Conditions: an introduction {background-color=var(--suso)}
+
+# What do conditions do {background-color=var(--s1)}
+
+## In CSPro {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/10/conditions_CSPro.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Scope
+
+- Where focus goes next
+- Whether answers make sense
+- What mode of data entry
+- How data are exported
+
+:::
+
+::::
+
+## In Survey Solutions {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/10/conditions_SuSo_ex1.png){fig-align="center"}
+
+:::{.fragment}
+![](assets/10/conditions_SuSo_ex2.png){fig-align="center"}
+:::
+
+:::
+
+::: {.column width="30%"}
+
+### Scope
+
+- When questions should be asked
+- Whether answers make sense
+- Whether answer options are shown
+- What value variables take on
+- ~~What mode of data entry~~
+- ~~How data are exported~~
+
+:::
+
+::::
+
+# Enabling conditions {background-color=var(--s2)}
+
+## What they do {.t2}
+
+![](assets/10/enablement_what_they_do.mp4){fig-align="center"}
+
+## Where to put them {.t2}
+
+![](assets/10/enablement_where_to_put.mp4){fig-align="center"}
+
+## How they work {.t2}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/enablement_what_they_do.mp4){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+### Condition
+
+```{c#}
+// enabled only if attended a training
+attended == 1
+```
+
+### Behavior
+
+- Depends on a logical condition
+- If true, enable
+- If false (or null), disable
+- (If no condition, enabled by default)
+
+:::
+
+::::
+
+## Where they work {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/10/enablement_where_work.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### Where enablements can be written
+
+- Sections
+- Sub-sections
+- Roster rows^[To be covered in detail next lesson]
+- Questions
+- Static texts
+
+:::
+
+::::
+
+
+
+## How SuSo conditions differe from other CAPI apps {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/10/enablement_diff_where.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- **Where to put it.** Put on question to skip rather than question that triggers the skip.
+
+:::
+
+::::
+
+## How SuSo conditions differe from other CAPI apps {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/10/enablement_diff_where.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Where to put it.** Put on question to skip rather than question that triggers the skip.
+- **What to expect as return value.** Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X).
+
+:::
+
+::::
+
+## How SuSo conditions differ from other CAPI apps {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/10/enablement_where_to_put.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- **Where to put it.** Put on question to skip rather than question that triggers the skip.
+- **What to expect as return value.** Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X).
+- **When evaluated.** Evaluated continously throughout data entry session, with some default values.
+
+:::
+
+::::
+
+
+# Validation conditions {background-color=var(--s3)}
+
+## What they do {.t3}
+
+![](assets/10/validation_what_they_do.mp4){fig-align="center"}
+
+## Where to put them {.t3}
+
+![](assets/10/validation_where_to_put.mp4){fig-align="center"}
+
+## How they work {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/validation_what_they_do.mp4){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+### Condition
+
+```{c#}
+// no more than 2 sessions are possible
+self <= 2
+```
+
+### Behavior
+
+- Depends on a logical condition
+- If true, valid answer -> nothing happens
+- If false, invalide answer -> message and change in UI
+- (If no condition, valid by default)
+
+:::
+
+::::
+
+## Where they work {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+
+![](assets/10/validation_where_work.mp4){fig-align="center"}
+
+:::
+
+::: {.column width="30%"}
+
+### Where validations can be written
+
+- Questions
+- Static texts
+
+:::
+
+::::
+
+
+## How Survey Solutions differs from other CAPI apps {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+```{c#}
+// no more than 2 sessions are possible
+self <= 2
+```
+
+:::
+
+::: {.column width="50%"}
+
+- **Describe valid answers.** Not invalid answers. Think `assert` in Stata.
+
+:::
+
+::::
+
+## How Survey Solutions differs from other CAPI apps {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/validation_message.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+- **Describe valid answers.** Not invalid answers. Think `assert` in Stata.
+- **No need to search for message.** Messages are local to validations, not global to the application.
+
+:::
+
+::::
+
+## How Survey Solutions differs from other CAPI apps {.t3}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/validation_what_they_do.mp4){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+- **Describe valid answers.** Not invalid answers. Think `assert` in Stata.
+- **No need to search for message.** Messages are local to validations, not global to the application.
+- **Impossible to block invalid answers.** Design choice to allow invalid answers and not block fieldwork/data entry. No equivalent of CSPro's `reenter`. But other mechanisms for dealing with invalid answers.
+
+:::
+
+::::
+
+# Syntax {background-color=var(--s4)}
+
+## Basic operators^[See more [here](https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-operators/)] {.t4}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### Relational
+
+- Equal: ==
+- Not-equal: !=
+- And the rest: >, >=, <=, <
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Logical
+
+- And: &&
+- Or: ||
+- Not: !
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Mathematical
+- Add: +
+- Subtract: -
+- Multiply: *
+- Divide: %
+
+:::
+
+::::
+
+## Comments {.t4}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+### Inline
+
+```{c#}
+// this is a comment
+x == 1
+```
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Block
+
+```{c#}
+/* 
+voici 
+un commentaire en
+bloc
+*/
+
+x == 1
+```
+
+:::
+
+::: {.column width="33%" .fragment}
+
+### Both
+
+```{c#}
+/* 
+voici 
+un commentaire en
+bloc
+*/
+
+// voici un autre commentaire
+x == 1
+```
+
+:::
+
+::::
+
+## Commands in general {.t4}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+### Properties
+
+```{c#}
+
+/* 
+Pattern: object.Property
+Note: properties are case-sensitive
+*/
+
+// how long a list is
+my_list.Length
+
+// what the year component of a date is
+my_birthday.Value.Year
+```
+
+:::
+
+::: {.column width="50%" .fragment}
+
+### Methods
+
+```{c#}
+
+/* 
+Pattern: object.Method(args)
+Note: methods:
+- are case-sensitive
+- belong to question (data) types
+*/
+
+// whether single-selecta value lies in a range
+single_select.InRange(1, 5)
+
+// whether option 2 was one of the values selected
+checkbox.Contains(2)
+
+/* invalid methods and their equivalents */
+
+// wrong: single_select.Contains(2)
+// right: single_select == 1 
+
+// wrong: checkbox.InRange(1, 5)
+// right: checkbox.ContainsAny(1, 2, 3, 4, 5)
+```
+
+:::
+
+::::
+
+## Commands per question type {.t4}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](assets/10/question_types.png)
+
+:::
+
+::: {.column width="50%"}
+
+- [Categorical: single-select](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-single-select-questions/)
+- [Categorical: multi-select](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-multi-select-questions/)
+- [Numeric](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-numeric-questions/)
+- [Date](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-date-questions/)
+- [Text](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-text-questions/)
+- [GPS](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-gps-questions/)
+- [List](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-list-questions/)
+- [Barcode](https://support.mysurvey.solutions/syntax-guide/questions/syntax-guide-barcode-questions/)
+- Picture
+- Audio
+- Geography
+
+:::
+
+::::
+
+## Categorical: single-select {.t4}
+
+### Relational
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/single_select_relational.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+```{c#}
+// capture "other" answer if "other (specify)" selected
+q14 == 96
+```
+
+:::
+
+::::
+
+## Categorical: single-select {.t4}
+
+### InRange
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/single_select_inrange.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+```{c#}
+// administer B20 when the household member is married (i.e., answer 1 or 2 to B19)
+hh_b19.InRange(1,2)
+```
+
+:::
+
+::::
+
+## Categorical: single-select {.t4}
+
+### InList
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/single_select_inlist.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+```{c#}
+// enable question 6 when answer is 1, 4, or 5 is chosen for question 4
+ag_q4.InList(1,4,5)
+```
+:::
+
+::::
+
+## Categorical: single-select {.t4}
+
+### IsNoneOf
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/single_select_noneof.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+::: {.fragment}
+With `InRange`, identify those values that enable F13
+
+```{c#}
+// enable F13 if one of these answers selected for F12
+self.InRange(3,10)
+```
+:::
+
+::: {.fragment .type}
+
+With `IsNoneOf`, identify those values that do NOT enable F13
+
+```{c#}
+// enable F13 if no firewood option is chosen for F12
+self.IsNoneOf(1,2)
+```
+
+:::
+
+:::
+
+::::
+
+## Categorical: single-select {.t4}
+
+### Count values
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](assets/10/single_select_countvalues.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+```{c#}
+/* enable the questions after E06_6 if there is at least 1 "yes" answer */
+
+// count the number of "yes" answers, and verify that it is greater than 0
+CountValue(1,hh_e06_1,hh_e06_2,hh_e06_3,hh_e06_4,hh_e06_5,hh_e06_6) > 0
+```
+
+::: {.fragment}
+`r fontawesome::fa(name = "lightbulb")` NOTE: This expression might be best used to determine the value of a variable. So let's talk about [variables](https://docs.mysurvey.solutions/questionnaire-designer/components/variables/) (!= questions)...
+:::
+
+:::
+
+::::
+
+# Variables {background-color=var(--s5)}
+
+## What is a variable {.t5}
+
+A few complementary explanations:
+
+- Question answered by a computer rather than interviewer
+- Object whose value is evaluated by an expression
+    - Static expression (e.g., a fixed string value that depends on nothing)
+    - Dynamic expression (e.g., a computation whose values derives from one or more question)
+
+## Why use a variable {.t5}
+
+Many potential reasons:
+
+- Computer can answer questions more reliably than a person (e.g., `ENUMERATOR: CHECK...`)
+- Value of an expression needs to be saved (e.g., randomization)
+- Value of an expression is used in other expressions
+
+## How to create a variable {.t5}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/10/create_variable.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- <details><summary>Create a variable</summary>
+    - Click on `ADD VARIABLE` button or
+    - Right-click and select `Add variable after`
+</details>
+- <details><summary>Select the (data) type</summary>
+    - Boolean
+    - Double
+    - Date/Time
+    - Long integer
+    - String
+</details>
+- Give the usual attributes
+    - Variable name
+    - Variable label
+- Define its value with an expression that yield a value of the expected data type
+- (Optionally) Select whether not to export (default: export)
+:::
+
+::::
+
+## Example: NFE filter {.t5}
+
+![](assets/10/nfe_countvalue_example.mp4){fig-align="center"}
