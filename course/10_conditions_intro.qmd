@@ -1,0 +1,30 @@
+---
+title: "Introduction to conditions"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Get a practical overview of conditions--what they are, what they do, where to use them
+- Learn the basics of condition syntax
+- Learn conditions for single-select categorical questions--the most common use case
+- Learn where to find more for conditions involving other question (data) types
+- Learn about variables
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/10_conditions_intro.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Complete the assignment [here](/assignments/10_conditions_intro.qmd).
+
+This will provide an opportunity to:
+
+- Implement conditions on the housing module
+- Explore conditions for other question (data) types
+
+## `r fontawesome::fa("book")` Resources
+
+- **[C# data types for SuSo questions](https://docs.mysurvey.solutions/syntax-guide/cslanguage/data-types/).** Often, it's useful to understand how SuSo stores/represents answers to its questions. With this knowledge, users can identify C# resources for accomplishing something (e.g., C# documentation, StackOverflow articles, etc.).
+- **[Conditions public app](https://designer.mysurvey.solutions/questionnaire/details/42164a5ad6684b1da41ee66bc0b22a7e/chapter/b0ab3a5b7d8542ff8ebb16f8eb1d1422/group/b0ab3a5b7d8542ff8ebb16f8eb1d1422#shareTab).** Even though it's already part of the assignment above, it's truly worth reviewing to develop familiarity with the conditions for a broader set of question (data) typess.
