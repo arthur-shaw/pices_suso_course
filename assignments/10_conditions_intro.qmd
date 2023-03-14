@@ -1,0 +1,31 @@
+---
+title: "Introduction to conditions"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+
+## 1. Add conditions to the housing module
+
+- Add enablement conditions to implement the skips on paper
+- Add validations, if relevant
+
+For reference, the draft housing module can be found [here](/resources/draft_PICES_housing_module.xlsx).
+
+## 2. Review the conditions app
+
+To get feel for how conditions work for a broader set of question:
+
+- Create your own copy of the public Conditions questionnaire [here](https://designer.mysurvey.solutions/questionnaire/details/42164a5ad6684b1da41ee66bc0b22a7e/chapter/b0ab3a5b7d8542ff8ebb16f8eb1d1422/group/b0ab3a5b7d8542ff8ebb16f8eb1d1422#shareTab).
+- In one browser tab, test the app in one browser tab
+- In another browser tab, meanwhile, inspect the enablement and validation conditions
+
+## 2. Read the documentation other useful question (data) types
+
+To develop a deeper understanding of conditions for types likely useful for HBS, read the documentation below and try to adapt the examples to HBS:
+
+- [Multi-select questions](https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-multi-select-questions/)
+- [Numeric](https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-numeric-questions/)
+- [Text](https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-text-questions/)
+- [List](https://docs.mysurvey.solutions/syntax-guide/questions/syntax-guide-list-questions/)
