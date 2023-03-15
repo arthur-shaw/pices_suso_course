@@ -351,9 +351,9 @@ x == 1
 
 ```{c#}
 /* 
-voici 
-un commentaire en
-bloc
+this
+is a block
+comment
 */
 
 x == 1
@@ -367,9 +367,9 @@ x == 1
 
 ```{c#}
 /* 
-voici 
-un commentaire en
-bloc
+this
+is a block
+comment
 */
 
 // voici un autre commentaire
