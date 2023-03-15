@@ -542,7 +542,7 @@ With `InRange`, identify those values that enable F13
 
 ```{c#}
 // enable F13 if one of these answers selected for F12
-self.InRange(3,10)
+hh_f12.InRange(3,10)
 ```
 :::
 
@@ -552,7 +552,7 @@ With `IsNoneOf`, identify those values that do NOT enable F13
 
 ```{c#}
 // enable F13 if no firewood option is chosen for F12
-self.IsNoneOf(1,2)
+hh_f12.IsNoneOf(1,2)
 ```
 
 :::
