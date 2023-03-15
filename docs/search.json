@@ -1691,7 +1691,7 @@
     "href": "slides/10_conditions_intro.html#how-suso-conditions-differe-from-other-capi-apps-1",
     "title": "Learning Survey Solutions",
     "section": "How SuSo conditions differe from other CAPI apps",
-    "text": "How SuSo conditions differe from other CAPI apps\n\n\n\n\n\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X)."
+    "text": "How SuSo conditions differe from other CAPI apps\n\n\n\n\n\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X)."
   },
   {
     "objectID": "slides/10_conditions_intro.html#how-suso-conditions-differe-from-other-capi-apps-2",
@@ -1747,14 +1747,14 @@
     "href": "slides/10_conditions_intro.html#basic-operators",
     "title": "Learning Survey Solutions",
     "section": "Basic operators1",
-    "text": "Basic operators1\n\n\nRelational\n\nEqual: ==\nNot-equal: !=\nAnd the rest: >, >=, <=, <\n\n\n\nLogical\n\nAnd: &&\nOr: ||\nNot: !\n\n\n\nMathematical\n\nAdd: +\nSubtract: -\nMultiply: *\nDivide: %\n\n\n\nSee more here"
+    "text": "Basic operators1\n\n\nRelational\n\nEqual: ==\nNot-equal: !=\nAnd the rest: >, >=, <=, <\n\n\n\nLogical\n\nAnd: &&\nOr: ||\nNot: !\n\n\n\nMathematical\n\nAdd: +\nSubtract: -\nMultiply: *\nDivide: %\n\n\n\nSee more here. For example, the ternary operator is quite useful."
   },
   {
     "objectID": "slides/10_conditions_intro.html#comments",
     "href": "slides/10_conditions_intro.html#comments",
     "title": "Learning Survey Solutions",
     "section": "Comments",
-    "text": "Comments\n\n\nInline\n// this is a comment\nx == 1\n\n\nBlock\n/* \nvoici \nun commentaire en\nbloc\n*/\n\nx == 1\n\n\nBoth\n/* \nvoici \nun commentaire en\nbloc\n*/\n\n// voici un autre commentaire\nx == 1"
+    "text": "Comments\n\n\nInline\n// this is a comment\nx == 1\n\n\nBlock\n/* \nthis\nis a block\ncomment\n*/\n\nx == 1\n\n\nBoth\n/* \nthis\nis a block\ncomment\n*/\n\n// voici un autre commentaire\nx == 1"
   },
   {
     "objectID": "slides/10_conditions_intro.html#commands",
@@ -1789,7 +1789,7 @@
     "href": "slides/10_conditions_intro.html#categorical-single-select-3",
     "title": "Learning Survey Solutions",
     "section": "Categorical: single-select",
-    "text": "Categorical: single-select\nIsNoneOf\n\n\n\n\n\n\n\n\n\nWith InRange, identify those values that enable F13\n// enable F13 if one of these answers selected for F12\nself.InRange(3,10)\n\n\nWith IsNoneOf, identify those values that do NOT enable F13\n// enable F13 if no firewood option is chosen for F12\nself.IsNoneOf(1,2)"
+    "text": "Categorical: single-select\nIsNoneOf\n\n\n\n\n\n\n\n\n\nWith InRange, identify those values that enable F13\n// enable F13 if one of these answers selected for F12\nhh_f12.InRange(3,10)\n\n\nWith IsNoneOf, identify those values that do NOT enable F13\n// enable F13 if no firewood option is chosen for F12\nhh_f12.IsNoneOf(1,2)"
   },
   {
     "objectID": "slides/10_conditions_intro.html#categorical-single-select-4",
@@ -1838,7 +1838,7 @@
     "href": "slides/10_conditions_intro.html#how-suso-conditions-differ-from-other-capi-apps",
     "title": "Learning Survey Solutions",
     "section": "How SuSo conditions differ from other CAPI apps",
-    "text": "How SuSo conditions differ from other CAPI apps\n\n\n\n\nVideo\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X).\nWhen evaluated. Evaluated continously throughout data entry session, with some default values."
+    "text": "How SuSo conditions differ from other CAPI apps\n\n\n\n\nVideo\n\n\n\n\nWhere to put it. Put on question to skip rather than question that triggers the skip.\nWhat to expect as return value. Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X).\nWhen evaluated. Evaluated continously throughout data entry session, with some default values."
   },
   {
     "objectID": "slides/10_conditions_intro.html#where-they-work",
