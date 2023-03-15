@@ -294,7 +294,7 @@ self <= 2
 
 # Syntax {background-color=var(--s4)}
 
-## Basic operators^[See more [here](https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-operators/)] {.t4}
+## Basic operators^[See more [here](https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-operators/). For example, the [ternary operator](https://docs.mysurvey.solutions/syntax-guide/cslanguage/syntax-guide-operators/#other) is quite useful.] {.t4}
 
 :::: {.columns}
 
