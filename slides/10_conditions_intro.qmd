@@ -151,7 +151,7 @@ attended == 1
 ::: {.column width="30%"}
 
 - **Where to put it.** Put on question to skip rather than question that triggers the skip.
-- **What to expect as return value.** Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X).
+- **What to expect as return value.** Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X).
 
 :::
 
@@ -168,7 +168,7 @@ attended == 1
 ::: {.column width="30%"}
 
 - **Where to put it.** Put on question to skip rather than question that triggers the skip.
-- **What to expect as return value.** Evaluate to TRUE/FASLE rather than an action (e.g., skip to question X).
+- **What to expect as return value.** Evaluate to TRUE/FALSE rather than an action (e.g., skip to question X).
 - **When evaluated.** Evaluated continously throughout data entry session, with some default values.
 
 :::
