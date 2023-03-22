@@ -1,7 +1,7 @@
 ---
 format: 
     revealjs: 
-        theme: [default, assets/core.scss, assets/create_groups.scss]
+        theme: [default, assets/core.scss, assets/conditions_intro.scss]
         height: 900
         width: 1600
         self-contained: true
