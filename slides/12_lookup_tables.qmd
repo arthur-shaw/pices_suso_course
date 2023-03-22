@@ -1,0 +1,103 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/conditions_intro.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# `r fontawesome::fa(name = "magnifying-glass")` `r fontawesome::fa(name = "table")` Lookup tables {background-color=var(--suso)}
+
+## General syntax {.t1}
+
+`lookup_table.Values.Query(x=>x.var_to_query == 1)`
+
+```{r}
+#| label: lookup table table
+lookup_tbl <- data.frame(
+    item = c(
+        "lookup_table",
+        "Keys, Values",
+        "x",
+        "x.var_to_query"
+    ),
+    explanation = c(
+        "Name of the lookup table",
+        "Component of the lookup table (dictionary) used to query",
+        "Anonymous variable that captures the queried content",
+        "Query variable(s); instance of that (those) variable(s)"
+    )
+)
+
+lookup_tbl |>
+gt::gt() |>
+gt::cols_label(
+    item = "Item",
+    explanation = "Explanation"
+) |>
+gt::tab_options(
+    heading.background.color = "#1c51b7"
+)
+```
+
+## Common queries {.t1}
+
+- **Any** 
+    - **_Explanation:_** At least one element of the collection meets the query criteria.
+    - **_Result:_** `true`/`false`.
+- **FirstOrDefault**
+    - **_Explanation:_** Find the first element that meets the criteria.
+    - **_Result:_** First element found or default (`null`)
+
+## Use case 1: Filter units {.t1}
+
+![](assets/12/filter_units.png){fig-align="center"}
+
+## Use case 1: Filter units {.t1}
+
+```
+
+/* valid consumption units for this product */
+
+// if the product exists in the table...
+valid_unit_sizes_Cereals.Values.Any(x=>
+	x.product_code == @rowcode
+) 
+
+?
+
+// ...then only show units found in the lookup table
+valid_unit_sizes_Cereals.Values.Any(x=>
+	x.product_code == @rowcode && 	// product
+	x.unit_code == @optioncode		// unit
+)
+
+:
+
+// otherwise, show all units
+true
+
+```
+
+## Use case 2: Validations {.t1}
+
+![](assets/12/validate_crop_harvest.png){fig-align="center"}
+
+
+## Use case 2: Validations {.t1}
+
+```
+// Check for outliers using prior data
+(new Func<bool>(() =>
+{
+    // find the lower and upper bounds of the item for that unit
+    var bounds = agc04bounds.Values.FirstOrDefault(x => x.unit == (double) ag_c04b);
+    if (bounds==null) return true;  // Return true if no such unit
+    
+    // determine whether the plot area is within the
+    // 5th and 95th percentile
+    return (ag_c04a.InRange(bounds.lower,bounds.upper));
+})).Invoke()
+
+```
