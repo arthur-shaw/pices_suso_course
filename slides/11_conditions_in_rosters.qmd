@@ -1,0 +1,224 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/conditions_intro.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# Conditions in rosters {background-color=var(--suso)}
+
+# Overview of conditions {background-color=var(--s1)}
+
+## Conditions outside rosters {.t1}
+
+![](assets/11/conditions_vars_at_same_lvl.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/11/conditions_in_roster.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/11/conditions_in_roster_row.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/11/conditions_across_roster_rows.png){fig-align="center"}
+
+## Conditions in rosters {.t1}
+
+![](assets/11/conditions_in_and_across_roster_rows.png){fig-align="center"}
+
+
+# `r fontawesome::fa(name = "left-right")` Conditions in row {background-color=var(--s2)}
+
+## Enabling roster row based on attribute {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/enable_row_based_on_attrib.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Take all members
+- Show only those age >= 10
+
+:::
+
+::::
+
+
+## Enabling roster row based on attribute {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/demo_enable_row_based_on_attrib.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Click on roster
+- Add enablement condition to roster
+- Craft a condition that enables/disables based on attributes 
+
+:::
+
+::::
+
+
+## Enabling based on row number {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/enable_row_based_on_row_number.png){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Capture description of program for `"Other (specify)" (96)`
+- Otherwise, no
+
+:::
+
+::::
+
+
+## Enabling based on row number {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/demo_enable_row_based_on_row_number.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Click on roster
+- Add enablement condition to roster
+- Craft a condition based on `@rowcode`
+:::
+
+::::
+
+# `r fontawesome::fa(name = "up-down")` Conditions across rows {background-color=var(--s3)}
+
+## General syntax {.t3}
+
+`name_of_roster.Query(x=>x.var_to_query==1)`
+
+```{r}
+#| label: query table
+qry_tbl <- data.frame(
+    item = c(
+        "name_of_roster",
+        "Query",
+        "x",
+        "x.var_to_query"
+    ),
+    explanation = c(
+        "Name of the collection to query",
+        "Query operator",
+        "Anonymous variable that captures the queried content",
+        "Query variable(s); instance of that (those) variable(s)"
+    )
+)
+
+qry_tbl |>
+gt::gt() |>
+gt::cols_label(
+    item = "Item",
+    explanation = "Explanation"
+) |>
+gt::tab_options(
+    heading.background.color = "#1c51b7"
+)
+```
+
+## Common queries {.t3}
+
+- **All**
+    - **_Explanation:_** All elements of the collection meet the query criteria
+    - **_Result:_** `true`/`false`.
+- **Any** 
+    - **_Explanation:_** At least one element of the collection meets the query criteria.
+    - **_Result:_** `true`/`false`.
+- **Count**
+    - **_Explanation._** Count the number of elements that meet the criteria
+    - Result. Count.
+- **FirstOrDefault**
+    - **_Explanation:_** Find the first element that meets the criteria.
+    - **_Result:_** First element found or default (`null`)
+
+## Number teas drunk {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/demo_count_rows.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Find teas roster
+- Find question about whether drank yesterday
+- Compose condition about whether any tea drunk yesterday
+:::
+
+::::
+
+## No more than one head {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/demo_only_one_head.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- If member is head, confirm count of heads == 1
+- Otherwise, OK
+
+:::
+
+::::
+
+## Age of child relative to head {.t3}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/11/demo_age_difference.mp4)
+:::
+
+::: {.column width="30%"}
+
+- **Case 1:** if head, then no child w/ age diff < 13
+- **Case 2:** if child, then no head w/ age diff < 13
+- **Case 3:** if neither head nor child, OK
+
+:::
+
+::::
+
+## Age of child relative to head {.t3}
+
+```
+/* 
+CONFIRM THAT THE AGE DIFFERENCE
+BETWEEN HEAD AND SPOUSE IS APPROPRIATE
+*/ 
+
+// case 1: if head, no child whose age diff is too small
+s02q06 == 1 ? !members.Any(x=>x.s02q06==3 && (s02q08 - x.s02q08) < 13) :
+
+// case 2: if child, no head whose age diff is too small
+s02q06 == 3 ? !members.Any(x=>x.s02q06==1 && (x.s02q08 - s02q08) < 13) :
+
+// case 3: if neither head nor child, OK
+true
+```
