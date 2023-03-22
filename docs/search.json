@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n  \n\n\n    March 22\nLookup tables\n\n\n  \n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -1117,7 +1117,7 @@
     "href": "slides/07_move_copy_find_questions.html#duplicates",
     "title": "Learning Survey Solutions",
     "section": "Duplicates",
-    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\n\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
+    "text": "Duplicates\n\n\n\n\nVideo\n\n\n\nProblem\n\nVariable names are unique IDs\nCompilation error\n\nSolution\n\nNavigate to the pasted question\nChange its variable name"
   },
   {
     "objectID": "slides/07_move_copy_find_questions.html#dependencies",
@@ -1915,6 +1915,167 @@
     "href": "course/10_conditions_intro.html#resources",
     "title": "Introduction to conditions",
     "section": " Resources",
-    "text": "Resources\n\nC# data types for SuSo questions. Often, it’s useful to understand how SuSo stores/represents answers to its questions. With this knowledge, users can identify C# resources for accomplishing something (e.g., C# documentation, StackOverflow articles, etc.)."
+    "text": "Resources\n\nC# data types for SuSo questions. Often, it’s useful to understand how SuSo stores/represents answers to its questions. With this knowledge, users can identify C# resources for accomplishing something (e.g., C# documentation, StackOverflow articles, etc.).\nConditions public app. Even though it’s already part of the assignment above, it’s truly worth reviewing to develop familiarity with the conditions for a broader set of question (data) typess."
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-to-this-point",
+    "href": "slides/11_conditions_in_rosters.html#conditions-to-this-point",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions to this point",
+    "text": "Conditions to this point\n<->"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-in-rosters-1",
+    "href": "slides/11_conditions_in_rosters.html#conditions-in-rosters-1",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions in rosters",
+    "text": "Conditions in rosters"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-in-row-and-across-rows",
+    "href": "slides/11_conditions_in_rosters.html#conditions-in-row-and-across-rows",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions in row and across rows",
+    "text": "Conditions in row and across rows\nTODO: image of both"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#enabling-roster-row-based-on-attribute",
+    "href": "slides/11_conditions_in_rosters.html#enabling-roster-row-based-on-attribute",
+    "title": "Learning Survey Solutions",
+    "section": "Enabling roster row based on attribute",
+    "text": "Enabling roster row based on attribute\n\n\n\n\n\n\n\n\n\nTake all members\nShow only those age >= 10"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#enabling-roster-row-based-on-attribute-1",
+    "href": "slides/11_conditions_in_rosters.html#enabling-roster-row-based-on-attribute-1",
+    "title": "Learning Survey Solutions",
+    "section": "Enabling roster row based on attribute",
+    "text": "Enabling roster row based on attribute\n\n\n\n\nVideo\n\n\n\n\nClick on roster\nAdd enablement condition to roster\nCraft a condition that enables/disables based on attributes"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#enabling-based-on-row-number",
+    "href": "slides/11_conditions_in_rosters.html#enabling-based-on-row-number",
+    "title": "Learning Survey Solutions",
+    "section": "Enabling based on row number",
+    "text": "Enabling based on row number\n\n\n\n\n\n\n\n\n\nCapture description of program for \"Other (specify)\" (96)\nOtherwise, no"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#enabling-based-on-row-number-1",
+    "href": "slides/11_conditions_in_rosters.html#enabling-based-on-row-number-1",
+    "title": "Learning Survey Solutions",
+    "section": "Enabling based on row number",
+    "text": "Enabling based on row number\n\n\n\n\nVideo\n\n\n\n\nClick on roster\nAdd enablement condition to roster\nCraft a condition based on @rowcode"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#general-syntax",
+    "href": "slides/11_conditions_in_rosters.html#general-syntax",
+    "title": "Learning Survey Solutions",
+    "section": "General syntax",
+    "text": "General syntax\nname_of_roster.Query(x=>x.var_to_query==1)\n\n\n\n\n\n\n  \n  \n    \n      Item\n      Explanation\n    \n  \n  \n    name_of_roster\nName of the collection to query\n    Query\nQuery operator\n    x\nAnonymous variable that captures the queried content\n    x.var_to_query\nQuery variable(s); instance of that (those) variable(s)"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#common-queries",
+    "href": "slides/11_conditions_in_rosters.html#common-queries",
+    "title": "Learning Survey Solutions",
+    "section": "Common queries",
+    "text": "Common queries\n\nAll\n\nExplanation: All elements of the collection meet the query criteria\nResult: true/false.\n\nAny\n\nExplanation: At least one element of the collection meets the query criteria.\nResult: true/false.\n\nCount\n\nExplanation. Count the number of elements that meet the criteria\nResult. Count.\n\nFirstOrDefault\n\nExplanation: Find the first element that meets the criteria.\nResult: First element found or default (null)"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#number-teas-drunk",
+    "href": "slides/11_conditions_in_rosters.html#number-teas-drunk",
+    "title": "Learning Survey Solutions",
+    "section": "Number teas drunk",
+    "text": "Number teas drunk\n\n\n\n\nVideo\n\n\n\n\nFind teas roster\nFind question about whether drank yesterday\nCompose condition about whether any tea drunk yesterday"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#no-more-than-one-head",
+    "href": "slides/11_conditions_in_rosters.html#no-more-than-one-head",
+    "title": "Learning Survey Solutions",
+    "section": "No more than one head",
+    "text": "No more than one head\n\n\n\n\nVideo\n\n\n\n\nIf member is head, confirm count of heads == 1\nOtherwise, OK"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#age-of-child-relative-to-head",
+    "href": "slides/11_conditions_in_rosters.html#age-of-child-relative-to-head",
+    "title": "Learning Survey Solutions",
+    "section": "Age of child relative to head",
+    "text": "Age of child relative to head\n\n\nVideo\n\n\nCase 1: if head, then no child w/ age diff < 13\nCase 2: if child, then no head w/ age diff < 13\nCase 3: if neither head nor child, OK"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#age-of-child-relative-to-head-1",
+    "href": "slides/11_conditions_in_rosters.html#age-of-child-relative-to-head-1",
+    "title": "Learning Survey Solutions",
+    "section": "Age of child relative to head",
+    "text": "Age of child relative to head\n/* \nCONFIRM THAT THE AGE DIFFERENCE\nBETWEEN HEAD AND SPOUSE IS APPROPRIATE\n*/ \n\n// case 1: if head, no child whose age diff is too small\ns02q06 == 1 ? !members.Any(x=>x.s02q06==3 && (s02q08 - x.s02q08) < 13) :\n\n// case 2: if child, no head whose age diff is too small\ns02q06 == 3 ? !members.Any(x=>x.s02q06==1 && (x.s02q08 - s02q08) < 13) :\n\n// case 3: if neither head nor child, OK\ntrue"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-outside-rosters",
+    "href": "slides/11_conditions_in_rosters.html#conditions-outside-rosters",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions outside rosters",
+    "text": "Conditions outside rosters"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-in-rosters-2",
+    "href": "slides/11_conditions_in_rosters.html#conditions-in-rosters-2",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions in rosters",
+    "text": "Conditions in rosters"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-in-rosters-3",
+    "href": "slides/11_conditions_in_rosters.html#conditions-in-rosters-3",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions in rosters",
+    "text": "Conditions in rosters"
+  },
+  {
+    "objectID": "slides/11_conditions_in_rosters.html#conditions-in-rosters-4",
+    "href": "slides/11_conditions_in_rosters.html#conditions-in-rosters-4",
+    "title": "Learning Survey Solutions",
+    "section": "Conditions in rosters",
+    "text": "Conditions in rosters"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#general-syntax",
+    "href": "slides/12_lookup_tables.html#general-syntax",
+    "title": "Learning Survey Solutions",
+    "section": "General syntax",
+    "text": "General syntax\nlookup_table.Values.Query(x=>x.var_to_query == 1)\n\n\n\n\n\n\n  \n  \n    \n      Item\n      Explanation\n    \n  \n  \n    lookup_table\nName of the lookup table\n    Keys, Values\nComponent of the lookup table (dictionary) used to query\n    x\nAnonymous variable that captures the queried content\n    x.var_to_query\nQuery variable(s); instance of that (those) variable(s)"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#use-case-1-filter-units",
+    "href": "slides/12_lookup_tables.html#use-case-1-filter-units",
+    "title": "Learning Survey Solutions",
+    "section": "Use case 1: Filter units",
+    "text": "Use case 1: Filter units"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#use-case-2-validations",
+    "href": "slides/12_lookup_tables.html#use-case-2-validations",
+    "title": "Learning Survey Solutions",
+    "section": "Use case 2: Validations",
+    "text": "Use case 2: Validations"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#use-case-1-filter-units-1",
+    "href": "slides/12_lookup_tables.html#use-case-1-filter-units-1",
+    "title": "Learning Survey Solutions",
+    "section": "Use case 1: Filter units",
+    "text": "Use case 1: Filter units\n\n/* valid consumption units for this product */\n\n// if the product exists in the table...\nvalid_unit_sizes_Cereals.Values.Any(x=>\n    x.product_code == @rowcode\n) \n\n?\n\n// ...then only show units found in the lookup table\nvalid_unit_sizes_Cereals.Values.Any(x=>\n    x.product_code == @rowcode &&   // product\n    x.unit_code == @optioncode      // unit\n)\n\n:\n\n// otherwise, show all units\ntrue"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#use-case-2-validations-1",
+    "href": "slides/12_lookup_tables.html#use-case-2-validations-1",
+    "title": "Learning Survey Solutions",
+    "section": "Use case 2: Validations",
+    "text": "Use case 2: Validations\n// Check for outliers using prior data\n(new Func<bool>(() =>\n{\n    // find the lower and upper bounds of the item for that unit\n    var bounds = agc04bounds.Values.FirstOrDefault(x => x.unit == (double) ag_c04b);\n    if (bounds==null) return true;  // Return true if no such unit\n    \n    // determine whether the plot area is within the\n    // 5th and 95th percentile\n    return (ag_c04a.InRange(bounds.lower,bounds.upper));\n})).Invoke()"
+  },
+  {
+    "objectID": "slides/12_lookup_tables.html#common-queries",
+    "href": "slides/12_lookup_tables.html#common-queries",
+    "title": "Learning Survey Solutions",
+    "section": "Common queries",
+    "text": "Common queries\n\nAny\n\nExplanation: At least one element of the collection meets the query criteria.\nResult: true/false.\n\nFirstOrDefault\n\nExplanation: Find the first element that meets the criteria.\nResult: First element found or default (null)"
   }
 ]
