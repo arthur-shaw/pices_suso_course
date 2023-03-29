@@ -1,0 +1,23 @@
+---
+title: "Design for UX / survey protocol"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Learn how to improve readability of CAPI app
+- Learn how to align CAPI app with survey administration protocols--particularly for rosters
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/13_design_for_ux_protocol.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+Apply the tips from this lesson to the assets roster. See more in the assignment [here](/assignments/13_design_for_ux_protocol.qmd).
+
+## `r fontawesome::fa("book")` Resources
+
+- **See which HTML tags are available.** Read [this knowledge article](https://docs.mysurvey.solutions/questionnaire-designer/techniques/formatting-text/)
+- **See how links work.** Read [this knowledge article](https://docs.mysurvey.solutions/questionnaire-designer/components/questionnaire-hyperlinks/)
+- **See how these features work in a questionnaire.** Navigate to [this public questionnaire](https://designer.mysurvey.solutions/questionnaire/details/953faa24e13144ac984e1ad62593aab5). In one tab, fill out the questionnaire. In another, inspect the code. Public questionnaire that demonstrates many of these concepts.
