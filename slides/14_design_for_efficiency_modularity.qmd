@@ -9,9 +9,48 @@ format:
 
 # Design for efficiency/modularity {background-color=var(--suso)}
 
-# Macros `r fontawesome::fa(name = "code")` {background-color=var(--s1)}
+# Reusable categories `r fontawesome::fa(name = "clipboard-question")` {background-color=var(--s1)}
 
-## What {.t1}
+## Normally, categories defined manually {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/categories_motivation.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Add answer options for a given question
+- Save
+- Repeat for other questions--even if answer options are the same
+
+:::
+
+::::
+
+## However, can define categories and reuse them {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/categories_demo.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Open categories pane
+- Create categories
+- Edit content
+- Select reusable category for questions, where appropriate
+
+:::
+
+::::
+
+# Macros `r fontawesome::fa(name = "code")` {background-color=var(--s2)}
+
+## What {.t2}
 
 :::: {.columns}
 
@@ -28,7 +67,7 @@ format:
 
 ::::
 
-## Where use {.t1}
+## Where use {.t2}
 
 :::: {.columns}
 
@@ -48,9 +87,9 @@ format:
 
 ::::
 
-# Variables `r fontawesome::fa(name = "laptop-code")` {background-color=var(--s2)}
+# Variables `r fontawesome::fa(name = "laptop-code")` {background-color=var(--s3)}
 
-## What {.t2}
+## What {.t3}
 
 :::: {.columns}
 
@@ -68,7 +107,7 @@ format:
 
 ::::
 
-## Where use {.t2}
+## Where use {.t3}
 
 :::: {.columns}
 
@@ -87,7 +126,14 @@ format:
 
 ::::
 
-# Lookup tables `r fontawesome::fa(name = "table")` {background-color=var(--s3)}
+# Lookup tables `r fontawesome::fa(name = "table")` {background-color=var(--s4)}
 
-## See Lookup tables {.s3}
+## What {.t4}
 
+See the lookup tables section of the conditions in rosters slides
+
+## Where use {.t4}
+
+- Anticipate changes (e.g., ag yields that may change over time)
+- Use ranges across several surveys (e.g., consumption units common to all survey swith consumption modules)
+- Replace long if-then-else chains in conditions
