@@ -1,0 +1,21 @@
+---
+title: "Design for efficiency / modularity"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/14_design_for_efficiency_modularity.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+- Create a reusable category called `yes_no`
+- Populate it with `Yes...1` and `No...2`
+- Select this reusable option everywhere yes/no is manually defined as answer options
+
+## `r fontawesome::fa("book")` Resources
+
+- **See how macros work.** Read [this knowledge article](https://docs.mysurvey.solutions/questionnaire-designer/toolbar/macros/).
+- **Review how variables work.** Read [this knowledge article](https://docs.mysurvey.solutions/questionnaire-designer/toolbar/macros/).
