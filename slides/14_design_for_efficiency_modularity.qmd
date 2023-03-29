@@ -1,0 +1,93 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/design_for_ux_protocol.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# Design for efficiency/modularity {background-color=var(--suso)}
+
+# Macros `r fontawesome::fa(name = "code")` {background-color=var(--s1)}
+
+## What {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/macros_explained.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Code in an object whose contents are copied where invoked
+- Think Stata macros
+
+:::
+
+::::
+
+## Where use {.t1}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/macros_example.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Things that repeat
+
+- Don't repeat yourself (DRY)
+- Widely used validations
+- Frequently used enablements
+
+:::
+
+::::
+
+# Variables `r fontawesome::fa(name = "laptop-code")` {background-color=var(--s2)}
+
+## What {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/variables_explained.mp4)
+:::
+
+::: {.column width="30%"}
+
+- Can be used to capture constants
+- Years
+- Recall periods
+
+:::
+
+::::
+
+## Where use {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/14/variables_example.mp4)
+:::
+
+::: {.column width="30%"}
+
+### Things that change
+
+- Recall periods
+- Years
+
+:::
+
+::::
+
+# Lookup tables `r fontawesome::fa(name = "table")` {background-color=var(--s3)}
+
+## See Lookup tables {.s3}
+
