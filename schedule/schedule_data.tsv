@@ -11,8 +11,8 @@ Create a questionnaire	March 8	Creating complex rosters		/slides/09_create_compl
 Create a questionnaire	March 15	Introduction to conditions	/course/10_conditions_intro.qmd	/slides/10_conditions_intro.html	/assignments/10_conditions_intro.qmd
 Create a questionnaire	March 22	Conditions in rosters		/slides/11_conditions_in_rosters.html
 Create a questionnaire	March 22	Lookup tables		/slides/12_lookup_tables.html
-Improve a questionnaire	March 29	Design for UX/survey protocol			
-Improve a questionnaire	March 29	Design for efficiency/modularity			
+Improve a questionnaire	March 29	Design for UX/survey protocol	/course/13_design_for_ux_protocol.qmd	/slides/13_design_for_ux_protocol.html	/assignments/13_design_for_ux_protocol.qmd
+Improve a questionnaire	March 29	Design for efficiency/modularity	/course/14_design_for_efficiency_modularity.qmd	/slides/14_design_for_efficiency_modularity.html	
 Improve a questionnaire	April 5	Using and managing translations			
 Easter break	April 12				
 Prepare the server	April 19	Setting up a server instance			
