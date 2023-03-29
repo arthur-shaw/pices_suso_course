@@ -1,0 +1,39 @@
+:root {
+    --suso: #1c51b7;
+    --s1: #170C3AFF; 
+    --s2: #86216BFF; 
+    --s3: #E65D30FF; 
+    --s4: #F6D645FF; 
+}
+
+/*-- scss:rules --*/
+
+/* Titles */
+
+.suso h2 {
+    background-color: var(--suso);
+}
+.t1 h2 {
+    background-color: var(--s1);
+}
+.t2 h2 {
+    background-color: var(--s2);
+}
+.t3 h2 {
+    background-color: var(--s3);
+}
+.t4 h2 {
+    background-color: var(--s4);
+}
+
+/* Question boxes */ 
+
+.question {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 10px 5px 5px lightgray;
+    padding-left: 2px;
+    padding-right: 2px;
+    overflow-wrap: break-word;
+}
