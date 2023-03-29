@@ -1,0 +1,26 @@
+---
+title: "Design for UX/survey protocol"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+## 0. Update the durables module
+
+In the [basic rosters assignment](/assignments/08_create_basic_rosters.qmd), you created an asset roster. In this assignment, make changes to that application to reflect what you've learned in this lesson/.
+
+## 1. Add colors
+
+- Identify the key parts of questions
+- Apply color to the text with HTML tags
+
+## 2. Add spaces
+
+- Identify questions with notes at the bottom of the question text (e.g., `NUMBER OF ITEMS`, `VALUE`, `NUMBER OF YEARS`, etc.)
+- Add space between the main question text and these notes using HTML tags
+
+## 3. Change design to align with survey protocol
+
+- Notice that this section (implicitly) expects that question 1 (whether ITEM is owned) is meant to be asked for all items before detailed quesstions are asked about owned items (i.e., questions 2-7)
+- Create 1 section for the question 1
+- Create another section for the assets roster
