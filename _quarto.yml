@@ -53,6 +53,9 @@ website:
           - course/06_create_groups.qmd
           - course/10_conditions_intro.qmd
         - section: "Improve a questionnaire"
+          contents: 
+          - course/13_design_for_ux_protocol.qmd
+          - course/14_design_for_efficiency_modularity.qmd
         - section: "Prepare the server"
         - section: "Make assignments"
         - section: "Prepare devices"
@@ -76,6 +79,8 @@ website:
           - assignments/09_create_complex_rosters.qmd
           - assignments/10_conditions_intro.qmd
         - section: "Improve a questionnaire"
+          contents: 
+          - assignments/13_design_for_ux_protocol.qmd
         - section: "Prepare the server"
         - section: "Make assignments"
         - section: "Prepare devices"
