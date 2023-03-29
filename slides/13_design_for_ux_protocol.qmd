@@ -386,7 +386,7 @@ DESCRIBE IN A FEW WORDS E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.
 
 # Integrate links `r fontawesome::fa(name = "link")` {background-color=var(--s3)}
 
-## Add links to validation messages
+## Add links to validation messages {.t3}
 
 ![](assets/13/links_in_validation_messages.mp4){fig-align="center"}
 
@@ -396,6 +396,6 @@ DESCRIBE IN A FEW WORDS E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.
 
 ![](assets/13/order_matters.png){fig-align="center"}
 
-## First, enumerate; then, collect details
+## First, enumerate; then, collect details {.t4}
 
 ![](assets/13/first-enumerate_then-details.mp4){fig-align="center"}
