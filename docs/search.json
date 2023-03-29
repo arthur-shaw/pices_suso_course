@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n  \n\n\n    March 22\nLookup tables\n\n\n  \n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n\n\n    March 29\nDesign for efficiency/modularity\n\n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n  \n\n\n    March 22\nLookup tables\n\n\n  \n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n  \n\n\n  \n\n\n  \n\n    March 29\nDesign for efficiency/modularity\n\n  \n\n\n  \n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -2077,5 +2077,250 @@
     "title": "Learning Survey Solutions",
     "section": "Common queries",
     "text": "Common queries\n\nAny\n\nExplanation: At least one element of the collection meets the query criteria.\nResult: true/false.\n\nFirstOrDefault\n\nExplanation: Find the first element that meets the criteria.\nResult: First element found or default (null)"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#markup-with-html-tags",
+    "href": "slides/13_design_for_ux_protocol.html#markup-with-html-tags",
+    "title": "Learning Survey Solutions",
+    "section": "Markup with HTML tags",
+    "text": "Markup with HTML tags\nSee more here"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#color",
+    "href": "slides/13_design_for_ux_protocol.html#color",
+    "title": "Learning Survey Solutions",
+    "section": "Color",
+    "text": "Color\n\nHowKey wordsRecall periodChanging wordsCombinations\n\n\n\n\n<font color = \"blue\">Blue</font>\n<font color = \"#e33d30\">Red<font>\n\nBlue Red\n\n\n\n\n\n\nQuestion\n\nWHAT IS THE MAIN MATERIAL USED FOR THE HOUSE FLOOR?\n\n\nMarkup\n\nWHAT IS THE <font color=\"blue\">MAIN MATERIAL</font> USED FOR THE HOUSE <font color=\"blue\">FLOOR</font>?\n\n\nResult\n\nWHAT IS THE MAIN MATERIAL USED FOR THE HOUSE FLOOR?\n\n\n\n\n\n\n\nQuestion\n\nDuring the past 7 days, did members of your household consume [ITEM] within the household?\n\n\nMarkup\n\nDuring the <font color = \"green\">past 7 days</font>, did members of your household consume [ITEM] within the household?\n\n\nResult\n\nDuring the past 7 days, did members of your household consume [ITEM] within the household?\n\n\n\n\n\n\n\nQuestion\n\nDuring the past 7 days, did members of your household consume [ITEM] within the household?\n\n\nMarkup\n\nDuring the past 7 days, did members of your household consume <font color=\"blue\">[ITEM]</font> within the household?\n\n\nResult\n\nDuring the past 7 days, did members of your household consume [ITEM] within the household?\n\n\n\n\n\n\n\nQuestion\n\nDuring the past 7 days, did members of your household consume ITEM within the household?\n\n\nMarkup\n\nDuring the <font color = \"green\">past 7 days</font>, did members of your household consume <font color=\"red\">[ITEM]</font> within the household?\n\n\nResult\n\nDuring the past 7 days, did members of your household consume [ITEM] within the household?"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#spacing",
+    "href": "slides/13_design_for_ux_protocol.html#spacing",
+    "title": "Learning Survey Solutions",
+    "section": "Spacing",
+    "text": "Spacing\n\nHowUnits/instructionsLong text\n\n\n\n\nLine breaks\nThis is some text\n<br><br>\nSOME TEXT AFTER A SPACE\n\n\nResult\n\nThis is some text  SOME TEXT AFTER A SPACE\n\n\nParagraphs\n<p>This is some paragraph text</p>\n<p>SOME TEST AFTER A SPACE</p>\n\n\nResults\n\nThis is some paragraph text\n\n\nSOME TEST AFTER A SPACE\n\n\n\n\n\n\n\n\n\nWhat is [NAME]’s father’s main occupation ?  DESCRIBE IN A FEW WORDS E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.\n\n\nWhat is [NAME]'s father’s main occupation ?\n<br><br>\nDESCRIBE IN A FEW WORDS E.G. PRIMARY SCHOOL TEACHER, BRICK LAYER, ETC.\n\n\n\n\n\n\n\n\nDid your household purchase materials with the intention of undertaking the maintenance or repair of the household itself in the past 12 months?\n\n\nConsider activities of repair and maintanance that have to be undertaken regularly in order to maintain the dwelling in good working order, that do not change the dwelling’s performance, capacity or expected service life and that, as such, are normally carried out by both owner occupiers and tenants\n\n\n\n<p>Did your household purchase materials with the intention of undertaking the maintenance or repair of the household itself in the past 12 months?</p>\n\n<p>Consider activities of repair and maintanance that have to be undertaken regularly in order to maintain the dwelling in good working order, that do not change the dwelling’s performance, capacity or expected service life and that, as such, are normally carried out by both owner occupiers and tenants</p>"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#emojis-for-glancable-reading",
+    "href": "slides/13_design_for_ux_protocol.html#emojis-for-glancable-reading",
+    "title": "Learning Survey Solutions",
+    "section": "Emojis for glancable reading",
+    "text": "Emojis for glancable reading\n\n\nSection\n\n\n\n\n\n\nSub-section"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#radio-buttons-v.-combo-box",
+    "href": "slides/13_design_for_ux_protocol.html#radio-buttons-v.-combo-box",
+    "title": "Learning Survey Solutions",
+    "section": "Radio buttons v. combo box",
+    "text": "Radio buttons v. combo box"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#radio-buttons-too-long",
+    "href": "slides/13_design_for_ux_protocol.html#radio-buttons-too-long",
+    "title": "Learning Survey Solutions",
+    "section": "Radio buttons too long",
+    "text": "Radio buttons too long\n\n\n\n\nVideo\n\n\n\n\nToo many options\nOccupy most/all of a screen\nEasier to search by typing than scrolling"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#combo-box-too-limiting",
+    "href": "slides/13_design_for_ux_protocol.html#combo-box-too-limiting",
+    "title": "Learning Survey Solutions",
+    "section": "Combo box too limiting",
+    "text": "Combo box too limiting\n\n\n\n\nVideo\n\n\n\n\nInterviewers don’t know list\nInterviewers don’t know to search\nOnly see first 20 options"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#when-to-use",
+    "href": "slides/13_design_for_ux_protocol.html#when-to-use",
+    "title": "Learning Survey Solutions",
+    "section": "When to use",
+    "text": "When to use\n\n\nRadio buttons\n\nLess than 10 answer options\nAnswer list to be read aloud\nAnswer list not known / not amenable to search by typing\n\n\nCombo box\n\nMore than 10 answer options\nInterviewer knows that searching to be done\nAnswer list known / amenable to typing"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#order-of-administration-matters",
+    "href": "slides/13_design_for_ux_protocol.html#order-of-administration-matters",
+    "title": "Learning Survey Solutions",
+    "section": "Order of administration matters",
+    "text": "Order of administration matters"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#add-links-to-validation-messages",
+    "href": "slides/13_design_for_ux_protocol.html#add-links-to-validation-messages",
+    "title": "Learning Survey Solutions",
+    "section": "Add links to validation messages",
+    "text": "Add links to validation messages\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#when-order-matters",
+    "href": "slides/13_design_for_ux_protocol.html#when-order-matters",
+    "title": "Learning Survey Solutions",
+    "section": "When order matters",
+    "text": "When order matters"
+  },
+  {
+    "objectID": "slides/13_design_for_ux_protocol.html#first-enumerate-then-collect-details",
+    "href": "slides/13_design_for_ux_protocol.html#first-enumerate-then-collect-details",
+    "title": "Learning Survey Solutions",
+    "section": "First, enumerate; then, collect details",
+    "text": "First, enumerate; then, collect details\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#what",
+    "href": "slides/14_design_for_efficiency_modularity.html#what",
+    "title": "Learning Survey Solutions",
+    "section": "What",
+    "text": "What\n\n\n\n\nVideo\n\n\n\n\nCode in an object whose contents are copied where invoked\nThink Stata macros"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#where-use",
+    "href": "slides/14_design_for_efficiency_modularity.html#where-use",
+    "title": "Learning Survey Solutions",
+    "section": "Where use",
+    "text": "Where use\n\n\n\n\nVideo\n\n\n\nThings that repeat\n\nDon’t repeat yourself (DRY)\nWidely used validations\nFrequently used enablements"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#what-1",
+    "href": "slides/14_design_for_efficiency_modularity.html#what-1",
+    "title": "Learning Survey Solutions",
+    "section": "What",
+    "text": "What\n\n\nVideo\n\n\nCan be used to capture constants\nYears\nRecall periods"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#where-use-1",
+    "href": "slides/14_design_for_efficiency_modularity.html#where-use-1",
+    "title": "Learning Survey Solutions",
+    "section": "Where use",
+    "text": "Where use\n\n\nVideo\n\nThings that change\n\nRecall periods\nYears"
+  },
+  {
+    "objectID": "course/13_design_for_ux_protocol.html",
+    "href": "course/13_design_for_ux_protocol.html",
+    "title": "Design for UX / survey protocol",
+    "section": "",
+    "text": "Learn how to improve readability of CAPI app\nLearn how to align CAPI app with survey administration protocols–particularly for rosters"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#see-lookup-tables",
+    "href": "slides/14_design_for_efficiency_modularity.html#see-lookup-tables",
+    "title": "Learning Survey Solutions",
+    "section": "See Lookup tables",
+    "text": "See Lookup tables"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#normally-categories-defined-manually",
+    "href": "slides/14_design_for_efficiency_modularity.html#normally-categories-defined-manually",
+    "title": "Learning Survey Solutions",
+    "section": "Normally, categories defined manually",
+    "text": "Normally, categories defined manually\n\n\n\n\nVideo\n\n\n\n\nAdd answer options for a given question\nSave\nRepeat for other questions–even if answer options are the same"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#however-can-define-categories-and-reuse-them",
+    "href": "slides/14_design_for_efficiency_modularity.html#however-can-define-categories-and-reuse-them",
+    "title": "Learning Survey Solutions",
+    "section": "However, can define categories and reuse them",
+    "text": "However, can define categories and reuse them\n\n\n\n\nVideo\n\n\n\n\nOpen categories pane\nCreate categories\nEdit content\nSelect reusable category for questions, where appropriate"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#what-2",
+    "href": "slides/14_design_for_efficiency_modularity.html#what-2",
+    "title": "Learning Survey Solutions",
+    "section": "What",
+    "text": "What\nSee the lookup tables section of the conditions in rosters slides"
+  },
+  {
+    "objectID": "slides/14_design_for_efficiency_modularity.html#where-use-2",
+    "href": "slides/14_design_for_efficiency_modularity.html#where-use-2",
+    "title": "Learning Survey Solutions",
+    "section": "Where use",
+    "text": "Where use\n\nAnticipate changes (e.g., ag yields that may change over time)\nUse ranges across several surveys (e.g., consumption units common to all survey swith consumption modules)\nReplace long if-then-else chains in conditions"
+  },
+  {
+    "objectID": "assignments/13_design_for_ux_protocol.html#update-the-durables-module",
+    "href": "assignments/13_design_for_ux_protocol.html#update-the-durables-module",
+    "title": "Design for UX/survey protocol",
+    "section": "0. Update the durables module",
+    "text": "0. Update the durables module\nIn the basic rosters assignment, you created an asset roster. In this assignment, make changes to that application to reflect what you’ve learned in this lesson/."
+  },
+  {
+    "objectID": "assignments/13_design_for_ux_protocol.html#add-colors",
+    "href": "assignments/13_design_for_ux_protocol.html#add-colors",
+    "title": "Design for UX/survey protocol",
+    "section": "1. Add colors",
+    "text": "1. Add colors\n\nIdentify the key parts of questions\nApply color to the text with HTML tags"
+  },
+  {
+    "objectID": "assignments/13_design_for_ux_protocol.html#add-spaces",
+    "href": "assignments/13_design_for_ux_protocol.html#add-spaces",
+    "title": "Design for UX/survey protocol",
+    "section": "2. Add spaces",
+    "text": "2. Add spaces\n\nIdentify questions with notes at the bottom of the question text (e.g., NUMBER OF ITEMS, VALUE, NUMBER OF YEARS, etc.)\nAdd space between the main question text and these notes using HTML tags"
+  },
+  {
+    "objectID": "assignments/13_design_for_ux_protocol.html#change-design-to-align-with-survey-protocol",
+    "href": "assignments/13_design_for_ux_protocol.html#change-design-to-align-with-survey-protocol",
+    "title": "Design for UX/survey protocol",
+    "section": "3. Change design to align with survey protocol",
+    "text": "3. Change design to align with survey protocol\n\nNotice that this section (implicitly) expects that question 1 (whether ITEM is owned) is meant to be asked for all items before detailed quesstions are asked about owned items (i.e., questions 2-7)\nCreate 1 section for the question 1\nCreate another section for the assets roster"
+  },
+  {
+    "objectID": "course/13_design_for_ux_protocol.html#slides",
+    "href": "course/13_design_for_ux_protocol.html#slides",
+    "title": "Design for UX / survey protocol",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/13_design_for_ux_protocol.html#assignment",
+    "href": "course/13_design_for_ux_protocol.html#assignment",
+    "title": "Design for UX / survey protocol",
+    "section": " Assignment",
+    "text": "Assignment\nApply the tips from this lesson to the assets roster. See more in the assignment here."
+  },
+  {
+    "objectID": "course/13_design_for_ux_protocol.html#resources",
+    "href": "course/13_design_for_ux_protocol.html#resources",
+    "title": "Design for UX / survey protocol",
+    "section": " Resources",
+    "text": "Resources\n\nSee which HTML tags are available. Read this knowledge article\nSee how links work. Read this knowledge article\nSee how these features work in a questionnaire. Navigate to this public questionnaire. In one tab, fill out the questionnaire. In another, inspect the code. Public questionnaire that demonstrates many of these concepts."
+  },
+  {
+    "objectID": "course/14_design_for_efficiency.html#slides",
+    "href": "course/14_design_for_efficiency.html#slides",
+    "title": "Design for efficiency/modularity",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/14_design_for_efficiency.html#assignment",
+    "href": "course/14_design_for_efficiency.html#assignment",
+    "title": "Design for efficiency/modularity",
+    "section": " Assignment",
+    "text": "Assignment\n\nCreate a reusable category called yes_no\nPopulate it with Yes...1 and No...2\nSelect this reusable option everywhere yes/no is manually defined as answer options"
+  },
+  {
+    "objectID": "course/14_design_for_efficiency.html#resources",
+    "href": "course/14_design_for_efficiency.html#resources",
+    "title": "Design for efficiency/modularity",
+    "section": " Resources",
+    "text": "Resources\n\nSee how macros work. Read this knowledge article.\nReview how variables work. Read this knowledge article."
+  },
+  {
+    "objectID": "course/14_design_for_efficiency_modularity.html#slides",
+    "href": "course/14_design_for_efficiency_modularity.html#slides",
+    "title": "Design for efficiency / modularity",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/14_design_for_efficiency_modularity.html#assignment",
+    "href": "course/14_design_for_efficiency_modularity.html#assignment",
+    "title": "Design for efficiency / modularity",
+    "section": " Assignment",
+    "text": "Assignment\n\nCreate a reusable category called yes_no\nPopulate it with Yes...1 and No...2\nSelect this reusable option everywhere yes/no is manually defined as answer options"
+  },
+  {
+    "objectID": "course/14_design_for_efficiency_modularity.html#resources",
+    "href": "course/14_design_for_efficiency_modularity.html#resources",
+    "title": "Design for efficiency / modularity",
+    "section": " Resources",
+    "text": "Resources\n\nSee how macros work. Read this knowledge article.\nReview how variables work. Read this knowledge article."
   }
 ]
