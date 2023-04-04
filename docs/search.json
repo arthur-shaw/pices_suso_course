@@ -158,7 +158,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n  \n  \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n  \n\n\n    March 22\nLookup tables\n\n\n  \n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n  \n\n\n  \n\n\n  \n\n    March 29\nDesign for efficiency/modularity\n\n  \n\n\n  \n\n\n    April 5\nUsing and managing translations\n\n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
+    "text": "Schedule of sessions\n    \n    \n      With links to session pages, slides, and assignments\n    \n    \n      Date\n      Topic\n      Course\n      Slides\n      Assignment\n    \n  \n  \n    \n      Introduction\n    \n    February 15\nOverview of the training\n\n  \n\n\n\n  \n\n    February 15\nOverview of Survey Solutions\n\n  \n\n\n  \n\n\n  \n\n    \n      Create a questionnaire\n    \n    February 15\nGetting started with Designer\n\n  \n\n\n  \n\n\n  \n\n    February 22\nQuestion types\n\n  \n\n\n  \n\n\n    February 22\nCreating a basic questionnaire\n\n  \n\n\n  \n\n\n  \n\n    March 1\nGroups of questions\n\n  \n\n\n  \n\n\n  \n\n    March 1\nMoving/copying questions\n\n\n  \n\n\n    March 8\nCreating basic rosters\n\n\n  \n\n\n  \n\n    March 8\nCreating complex rosters\n\n\n  \n\n\n  \n\n    March 15\nIntroduction to conditions\n\n  \n\n\n  \n\n\n  \n\n    March 22\nConditions in rosters\n\n\n  \n\n\n    March 22\nLookup tables\n\n\n  \n\n\n    \n      Improve a questionnaire\n    \n    March 29\nDesign for UX/survey protocol\n\n  \n\n\n  \n\n\n  \n\n    March 29\nDesign for efficiency/modularity\n\n  \n\n\n  \n\n\n    April 5\nUsing and managing translations\n\n  \n\n\n  \n\n\n    \n      Easter break\n    \n    April 12\nNA\n\n\n\n    \n      Prepare the server\n    \n    April 19\nSetting up a server instance\n\n\n\n    April 26\nPreparing the server\n\n\n\n    \n      Create assignments\n    \n    May 3\nCreate cross-sectional assignments\n\n\n\n    \n      Prepare devices\n    \n    May 10\nSetting up tablets\n\n\n\n    \n      Workshop\n    \n    May 17\nNA\n\n\n\n    May 24\nNA\n\n\n\n    \n      Conduct training\n    \n    May 31\nPedagogical principles, technological tips"
   },
   {
     "objectID": "slides/02_suso_overview.html#components",
@@ -2322,5 +2322,131 @@
     "title": "Design for efficiency / modularity",
     "section": " Resources",
     "text": "Resources\n\nSee how macros work. Read this knowledge article.\nReview how variables work. Read this knowledge article."
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#translations",
+    "href": "slides/15_using_managing_translations.html#translations",
+    "title": "Learning Survey Solutions",
+    "section": "Translations",
+    "text": "Translations\n\n\nVideo"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#overview",
+    "href": "slides/15_using_managing_translations.html#overview",
+    "title": "Learning Survey Solutions",
+    "section": "Overview",
+    "text": "Overview\n\nCreate questionnaire\n\n\nAdd translations\n\n\nChoose the default language"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#create-questionnaire",
+    "href": "slides/15_using_managing_translations.html#create-questionnaire",
+    "title": "Learning Survey Solutions",
+    "section": "Create questionnaire",
+    "text": "Create questionnaire\n\n\n\n\nVideo\n\n\n\n\nAll app text forms the Original language\nOther translations offer substitutions for the Original"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#add-translations",
+    "href": "slides/15_using_managing_translations.html#add-translations",
+    "title": "Learning Survey Solutions",
+    "section": "Add translations",
+    "text": "Add translations\n\nDownload template file\nProvide translations\nUpload translation file"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#download-template-file",
+    "href": "slides/15_using_managing_translations.html#download-template-file",
+    "title": "Learning Survey Solutions",
+    "section": "Download template file",
+    "text": "Download template file\n\n\n\n\nVideo\n\n\n\n\nOpen translations panel\nDownload template"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#tour-of-a-translation-template",
+    "href": "slides/15_using_managing_translations.html#tour-of-a-translation-template",
+    "title": "Learning Survey Solutions",
+    "section": "Tour of a translation template",
+    "text": "Tour of a translation template\n\n\nFile name\n[New translation]Questionnaire_name.xlsx\n\n\nNew translation. Name that will appear in Designer/Interviewer\nQuestionnaire_name. Name of the questionnaire"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#tour-of-a-translation-template-1",
+    "href": "slides/15_using_managing_translations.html#tour-of-a-translation-template-1",
+    "title": "Learning Survey Solutions",
+    "section": "Tour of a translation template",
+    "text": "Tour of a translation template\n\n\n\n\nVideo\n\n\n\nColumns\n\nEntityId is the object.  DO NOT CHANGE THIS\nContextual information.  DO NOT CHANGE THIS EITHER\n\nVariable\nType\nIndex\n\nTranslation.  DO CHANGE THIS: PROVIDE A TRANSLATION"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#tour-of-a-translation-template-2",
+    "href": "slides/15_using_managing_translations.html#tour-of-a-translation-template-2",
+    "title": "Learning Survey Solutions",
+    "section": "Tour of a translation template",
+    "text": "Tour of a translation template\n\n\n\n\nVideo\n\n\n\nTabs\n\nTranslations\n@@_ Combo boxes or long answer sets\n@@@_ Reusable categories"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#provide-translations",
+    "href": "slides/15_using_managing_translations.html#provide-translations",
+    "title": "Learning Survey Solutions",
+    "section": "Provide translations",
+    "text": "Provide translations\n\n\n\n\nVideo\n\n\n\nNote\n\nIf translation is provided, it will be used\nIf not provided, text from Original used intead"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#upload-translation-file",
+    "href": "slides/15_using_managing_translations.html#upload-translation-file",
+    "title": "Learning Survey Solutions",
+    "section": "Upload translation file",
+    "text": "Upload translation file\n\n\n\n\nVideo\n\n\n\n\nOpen translation tab\nUpload file\nReact to any messages (e.g., fewer than expected translations)"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#how-interviewers-experience-translations",
+    "href": "slides/15_using_managing_translations.html#how-interviewers-experience-translations",
+    "title": "Learning Survey Solutions",
+    "section": "How interviewers experience translations",
+    "text": "How interviewers experience translations\n\n\n\n\nVideo\n\n\n\n\nWhen interview opened, default language displayed\nWhen select translation, language in questionnaire changes"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#choose-the-main-language",
+    "href": "slides/15_using_managing_translations.html#choose-the-main-language",
+    "title": "Learning Survey Solutions",
+    "section": "Choose the main language",
+    "text": "Choose the main language\n\n\n\n\nVideo\n\n\n\n\nOriginal chosen by default\nChoose another language if desired\n\nHover over language\nClick on MARK AS DEFAULT LANGUAGE"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#basic-workflow",
+    "href": "slides/15_using_managing_translations.html#basic-workflow",
+    "title": "Learning Survey Solutions",
+    "section": "Basic workflow",
+    "text": "Basic workflow\n\n\n\n\n\n\n\n\n\nCreate one template per target translation\nSend spreadsheet to translator\nProvide instructions on what not to change\nImport completed translation"
+  },
+  {
+    "objectID": "slides/15_using_managing_translations.html#better-workflow",
+    "href": "slides/15_using_managing_translations.html#better-workflow",
+    "title": "Learning Survey Solutions",
+    "section": "Better workflow",
+    "text": "Better workflow\n\n\n\n\n\n\n\n\n\nDownload translation template\nCreate one column per target language\nUpload spreadsheet to file sharing service (e.g., Google Drive, Microsoft 365, OneDrive, Dropbox, etc.)\nProvide translators access to edit that document\nProvide comments and track status\nConvert into one translation file per target language\nImport completed translation"
+  },
+  {
+    "objectID": "course/15_using_managing_translations.html",
+    "href": "course/15_using_managing_translations.html",
+    "title": "Using and managing translations",
+    "section": "",
+    "text": "Understand how Survey Solutions handles translations\nUnderstand how to create, apply, and manage translations"
+  },
+  {
+    "objectID": "course/15_using_managing_translations.html#slides",
+    "href": "course/15_using_managing_translations.html#slides",
+    "title": "Using and managing translations",
+    "section": " Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "course/15_using_managing_translations.html#assignment",
+    "href": "course/15_using_managing_translations.html#assignment",
+    "title": "Using and managing translations",
+    "section": " Assignment",
+    "text": "Assignment\n\nTranslate arbitrary question(s) into a local language\nApply those translations to Survey Solutions"
+  },
+  {
+    "objectID": "course/15_using_managing_translations.html#resources",
+    "href": "course/15_using_managing_translations.html#resources",
+    "title": "Using and managing translations",
+    "section": " Resources",
+    "text": "Resources\n\nScript for managing translations. Description, workflow, and code here."
   }
 ]

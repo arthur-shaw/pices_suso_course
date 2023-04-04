@@ -1,0 +1,22 @@
+---
+title: "Using and managing translations"
+format: html
+---
+
+## `r fontawesome::fa("bullseye")` Objectives
+
+- Understand how Survey Solutions handles translations
+- Understand how to create, apply, and manage translations
+
+## `r fontawesome::fa("person-chalkboard")` Slides
+
+<iframe class = "ratio ratio-16x9" height = 500 src = "/slides/15_using_managing_translations.html"></iframe>
+
+## `r fontawesome::fa("laptop-code")` Assignment
+
+- Translate arbitrary question(s) into a local language
+- Apply those translations to Survey Solutions
+
+## `r fontawesome::fa("book")` Resources
+
+- **Script for managing translations.** Description, workflow, and code [here](https://github.com/andreaskutka/translate_questionnaires).
