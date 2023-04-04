@@ -56,6 +56,7 @@ website:
           contents: 
           - course/13_design_for_ux_protocol.qmd
           - course/14_design_for_efficiency_modularity.qmd
+          - course/15_using_managing_translations.qmd
         - section: "Prepare the server"
         - section: "Make assignments"
         - section: "Prepare devices"
