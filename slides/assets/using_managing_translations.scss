@@ -1,0 +1,41 @@
+:root {
+    --suso: #1c51b7;
+    --s1: #170C3AFF; 
+    --s2: #BB3754FF; 
+    --s3: #F6D645FF; 
+}
+
+/*-- scss:rules --*/
+
+/* Titles */
+
+.suso h2 {
+    background-color: var(--suso);
+}
+.t1 h2 {
+    background-color: var(--s1);
+}
+.t2 h2 {
+    background-color: var(--s2);
+}
+.t3 h2 {
+    background-color: var(--s3);
+}
+
+/* Alerts */ 
+
+.bad {
+    color: red;
+    font-weight: 500;
+}
+
+.good {
+    color: green;
+    font-weight: 500;
+}
+
+/* Boxes */ 
+
+.box-1 {
+    background-color: var(--s2);
+}

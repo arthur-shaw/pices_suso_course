@@ -1,0 +1,247 @@
+---
+format: 
+    revealjs: 
+        theme: [default, assets/core.scss, assets/using_managing_translations.scss]
+        height: 900
+        width: 1600
+        self-contained: true
+---
+
+# Using and managing translations {background-color=var(--suso)}
+
+# `r fontawesome::fa(name = "bullseye")` Objective: Translation(s) {background-color=var(--s1)}
+
+## Translations {.t1}
+
+![](assets/15/translations_in_interviewer.mp4){fig-align="center"}
+
+# `r fontawesome::fa(name = "language")` How to translate {background-color=var(--s2)}
+
+## Overview {.t2}
+
+::: {.box .box-1}
+Create questionnaire
+:::
+
+::: {.box .box-1}
+Add translations
+:::
+
+::: {.box .box-1}
+Choose the default language
+:::
+
+## Create questionnaire {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/questionnaire_as_original_translation.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- All app text forms the `Original` language
+- Other translations offer substitutions for the `Original`
+:::
+
+::::
+
+## Add translations {.t2}
+
+1. Download template file
+2. Provide translations
+3. Upload translation file
+
+## Download template file {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/download_translation_template.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- Open translations panel
+- Download template
+
+:::
+
+::::
+
+## Tour of a translation template {.t2}
+
+:::: {.columns}
+
+
+::: {.column width="70%"}
+
+### File name
+
+`[New translation]Questionnaire_name.xlsx`
+
+:::
+
+::: {.column width="30%"}
+- `New translation`. Name that will appear in Designer/Interviewer
+- `Questionnaire_name`. Name of the questionnaire
+:::
+
+::::
+
+
+## Tour of a translation template {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/translation_tour_main.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Columns
+
+- `EntityId` is the object. [`r fontawesome::fa(name = "triangle-exclamation")` DO NOT CHANGE THIS]{.bad}
+- Contextual information. [`r fontawesome::fa(name = "triangle-exclamation")` DO NOT CHANGE THIS EITHER]{.bad}
+    - `Variable`
+    - `Type`
+    - `Index`
+- `Translation`. [`r fontawesome::fa(name = "thumbs-up")` DO CHANGE THIS: PROVIDE A TRANSLATION]{.ok}
+
+:::
+
+::::
+
+## Tour of a translation template {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/translation_tour_tabs.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Tabs
+
+- `Translations`
+- `@@_` Combo boxes or long answer sets
+- `@@@_` Reusable categories
+
+:::
+
+::::
+
+## Provide translations {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/provide_translations.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+### Note
+
+- If translation is provided, it will be used
+- If not provided, text from `Original` used intead
+
+:::
+
+::::
+
+## Upload translation file {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/upload_translations.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- Open translation tab
+- Upload file
+- React to any messages (e.g., fewer than expected translations)
+:::
+
+::::
+
+## How interviewers experience translations {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/translations_in_interviewer.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+
+- When interview opened, default language displayed
+- When select translation, language in questionnaire changes
+
+:::
+
+::::
+
+## Choose the main language {.t2}
+
+:::: {.columns}
+
+::: {.column width="70%"}
+![](assets/15/choose_default_language.mp4){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+- `Original` chosen by default
+- Choose another language if desired
+    - Hover over language
+    - Click on `MARK AS DEFAULT LANGUAGE`
+:::
+
+::::
+
+# `r fontawesome::fa(name = "list-check")` How to manage translations {background-color=var(--s3)}
+
+## Basic workflow {.t3}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](assets/15/translation_file.png){fig-align="center"}
+:::
+
+::: {.column width="40%"}
+
+1. Create one template per target translation
+1. Send spreadsheet to translator
+1. Provide instructions on what not to change
+1. Import completed translation
+
+:::
+
+::::
+
+## Better workflow {.t3}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](assets/15/translation_management.png){fig-align="center"}
+:::
+
+::: {.column width="40%"}
+
+1. Download translation template
+1. Create one column per target language
+1. Upload spreadsheet to file sharing service (e.g., Google Drive, Microsoft 365, OneDrive, Dropbox, etc.)
+1. Provide translators access to edit that document
+1. Provide comments and track status
+1. Convert into one translation file per target language
+1. Import completed translation
+
+:::
+
+::::
+
